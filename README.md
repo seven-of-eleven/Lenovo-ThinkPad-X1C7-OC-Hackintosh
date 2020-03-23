@@ -19,7 +19,7 @@
 |Component|Version|
 |---|---|
 |MacOS Catalina|10.15.3 (19D76)|
-|OpenCore|v0.5.7|
+|OpenCore|v0.5.6|
 
 
 ## Working Checklist:
