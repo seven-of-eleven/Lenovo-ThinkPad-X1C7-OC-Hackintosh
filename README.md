@@ -6,7 +6,9 @@
 - Trackpad it not perfectly smooth
 - CPU temp is quite high, considering using CPUTemp for next release
 
-
+## Attension:
+- My device has Windows Hello option, so if your device is difference configuration, please mapping all USB ports by your self to make sure all the ports working properly.
+- This is only the first release, there may be other issues, please try it and report problems in issues so I can try to resolve it.
 
 ## Hardware:
 |Category|Component|Note
