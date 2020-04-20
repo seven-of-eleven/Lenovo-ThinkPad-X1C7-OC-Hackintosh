@@ -3,10 +3,10 @@
 **Status: Working In Progress**
 
 ## Knowning Issue:
-- Trackpad it not perfectly smooth
-- CPU temp is quite high, considering using CPUTemp for next release
+- Trackpad it not perfectly smooth (If you known how to implement better Trackpad / Trackpoint please create an issue or pull request)
 
 ## Attension:
+- If your T480 using Intel I5-8350U CPU then you can using "config-CPUFriend.plist" to try CPUFriend for better CPU power management
 - My device has Windows Hello option, so if your device is difference configuration, please mapping all USB ports by your self to make sure all the ports working properly.
 - This is only the first release, there may be other issues, please try it and report problems in issues so I can try to resolve it.
 
