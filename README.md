@@ -40,6 +40,7 @@
 | Kext                   | Version                 |
 |:---------------------- | ----------------------- |
 | AppleALC               | 1.4.9                   |
+| HoRNDIS                | 9.2                     |
 | IntelBluetoothFirmware | Disabled, doesn't work. |
 | IntelBluetoothInjector | Disabled, doesn't work. |
 | IntelMausiEthernet     | 2.5.1.d1                |
@@ -153,6 +154,21 @@ For different models, use
 ### Alt to Cmd swap
 
 <img title="" src="https://discussions.apple.com/content/attachment/908077040" alt="Changes to modifier keys don't work. - Apple Community" width="274">
+
+### Android USB Tethering | HoRNDIS | "Wifi adapter"
+
+> **Important:** Mac computers can't tether with Android. 
+
+I don't think so Google.
+
+1. Using a USB cable, connect your phone to the other device. A "Connected as a…" notification shows at the top of the screen.
+2. Open your phone's Settings app.
+3. Tap **Network & internet** ![And then](https://lh3.googleusercontent.com/WD3LKKej34vq3cZXwilgeahIPOiokN2uarmkDxtMqKMFg4SSys8BkOBJbn4_4R930gE=h18 "And then") **Hotspot & tethering**.
+4. Turn on **USB tethering**.
+
+You should see new Ethernet connection in the network settings. Works with USB Type C and USB A.
+
+###### If you don't use this feature, disable it in config.plist
 
 ### Own prev-lang-kbd settings
 
