@@ -26,7 +26,7 @@
 | Memory    | 8GB DDR4 2400                        |                                                                |
 | Battery   | Dual physical battery                |                                                                |
 | Camera    | 720p Camera                          |                                                                |
-| Wifi & BT | Intel 8265                           | Will wait for AppleIntelWifiAdapter then test Intel card again |
+| Wifi & BT | Intel 8265                           | There is working driver, but definitely not user freindly.      |
 
 ## Main software:
 
@@ -40,9 +40,11 @@
 | Kext                   | Version                 |
 |:---------------------- | ----------------------- |
 | AppleALC               | 1.4.9                   |
-| HoRNDIS                | 9.2                     |
-| IntelBluetoothFirmware | Disabled, doesn't work. |
-| IntelBluetoothInjector | Disabled, doesn't work. |
+| CPUFriend              | 1.2.0                   |
+| CPUFriendDataProvider  | i5-8250U                |
+| HoRNDIS                | Disabled, 9.2           |
+| IntelBluetoothFirmware | 1.0.3                   |
+| IntelBluetoothInjector | 1.0.3                   |
 | IntelMausiEthernet     | 2.5.1.d1                |
 | Lilu                   | 1.4.4                   |
 | NoTouchID              | 1.0.3                   |
@@ -71,6 +73,8 @@
 
 - [x] Intel I219V Ethernet port
 
+- [x] Bluetooth - Intel AC 8265 0x0A2B
+
 - [x] iMessage, FaceTime, App Store, iTunes Store `Generate your own SMBIOS`
 
 - [x] Realtek® ALC3287 ("ALC257") Audio
@@ -97,23 +101,21 @@
 
 - [x] USB Ports `USB Map is different for devices with Win Hello camera.`
 
+- [x] Perfomance is now on par with Windows without XTU undervolt.
+
 ## What's not working ⚠️
 
-- [ ] Wifi - Intel AC 8265 `Driver in development` [AppleIntelWifiAdapter](https://github.com/zxystd/AppleIntelWifiAdapter)
-
-- [ ] Bluetooth - Intel AC 8265 `Current drivers are not working. Open Issue if you know how to fix it`
+- [ ] Wifi - Intel AC 8265 `"Works" Requires manually replacing SSID every time, when connecting to different Wifi` [itlwm](https://github.com/zxystd/itlwm/blob/master/.github/README_en.md)
 
 - [ ] Sidecar wireless
 
 - [ ] Fingerprint reader
 
-- [ ] Perfomance? Cinebench scores are nearly the same. GeekBench 5 scores are significantly lower.
-
 ## Not tested
 
 - [ ] FireVault 2 
 
-- [ ] Power Management `Needs more testing`
+- [ ] Power Management `Needs more testing. Works`
 
 - [ ] Thunderbolt  `No device to test.`
 
@@ -161,6 +163,8 @@ For different models, use
 
 I don't think so Google.
 
+
+
 1. Using a USB cable, connect your phone to the other device. A "Connected as a…" notification shows at the top of the screen.
 2. Open your phone's Settings app.
 3. Tap **Network & internet** ![And then](https://lh3.googleusercontent.com/WD3LKKej34vq3cZXwilgeahIPOiokN2uarmkDxtMqKMFg4SSys8BkOBJbn4_4R930gE=h18 "And then") **Hotspot & tethering**.
@@ -168,7 +172,11 @@ I don't think so Google.
 
 You should see new Ethernet connection in the network settings. Works with USB Type C and USB A.
 
-###### If you don't use this feature, disable it in config.plist
+**If you want to use this feature, enable it in config.plist**
+
+Some devices changes MAC adress on every connection, so macOS creates new ethernet`en` connection every time. To delete them, you must remove 
+
+`/Library/Preferences/SystemConfiguration` or it's networking plists.
 
 ### Own prev-lang-kbd settings
 
