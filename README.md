@@ -6,7 +6,9 @@
 
 - [taina0407](https://github.com/taina0407) For his hard work in putting OpenCore on the T480
 
-- [simprecicchiani](https://github.com/simprecicchiani) For inspirational T460s OpenCore build
+- [MSzturc](https://github.com/MSzturc) for his [ThinkPad Assistant](https://github.com/MSzturc/ThinkpadAssistant) software
+
+- [simprecicchiani](https://github.com/simprecicchiani) and [xma](https://github.com/xma) for their ThinkPad builds
 
 - To install macOS follow the guides provided by [Dortania](https://dortania.github.io/getting-started/)
 
@@ -18,15 +20,16 @@
 
 ## Hardware:
 
-| Category  | Component                            | Note                                                           |
-| --------- | ------------------------------------ | -------------------------------------------------------------- |
-| CPU       | Intel i5-8250U                       | 20L50000MC                                                     |
-| GPU       | Intel UHD 620                        |                                                                |
-| SSD       | Samsung PM981 NVME Solid State Drive | Fixed in NVMeFix 1.0.2                                         |
-| Memory    | 8GB DDR4 2400                        |                                                                |
-| Battery   | Dual physical battery                |                                                                |
-| Camera    | 720p Camera                          |                                                                |
-| Wifi & BT | Intel 8265                           | There is working driver, but definitely not user freindly.      |
+| Category  | Component                            | Note                                                                                                              |
+| --------- | ------------------------------------ | ----------------------------------------------------------------------------------------------------------------- |
+| CPU       | Intel i5-8250U                       | 20L50000MC                                                                                                        |
+| GPU       | Intel UHD 620                        |                                                                                                                   |
+| SSD       | Samsung PM981 NVME Solid State Drive | Fixed in NVMeFix 1.0.2                                                                                            |
+| Memory    | 8GB DDR4 2400                        |                                                                                                                   |
+| Battery   | Dual physical battery                |                                                                                                                   |
+| Camera    | 720p Camera                          |                                                                                                                   |
+| Wifi & BT | Intel 8265                           | There is working driver, but definitely not user freindly.                                                        |
+| KBD       | Keyboard                             | [ThinkPad Assistant](https://github.com/MSzturc/ThinkpadAssistant) for function keys like microphone switch, etc. |
 
 ## Main software:
 
@@ -37,22 +40,22 @@
 
 ## Kernel extensions
 
-| Kext                   | Version                 |
-|:---------------------- | ----------------------- |
-| AppleALC               | 1.4.9                   |
-| CPUFriend              | 1.2.0                   |
-| CPUFriendDataProvider  | i5-8250U                |
-| HoRNDIS                | Disabled, 9.2           |
-| IntelBluetoothFirmware | 1.0.3                   |
-| IntelBluetoothInjector | 1.0.3                   |
-| IntelMausiEthernet     | 2.5.1.d1                |
-| Lilu                   | 1.4.4                   |
-| NoTouchID              | 1.0.3                   |
-| NVMeFix                | 1.0.2                   |
-| USBInjectAll           | 0.7.1                   |
-| VirtualSMC             | 1.1.3                   |
-| VoodooPS2Controller    | 2.1.4                   |
-| WhateverGreen          | 1.3.9                   |
+| Kext                   | Version       |
+|:---------------------- | ------------- |
+| AppleALC               | 1.4.9         |
+| CPUFriend              | 1.2.0         |
+| CPUFriendDataProvider  | i5-8250U      |
+| HoRNDIS                | Disabled, 9.2 |
+| IntelBluetoothFirmware | 1.0.3         |
+| IntelBluetoothInjector | 1.0.3         |
+| IntelMausiEthernet     | 2.5.1.d1      |
+| Lilu                   | 1.4.4         |
+| NoTouchID              | 1.0.3         |
+| NVMeFix                | 1.0.2         |
+| USBInjectAll           | 0.7.1         |
+| VirtualSMC             | 1.1.3         |
+| VoodooPS2Controller    | 2.1.4         |
+| WhateverGreen          | 1.3.9         |
 
 ## UEFI Drivers
 
@@ -162,8 +165,6 @@ For different models, use
 > **Important:** Mac computers can't tether with Android. 
 
 I don't think so Google.
-
-
 
 1. Using a USB cable, connect your phone to the other device. A "Connected as a…" notification shows at the top of the screen.
 2. Open your phone's Settings app.
