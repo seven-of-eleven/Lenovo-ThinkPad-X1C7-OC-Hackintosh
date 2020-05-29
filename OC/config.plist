@@ -10,30 +10,6 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Comment</key>
-				<string>SSDT-OCBAT0-TP.aml</string>
-				<key>Path</key>
-				<string>SSDT-OCBAT0-TP.aml</string>
-			</dict>
-			<dict>
-				<key>Enabled</key>
-				<true/>
-				<key>Comment</key>
-				<string>SSDT-OCBATC-TP-LPCB.aml</string>
-				<key>Path</key>
-				<string>SSDT-OCBATC-TP-LPCB.aml</string>
-			</dict>
-			<dict>
-				<key>Enabled</key>
-				<true/>
-				<key>Comment</key>
-				<string>SSDT-OCBATC-TP-NTFY.aml</string>
-				<key>Path</key>
-				<string>SSDT-OCBATC-TP-NTFY.aml</string>
-			</dict>
-			<dict>
-				<key>Enabled</key>
-				<true/>
-				<key>Comment</key>
 				<string>SSDT-ALS0.aml</string>
 				<key>Path</key>
 				<string>SSDT-ALS0.aml</string>
@@ -90,14 +66,6 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Comment</key>
-				<string>SSDT-SLEEP-TP-BUTTON.aml</string>
-				<key>Path</key>
-				<string>SSDT-SLEEP-TP-BUTTON.aml</string>
-			</dict>
-			<dict>
-				<key>Enabled</key>
-				<true/>
-				<key>Comment</key>
 				<string>SSDT-SLEEP-TP-LID.aml</string>
 				<key>Path</key>
 				<string>SSDT-SLEEP-TP-LID.aml</string>
@@ -119,14 +87,6 @@
 				<string>SSDT-AUDIO-HPET_RTC_TIMR-fix.aml</string>
 			</dict>
 			<dict>
-				<key>Enabled</key>
-				<true/>
-				<key>Comment</key>
-				<string>SSDT-Thinkpad_Trackpad.aml</string>
-				<key>Path</key>
-				<string>SSDT-Thinkpad_Trackpad.aml</string>
-			</dict>
-			<dict>
 				<key>Comment</key>
 				<string>SSDT-UIAC.aml</string>
 				<key>Path</key>
@@ -144,9 +104,33 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-KBRD.aml</string>
+				<string>SSDT-KBRD-TP.aml</string>
 				<key>Path</key>
-				<string>SSDT-KBRD.aml</string>
+				<string>SSDT-KBRD-TP.aml</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-OCBAT0.aml</string>
+				<key>Path</key>
+				<string>SSDT-OCBAT0.aml</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-OCBATC-NTFY.aml</string>
+				<key>Path</key>
+				<string>SSDT-OCBATC-NTFY.aml</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-OCBATC.aml</string>
+				<key>Path</key>
+				<string>SSDT-OCBATC.aml</string>
 				<key>Enabled</key>
 				<true/>
 			</dict>
@@ -1273,22 +1257,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-				<key>Enabled</key>
-				<true/>
-				<key>MinKernel</key>
-				<string></string>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VoodooInput</string>
-				<key>BundlePath</key>
-				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>IntelBluetoothFirmware</string>
 				<key>MaxKernel</key>
 				<string></string>
@@ -1382,6 +1350,54 @@
 				<string></string>
 				<key>BundlePath</key>
 				<string>CPUFriendDataProvider.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>Enabled</key>
+				<true/>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/HibernationFixup</string>
+				<key>BundlePath</key>
+				<string>HibernationFixup.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>Enabled</key>
+				<true/>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/RTCMemoryFixup</string>
+				<key>BundlePath</key>
+				<string>RTCMemoryFixup.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>Enabled</key>
+				<true/>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/VoodooInput</string>
+				<key>BundlePath</key>
+				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext</string>
 			</dict>
 		</array>
 		<key>Block</key>
@@ -1638,7 +1654,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>keepsyms=1 debug=0x100 -v alcid=11</string>
+				<string>keepsyms=1 debug=0x100 -v alcid=11 -hbfx-dump-nvram</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>

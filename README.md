@@ -35,27 +35,29 @@
 
 | Component      | Version |
 | -------------- | ------- |
-| MacOS Catalina | 10.15.4 |
+| MacOS Catalina | 10.15.5 |
 | OpenCore       | v0.5.8  |
 
 ## Kernel extensions
 
 | Kext                   | Version       |
 |:---------------------- | ------------- |
-| AppleALC               | 1.4.9         |
+| AppleALC               | 1.5.0         |
 | CPUFriend              | 1.2.0         |
 | CPUFriendDataProvider  | i5-8250U      |
+| HibernationFixup       | 1.3.3         |
 | HoRNDIS                | Disabled, 9.2 |
 | IntelBluetoothFirmware | 1.0.3         |
 | IntelBluetoothInjector | 1.0.3         |
 | IntelMausiEthernet     | 2.5.1.d1      |
-| Lilu                   | 1.4.4         |
+| Lilu                   | 1.4.5         |
 | NoTouchID              | 1.0.3         |
+| RTCMemoryFixup         | 1.0.5         |
 | NVMeFix                | 1.0.2         |
 | USBInjectAll           | 0.7.1         |
 | VirtualSMC             | 1.1.3         |
 | VoodooPS2Controller    | 2.1.4         |
-| WhateverGreen          | 1.3.9         |
+| WhateverGreen          | 1.4.0         |
 
 ## UEFI Drivers
 
@@ -78,7 +80,7 @@
 
 - [x] Bluetooth - Intel AC 8265 0x0A2B
 
-- [x] iMessage, FaceTime, App Store, iTunes Store `Generate your own SMBIOS`
+- [x] iMessage, FaceTime, App Store, iTunes Store `**Generate your own SMBIOS**`
 
 - [x] Realtek® ALC3287 ("ALC257") Audio
 
@@ -88,9 +90,9 @@
 
 - [x] TrackPoint  `Works perfectly. Just like on Windows or Linux`
 
-- [x] TouchPad `Two fingers swipe works. Tree fingers gestures aren't perfect`
+- [x] TouchPad `Two and tree fingers swipe works. **Disable haptic feedback in touchpad settings**`
 
-- [x] Keyboard `Volume and brightness hotkeys`
+- [x] Keyboard `Volume and brightness hotkeys. Everything else with ThinkPad Assistant`
 
 - [x] HDMI `Closed and opened lid. With audio`
 
@@ -177,7 +179,7 @@ You should see new Ethernet connection in the network settings. Works with USB T
 
 Some devices changes MAC adress on every connection, so macOS creates new ethernet`en` connection every time. To delete them, you must remove 
 
-`/Library/Preferences/SystemConfiguration` or it's networking plists.
+`/Library/Preferences/SystemConfiguration` or included networking plists.
 
 ### Own prev-lang-kbd settings
 
