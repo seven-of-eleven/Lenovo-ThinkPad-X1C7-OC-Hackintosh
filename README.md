@@ -20,23 +20,23 @@
 
 ## Hardware:
 
-| Category  | Component                            | Note                                                                                                              |
-| --------- | ------------------------------------ | ----------------------------------------------------------------------------------------------------------------- |
-| CPU       | Intel i5-8250U                       | 20L50000MC                                                                                                        |
-| GPU       | Intel UHD 620                        |                                                                                                                   |
-| SSD       | Samsung PM981 NVME Solid State Drive | Fixed in NVMeFix 1.0.2                                                                                            |
-| Memory    | 8GB DDR4 2400                        |                                                                                                                   |
-| Battery   | Dual physical battery                |                                                                                                                   |
-| Camera    | 720p Camera                          |                                                                                                                   |
-| Wifi & BT | Intel 8265                           | There is working driver, but definitely not user freindly.                                                        |
-| KBD       | Keyboard                             | [ThinkPad Assistant](https://github.com/MSzturc/ThinkpadAssistant) for function keys like microphone switch, etc. |
+| Category  | Component                            | Note                                                                                                                                       |
+| --------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| CPU       | Intel i5-8250U                       | 20L50000MC                                                                                                                                 |
+| GPU       | Intel UHD 620                        |                                                                                                                                            |
+| SSD       | Samsung PM981 NVME Solid State Drive | Fixed in NVMeFix 1.0.2                                                                                                                     |
+| Memory    | 8GB DDR4 2400                        |                                                                                                                                            |
+| Battery   | Dual physical battery                |                                                                                                                                            |
+| Camera    | 720p Camera                          |                                                                                                                                            |
+| Wifi & BT | Intel 8265                           | There is working driver, but definitely not user freindly.                                                                                 |
+| KBD       | Keyboard                             | [ThinkPad Assistant](https://github.com/MSzturc/ThinkpadAssistant) for function keys like microphone switch, etc. PrtSc is mapped as F13.  |
 
 ## Main software:
 
 | Component      | Version |
 | -------------- | ------- |
 | MacOS Catalina | 10.15.5 |
-| OpenCore       | v0.5.8  |
+| OpenCore       | v0.5.9  |
 
 ## Kernel extensions
 
@@ -52,10 +52,10 @@
 | IntelMausiEthernet     | 2.5.1.d1      |
 | Lilu                   | 1.4.5         |
 | NoTouchID              | 1.0.3         |
-| RTCMemoryFixup         | 1.0.5         |
+| RTCMemoryFixup         | 1.0.6         |
 | NVMeFix                | 1.0.2         |
 | USBInjectAll           | 0.7.1         |
-| VirtualSMC             | 1.1.3         |
+| VirtualSMC             | 1.1.4         |
 | VoodooPS2Controller    | 2.1.4         |
 | WhateverGreen          | 1.4.0         |
 
@@ -63,10 +63,10 @@
 
 | Driver          | Version               |
 |:---------------:| --------------------- |
-| AudioDxe.efi    | AppleSupportPkg 2.1.7 |
-| HfsPlus.efi     |                       |
-| OpenCanopy.efi  | OpenCorePkg 0.5.8     |
-| OpenRuntime.efi | OpenCore Pkg 0.5.8    |
+| AudioDxe.efi    | OpenCorePkg 0.5.9     |
+| HfsPlus.efi     | OcBinaryData          |
+| OpenCanopy.efi  | OpenCorePkg 0.5.0     |
+| OpenRuntime.efi | OpenCorePkg 0.5.9     |
 
 ## What's working
 

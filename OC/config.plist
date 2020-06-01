@@ -135,7 +135,7 @@
 				<true/>
 			</dict>
 		</array>
-		<key>Block</key>
+		<key>Delete</key>
 		<array>
 		</array>
 		<key>Patch</key>
@@ -1003,7 +1003,7 @@
 				<data>AAAAgA==</data>
 			</dict>
 		</dict>
-		<key>Block</key>
+		<key>Delete</key>
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
 			<array>
@@ -1572,8 +1572,6 @@
 			<string>External</string>
 			<key>HideAuxiliary</key>
 			<false/>
-			<key>HideSelf</key>
-			<true/>
 			<key>PickerAttributes</key>
 			<integer>1</integer>
 			<key>PickerAudioAssist</key>
@@ -1599,6 +1597,10 @@
 			<integer>3</integer>
 			<key>AppleDebug</key>
 			<true/>
+			<key>ApplePanic</key>
+			<false/>
+			<key>SysReport</key>
+			<false/>
 		</dict>
 		<key>Entries</key>
 		<array>
@@ -1634,7 +1636,9 @@
 			<key>ScanPolicy</key>
 			<integer>0</integer>
 			<key>BootProtect</key>
-			<string>None</string>
+			<string>Bootstrap</string>
+			<key>BlacklistAppleUpdate</key>
+			<true/>
 		</dict>
 		<key>Tools</key>
 		<array>
@@ -1654,7 +1658,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>keepsyms=1 debug=0x100 -v alcid=11 -hbfx-dump-nvram</string>
+				<string>alcid=86 -hbfx-dump-nvram</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1663,7 +1667,7 @@
 				<data>Rg==</data>
 			</dict>
 		</dict>
-		<key>Block</key>
+		<key>Delete</key>
 		<dict>
 			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
 			<array>
@@ -1748,6 +1752,7 @@
 			<string>HfsPlus.efi</string>
 			<string>OpenCanopy.efi</string>
 			<string>AudioDxe.efi</string>
+			<string>CrScreenshotDxe.efi</string>
 		</array>
 		<key>Audio</key>
 		<dict>
@@ -1809,8 +1814,6 @@
 			<false/>
 			<key>SanitiseClearScreen</key>
 			<false/>
-			<key>DirectGopCacheMode</key>
-			<string></string>
 		</dict>
 		<key>ProtocolOverrides</key>
 		<dict>
@@ -1853,12 +1856,14 @@
 			<false/>
 			<key>ReleaseUsbOwnership</key>
 			<false/>
-			<key>RequestBootVarFallback</key>
+			<key>DeduplicateBootOrder</key>
 			<true/>
 			<key>RequestBootVarRouting</key>
 			<true/>
 			<key>UnblockFsConnect</key>
 			<false/>
+			<key>TscSyncTimeout</key>
+			<integer>0</integer>
 		</dict>
 		<key>APFS</key>
 		<dict>
