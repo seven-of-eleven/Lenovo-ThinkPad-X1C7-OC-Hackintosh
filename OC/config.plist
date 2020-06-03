@@ -66,25 +66,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Comment</key>
-				<string>SSDT-SLEEP-TP-LID.aml</string>
-				<key>Path</key>
-				<string>SSDT-SLEEP-TP-LID.aml</string>
-			</dict>
-			<dict>
-				<key>Enabled</key>
-				<true/>
-				<key>Comment</key>
 				<string>SSDT-SLEEP-WAKE-GPRW.aml</string>
 				<key>Path</key>
 				<string>SSDT-SLEEP-WAKE-GPRW.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-AUDIO-HPET_RTC_TIMR-fix.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-AUDIO-HPET_RTC_TIMR-fix.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -112,25 +96,41 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-OCBAT0.aml</string>
+				<string>SSDT-BATC.aml</string>
 				<key>Path</key>
-				<string>SSDT-OCBAT0.aml</string>
+				<string>SSDT-BATC.aml</string>
 				<key>Enabled</key>
 				<true/>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-OCBATC-NTFY.aml</string>
+				<string>SSDT-BATT.aml</string>
 				<key>Path</key>
-				<string>SSDT-OCBATC-NTFY.aml</string>
+				<string>SSDT-BATT.aml</string>
 				<key>Enabled</key>
 				<true/>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-OCBATC.aml</string>
+				<string>SSDT-HRTF.aml</string>
 				<key>Path</key>
-				<string>SSDT-OCBATC.aml</string>
+				<string>SSDT-HRTF.aml</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-NTFY.aml</string>
+				<key>Path</key>
+				<string>SSDT-NTFY.aml</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-SLEEP-LID.aml</string>
+				<key>Path</key>
+				<string>SSDT-SLEEP-LID.aml</string>
 				<key>Enabled</key>
 				<true/>
 			</dict>
@@ -1399,6 +1399,22 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>Enabled</key>
+				<true/>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/itlwm</string>
+				<key>BundlePath</key>
+				<string>itlwm.kext</string>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array>
@@ -1567,7 +1583,7 @@
 		<key>Boot</key>
 		<dict>
 			<key>HibernateMode</key>
-			<string>None</string>
+			<string>Auto</string>
 			<key>PickerMode</key>
 			<string>External</string>
 			<key>HideAuxiliary</key>

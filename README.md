@@ -28,7 +28,7 @@
 | Memory    | 8GB DDR4 2400                        |                                                                                                                                            |
 | Battery   | Dual physical battery                |                                                                                                                                            |
 | Camera    | 720p Camera                          |                                                                                                                                            |
-| Wifi & BT | Intel 8265                           | There is working driver, but definitely not user freindly.                                                                                 |
+| Wifi & BT | Intel 8265                           | Both works. Wifi requres to manually place passwords and SSIDs in the Kext plist file.                                                     |
 | KBD       | Keyboard                             | [ThinkPad Assistant](https://github.com/MSzturc/ThinkpadAssistant) for function keys like microphone switch, etc. PrtSc is mapped as F13.  |
 
 ## Main software:
@@ -50,6 +50,7 @@
 | IntelBluetoothFirmware | 1.0.3         |
 | IntelBluetoothInjector | 1.0.3         |
 | IntelMausiEthernet     | 2.5.1.d1      |
+| Itlwm                  | 1.0.0         |
 | Lilu                   | 1.4.5         |
 | NoTouchID              | 1.0.3         |
 | RTCMemoryFixup         | 1.0.6         |
@@ -65,7 +66,7 @@
 |:---------------:| --------------------- |
 | AudioDxe.efi    | OpenCorePkg 0.5.9     |
 | HfsPlus.efi     | OcBinaryData          |
-| OpenCanopy.efi  | OpenCorePkg 0.5.0     |
+| OpenCanopy.efi  | OpenCorePkg 0.5.9     |
 | OpenRuntime.efi | OpenCorePkg 0.5.9     |
 
 ## What's working
@@ -79,6 +80,8 @@
 - [x] Intel I219V Ethernet port
 
 - [x] Bluetooth - Intel AC 8265 0x0A2B
+
+- [x] Wifi - Intel AC 8265 `Wifi requres to manually place passwords and SSIDs in the Kext plist file.`
 
 - [x] iMessage, FaceTime, App Store, iTunes Store `**Generate your own SMBIOS**`
 
@@ -106,11 +109,9 @@
 
 - [x] USB Ports `USB Map is different for devices with Win Hello camera.`
 
-- [x] Perfomance is now on par with Windows without XTU undervolt.
+- [x] Perfomance `Now on par with Windows without XTU undervolt.`
 
 ## What's not working ⚠️
-
-- [ ] Wifi - Intel AC 8265 `"Works" Requires manually replacing SSID every time, when connecting to different Wifi` [itlwm](https://github.com/zxystd/itlwm/blob/master/.github/README_en.md)
 
 - [ ] Sidecar wireless
 
