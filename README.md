@@ -24,7 +24,7 @@
 | --------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
 | CPU       | Intel i5-8250U                       | 20L50000MC                                                                                                                                 |
 | GPU       | Intel UHD 620                        |                                                                                                                                            |
-| SSD       | Samsung PM981 NVME Solid State Drive | Fixed in NVMeFix 1.0.2                                                                                                                     |
+| SSD       | Samsung PM981 NVME Solid State Drive | Fixed in NVMeFix 1.0.2 for Acidanthera testing machines. Problems still persist for someone                                                                                                                   |
 | Memory    | 8GB DDR4 2400                        |                                                                                                                                            |
 | Battery   | Dual physical battery                |                                                                                                                                            |
 | Camera    | 720p Camera                          |                                                                                                                                            |
@@ -101,8 +101,6 @@
 
 - [x] UHD 620 hardware acceleration
 
-- [x] Sleep/Wake
-
 - [x] SD Card Reader `Fortunately, USB connected.`
 
 - [x] Sidecar wired
@@ -116,6 +114,10 @@
 - [ ] Sidecar wireless
 
 - [ ] Fingerprint reader
+
+- [ ] Sleep/Wake `Investigating. It should work`
+
+- [ ] PM 981
 
 ## Not tested
 
