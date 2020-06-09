@@ -22,21 +22,21 @@
 
 | Category  | Component                            | Note                                                                                                                                       |
 | --------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| CPU       | Intel i5-8250U                       | 20L50000MC                                                                                                                                 |
+| CPU       | Intel Core i5-8250U                  | 20L50000MC                                                                                                                                 |
 | GPU       | Intel UHD 620                        |                                                                                                                                            |
-| SSD       | Samsung PM981 NVME Solid State Drive | Fixed in NVMeFix 1.0.2 for Acidanthera testing machines. Problems still persist for someone                                                                                                                   |
+| SSD       | Samsung PM981 NVMe solid-state drive | Fixed in NVMeFix 1.0.2 for Acidanthera testing machines. [Problems still persist](https://github.com/acidanthera/bugtracker/issues/780).                                                                                                                   |
 | Memory    | 8GB DDR4 2400                        |                                                                                                                                            |
-| Battery   | Dual physical battery                |                                                                                                                                            |
+| Battery   | Dual battery                         |                                                                                                                                            |
 | Camera    | 720p Camera                          |                                                                                                                                            |
-| Wifi & BT | Intel 8265                           | Both works. Wifi requres to manually place passwords and SSIDs in the Kext plist file.                                                     |
-| KBD       | Keyboard                             | [ThinkPad Assistant](https://github.com/MSzturc/ThinkpadAssistant) for function keys like microphone switch, etc. PrtSc is mapped as F13.  |
+| Wifi & BT | Intel Wireless-AC 8265               | Both works. Wifi requres to manually place passwords and SSIDs in the Kext plist file.                                                     |
+| KBD       | Keyboard                             | [ThinkPad Assistant](https://github.com/MSzturc/ThinkpadAssistant) for media keys like microphone switch, etc. PrtSc is mapped as F13.  |
 
 ## Main software:
 
-| Component      | Version |
-| -------------- | ------- |
-| MacOS Catalina | 10.15.5 |
-| OpenCore       | v0.5.9  |
+| Component      | Version          |
+| -------------- | ---------------- |
+| MacOS Catalina | 10.15.5 (19F101) |
+| OpenCore       | v0.5.9           |
 
 ## Kernel extensions
 
@@ -50,11 +50,11 @@
 | IntelBluetoothFirmware | 1.0.3         |
 | IntelBluetoothInjector | 1.0.3         |
 | IntelMausiEthernet     | 2.5.1.d1      |
-| Itlwm                  | 1.0.0         |
+| Itlwm                  | 1.0.1         |
 | Lilu                   | 1.4.5         |
 | NoTouchID              | 1.0.3         |
 | RTCMemoryFixup         | 1.0.6         |
-| NVMeFix                | 1.0.2         |
+| NVMeFix                | 1.0.3         |
 | USBInjectAll           | 0.7.1         |
 | VirtualSMC             | 1.1.4         |
 | VoodooPS2Controller    | 2.1.4         |
@@ -79,11 +79,11 @@
 
 - [x] Intel I219V Ethernet port
 
-- [x] Bluetooth - Intel AC 8265 0x0A2B
+- [x] Bluetooth - Intel Wireless-AC 8265 (0x0A2B)
 
-- [x] Wifi - Intel AC 8265 `Wifi requres to manually place passwords and SSIDs in the Kext plist file.`
+- [x] Wifi - Intel Wireless-AC 8265 `Wifi requres to manually place passwords and SSIDs in the Kext plist file.`
 
-- [x] iMessage, FaceTime, App Store, iTunes Store `**Generate your own SMBIOS**`
+- [x] iMessage, FaceTime, App Store, iTunes Store. **Generate your own SMBIOS**
 
 - [x] Realtek® ALC3287 ("ALC257") Audio
 
@@ -95,7 +95,7 @@
 
 - [x] TouchPad `Two and tree fingers swipe works. **Disable haptic feedback in touchpad settings**`
 
-- [x] Keyboard `Volume and brightness hotkeys. Everything else with ThinkPad Assistant`
+- [x] Keyboard `Volume and brightness hotkeys. Another media keys with ThinkPad Assistant`
 
 - [x] HDMI `Closed and opened lid. With audio`
 
@@ -115,7 +115,7 @@
 
 - [ ] Fingerprint reader
 
-- [ ] Sleep/Wake `Investigating. It should work`
+- [ ] Sleep/Wake `Investigating. It works for some, not for others.`
 
 - [ ] PM 981
 
@@ -173,8 +173,8 @@ I don't think so Google.
 
 1. Using a USB cable, connect your phone to the other device. A "Connected as a…" notification shows at the top of the screen.
 2. Open your phone's Settings app.
-3. Tap **Network & internet** ![And then](https://lh3.googleusercontent.com/WD3LKKej34vq3cZXwilgeahIPOiokN2uarmkDxtMqKMFg4SSys8BkOBJbn4_4R930gE=h18 "And then") **Hotspot & tethering**.
-4. Turn on **USB tethering**.
+3. Tap Network & internet ![And then](https://lh3.googleusercontent.com/WD3LKKej34vq3cZXwilgeahIPOiokN2uarmkDxtMqKMFg4SSys8BkOBJbn4_4R930gE=h18 "And then") Hotspot & tethering.
+4. Turn on USB tethering.
 
 You should see new Ethernet connection in the network settings. Works with USB Type C and USB A.
 
