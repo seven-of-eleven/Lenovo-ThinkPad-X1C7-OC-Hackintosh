@@ -4,11 +4,13 @@
 
 ### General knowledge & credits
 
-- [taina0407](https://github.com/taina0407) For his hard work in putting OpenCore on the T480
+- [taina0407](https://github.com/taina0407) For orginal T480 OpenCore repo
 
-- [MSzturc](https://github.com/MSzturc) for his [ThinkPad Assistant](https://github.com/MSzturc/ThinkpadAssistant) software
+- [1Revenger1](https://github.com/1Revenger1) and [leo-labs](https://github.com/leo-labs) for [VoodooRMI](https://github.com/VoodooSMBus/VoodooRMI) and [VoodooSMBus](https://github.com/VoodooSMBus/VoodooSMBus)
 
-- [simprecicchiani](https://github.com/simprecicchiani) and [xma](https://github.com/xma) for their ThinkPad builds
+- [MSzturc](https://github.com/MSzturc) for [ThinkPad Assistant](https://github.com/MSzturc/ThinkpadAssistant)
+
+- [simprecicchiani](https://github.com/simprecicchiani) and [xma](https://github.com/xma) for inspirational ThinkPad builds
 
 - To install macOS follow the guides provided by [Dortania](https://dortania.github.io/getting-started/)
 
@@ -57,7 +59,10 @@
 | NVMeFix                | 1.0.3         |
 | USBInjectAll           | 0.7.1         |
 | VirtualSMC             | 1.1.4         |
-| VoodooPS2Controller    | 2.1.4         |
+| VoltageShift           | 1.22          |
+| VoodooPS2Controller    | 2.1.5         |
+| VoodooRMI              | 0.4.0         |
+| VoodooSMBus            | 2.1.0         |
 | WhateverGreen          | 1.4.0         |
 
 ## UEFI Drivers
@@ -71,7 +76,7 @@
 
 ## What's working
 
-- [x] Boot chime `Could be incompatible with different models`
+- [x] Boot chime `Works. Sometimes, chime plays for like 0.2 seconds and then stops. Don't know why.`
 
 - [x] Boot menu
 
@@ -79,7 +84,7 @@
 
 - [x] Intel I219V Ethernet port
 
-- [x] Bluetooth - Intel Wireless-AC 8265 (0x0A2B)
+- [x] Bluetooth - Intel Wireless-AC 8265 (0x0A2B) 
 
 - [x] Wifi - Intel Wireless-AC 8265 `Wifi requres to manually place passwords and SSIDs in the Kext plist file.`
 
@@ -87,47 +92,47 @@
 
 - [x] Realtek® ALC3287 ("ALC257") Audio
 
-- [x] Microphone
+- [x] Microphone `With keyboard switch using ThinkPad Assistant.`
 
 - [x] Battery percentage
 
-- [x] TrackPoint  `Works perfectly. Just like on Windows or Linux`
+- [x] TrackPoint  `Works perfectly. Just like on Windows or Linux. Lower cursor speed or use previous release.`
 
-- [x] TouchPad `Two and tree fingers swipe works. **Disable haptic feedback in touchpad settings**`
+- [x] TouchPad `1-5 fingers swipe works. Emulate force touch longer and more voluminous touch.`
 
-- [x] Keyboard `Volume and brightness hotkeys. Another media keys with ThinkPad Assistant`
+- [x] Keyboard `Volume and brightness hotkeys. Another media keys with ThinkPad Assistant.`
 
-- [x] HDMI `Closed and opened lid. With audio`
+- [x] HDMI `Closed and opened lid. With audio.`
 
-- [x] UHD 620 hardware acceleration
+- [x] UHD 620 hardware acceleration `AVC/HEVC encode and decode works.`
 
 - [x] SD Card Reader `Fortunately, USB connected.`
 
-- [x] Sidecar wired
+- [x] Sidecar wired `Works with 15,2 SMBIOS. I was unable to get it working wit 14,1 SMBIOS, which some T480 configs uses.`
 
 - [x] USB Ports `USB Map is different for devices with Win Hello camera.`
 
 - [x] Perfomance `Now on par with Windows without XTU undervolt.`
 
+- [x] Sleep/Wake `Does not work when booting over USB.`
+
 ## What's not working ⚠️
 
-- [ ] Sidecar wireless
+- [ ] Sidecar wireless `If you want to use this feature, buy a Broadcom card`
 
-- [ ] Fingerprint reader
+- [ ] Fingerprint reader `Drivers aren't even on Linux. The chances of creating a driver for macOS are minimal.`
 
-- [ ] Sleep/Wake `Investigating. It works for some, not for others.`
-
-- [ ] PM 981
+- [ ] PM 981 `Still unstable. Could work for some, not for others.`
 
 ## Not tested
 
 - [ ] FireVault 2 
 
-- [ ] Power Management `Needs more testing. Works`
+- [ ] Power Management `Needs more testing. Works.`
 
 - [ ] Thunderbolt  `No device to test.`
 
-- [ ] USB Type C Video output `No device to test`
+- [ ] USB Type C Video output `No device to test.`
 
 - [ ] Upper (charging) USB Type C port
 
