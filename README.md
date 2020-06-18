@@ -4,34 +4,24 @@
 
 ### General knowledge & credits
 
-- [taina0407](https://github.com/taina0407) For orginal T480 OpenCore repo
-
-- [1Revenger1](https://github.com/1Revenger1) and [leo-labs](https://github.com/leo-labs) for [VoodooRMI](https://github.com/VoodooSMBus/VoodooRMI) and [VoodooSMBus](https://github.com/VoodooSMBus/VoodooSMBus)
-
-- [MSzturc](https://github.com/MSzturc) for [ThinkPad Assistant](https://github.com/MSzturc/ThinkpadAssistant)
-
-- [simprecicchiani](https://github.com/simprecicchiani) and [xma](https://github.com/xma) for inspirational ThinkPad builds
-
 - To install macOS follow the guides provided by [Dortania](https://dortania.github.io/getting-started/)
 
 - Useful tools by [CorpNewt](https://github.com/corpnewt)
 
-- Lots of SSDT patches from [OC-little](https://translate.google.it/translate?sl=zh-CN&tl=en&u=https%3A%2F%2Fgithub.com%2Fdaliansky%2FOC-little)
-
-- The guys from [Acidanthera](https://github.com/acidanthera) that make this possible
+- [CREDITS](CREDITS.md) file
 
 ## Hardware:
 
-| Category  | Component                            | Note                                                                                                                                       |
-| --------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| CPU       | Intel Core i5-8250U                  | 20L50000MC                                                                                                                                 |
-| GPU       | Intel UHD 620                        |                                                                                                                                            |
-| SSD       | Samsung PM981 NVMe solid-state drive | Fixed in NVMeFix 1.0.2 for Acidanthera testing machines. [Problems still persist](https://github.com/acidanthera/bugtracker/issues/780).                                                                                                                   |
-| Memory    | 8GB DDR4 2400                        |                                                                                                                                            |
-| Battery   | Dual battery                         |                                                                                                                                            |
-| Camera    | 720p Camera                          |                                                                                                                                            |
-| Wifi & BT | Intel Wireless-AC 8265               | Both works. Wifi requres to manually place passwords and SSIDs in the Kext plist file.                                                     |
-| KBD       | Keyboard                             | [ThinkPad Assistant](https://github.com/MSzturc/ThinkpadAssistant) for media keys like microphone switch, etc. PrtSc is mapped as F13.  |
+| Category  | Component                            | Note                                                                                                                                     |
+| --------- | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| CPU       | Intel Core i5-8250U                  | 20L50000MC                                                                                                                               |
+| GPU       | Intel UHD 620                        |                                                                                                                                          |
+| SSD       | Samsung PM981 NVMe solid-state drive | Fixed in NVMeFix 1.0.2 for Acidanthera testing machines. [Problems still persist](https://github.com/acidanthera/bugtracker/issues/780). |
+| Memory    | 8GB DDR4 2400                        |                                                                                                                                          |
+| Battery   | Dual battery                         |                                                                                                                                          |
+| Camera    | 720p Camera                          |                                                                                                                                          |
+| Wifi & BT | Intel Wireless-AC 8265               | Both works. Wifi requres to manually place passwords and SSIDs in the Kext plist file.                                                   |
+| KBD       | Keyboard                             | [ThinkPad Assistant](https://github.com/MSzturc/ThinkpadAssistant) for media keys like microphone switch, etc. PrtSc is mapped as F13.   |
 
 ## Main software:
 
@@ -42,37 +32,37 @@
 
 ## Kernel extensions
 
-| Kext                   | Version       |
-|:---------------------- | ------------- |
-| AppleALC               | 1.5.0         |
-| CPUFriend              | 1.2.0         |
-| CPUFriendDataProvider  | i5-8250U      |
-| HibernationFixup       | 1.3.3         |
-| HoRNDIS                | Disabled, 9.2 |
-| IntelBluetoothFirmware | 1.0.3         |
-| IntelBluetoothInjector | 1.0.3         |
-| IntelMausiEthernet     | 2.5.1.d1      |
-| Itlwm                  | 1.0.1         |
-| Lilu                   | 1.4.5         |
-| NoTouchID              | 1.0.3         |
-| RTCMemoryFixup         | 1.0.6         |
-| NVMeFix                | 1.0.3         |
-| USBInjectAll           | 0.7.1         |
-| VirtualSMC             | 1.1.4         |
-| VoltageShift           | 1.22          |
-| VoodooPS2Controller    | 2.1.5         |
-| VoodooRMI              | 0.4.0         |
-| VoodooSMBus            | 2.1.0         |
-| WhateverGreen          | 1.4.0         |
+| Kext                   | Version        |
+|:---------------------- | -------------- |
+| AppleALC               | 1.5.0          |
+| CPUFriend              | 1.2.0          |
+| CPUFriendDataProvider  | i5-8250U       |
+| HibernationFixup       | 1.3.3          |
+| HoRNDIS                | Disabled, 9.2  |
+| IntelBluetoothFirmware | 1.0.3          |
+| IntelBluetoothInjector | 1.0.3          |
+| IntelMausiEthernet     | 2.5.1.d1       |
+| Itlwm                  | 1.0.1          |
+| Lilu                   | 1.4.5          |
+| NoTouchID              | 1.0.3          |
+| RTCMemoryFixup         | 1.0.6          |
+| NVMeFix                | 1.0.3          |
+| USBInjectAll           | 0.7.1          |
+| VirtualSMC             | 1.1.4          |
+| VoltageShift           | Disabled, 1.22 |
+| VoodooPS2Controller    | 2.1.5          |
+| VoodooRMI              | 0.4.0          |
+| VoodooSMBus            | 2.1.0          |
+| WhateverGreen          | 1.4.0          |
 
 ## UEFI Drivers
 
-| Driver          | Version               |
-|:---------------:| --------------------- |
-| AudioDxe.efi    | OpenCorePkg 0.5.9     |
-| HfsPlus.efi     | OcBinaryData          |
-| OpenCanopy.efi  | OpenCorePkg 0.5.9     |
-| OpenRuntime.efi | OpenCorePkg 0.5.9     |
+| Driver          | Version           |
+|:---------------:| ----------------- |
+| AudioDxe.efi    | OpenCorePkg 0.5.9 |
+| HfsPlus.efi     | OcBinaryData      |
+| OpenCanopy.efi  | OpenCorePkg 0.5.9 |
+| OpenRuntime.efi | OpenCorePkg 0.5.9 |
 
 ## What's working
 
@@ -86,7 +76,7 @@
 
 - [x] Bluetooth - Intel Wireless-AC 8265 (0x0A2B) 
 
-- [x] Wifi - Intel Wireless-AC 8265 `Wifi requres to manually place passwords and SSIDs in the Kext plist file.`
+- [x] Wifi - Intel Wireless-AC 8265 `Wifi requires to manually place passwords and SSIDs in the Kext plist file.`
 
 - [x] iMessage, FaceTime, App Store, iTunes Store. **Generate your own SMBIOS**
 
@@ -166,9 +156,15 @@ For different models, use
 
 [GitHub - corpnewt/USBMap: Py script for mapping out USB ports and creating a custom SSDT or injector kext (WIP)](https://github.com/corpnewt/USBMap)
 
-### Alt to Cmd swap
+### CPUFriend power management
 
-<img title="" src="https://discussions.apple.com/content/attachment/908077040" alt="Changes to modifier keys don't work. - Apple Community" width="274">
+Generate CPUFriendDataProvider for your machine [here](https://github.com/corpnewt/CPUFriendFriend) or use at your own risk files provided in the Other folder.
+
+### VoltageShift undervolt
+
+It is possible to use VoltageShift from EFI folder instead of disabling SIP. You need to use specific version provided in Other folder.
+
+**If you want to use this feature, enable it in config.plist**
 
 ### Android USB Tethering | HoRNDIS | "Wifi adapter"
 
