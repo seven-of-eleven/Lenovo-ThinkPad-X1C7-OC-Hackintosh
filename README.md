@@ -20,7 +20,7 @@
 | Memory    | 8GB DDR4 2400                        |                                                                                                                                          |
 | Battery   | Dual battery                         |                                                                                                                                          |
 | Camera    | 720p Camera                          |                                                                                                                                          |
-| Wifi & BT | Intel Wireless-AC 8265               | Both works. Wifi requres to manually place passwords and SSIDs in the Kext plist file.                                                   |
+| Wifi & BT | Intel Wireless-AC 8265               | Both works. Wifi requres to manually place passwords and SSIDs in the Kext plist file (Basic control with HeliPort app in Other folder)  |
 | KBD       | Keyboard                             | [ThinkPad Assistant](https://github.com/MSzturc/ThinkpadAssistant) for media keys like microphone switch, etc. PrtSc is mapped as F13.   |
 
 ## Main software:
@@ -76,7 +76,7 @@
 
 - [x] Bluetooth - Intel Wireless-AC 8265 (0x0A2B) 
 
-- [x] Wifi - Intel Wireless-AC 8265 `Wifi requires to manually place passwords and SSIDs in the Kext plist file.`
+- [x] Wifi - Intel Wireless-AC 8265 `Wifi requires to manually place passwords and SSIDs in the Kext plist file. (Basic control with HeliPort app in Other folder)`
 
 - [x] iMessage, FaceTime, App Store, iTunes Store. **Generate your own SMBIOS**
 
