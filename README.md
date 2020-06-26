@@ -28,41 +28,40 @@
 | Component      | Version          |
 | -------------- | ---------------- |
 | MacOS Catalina | 10.15.5 (19F101) |
-| OpenCore       | v0.5.9           |
+| OpenCore       | v0.6.0 Beta      |
 
 ## Kernel extensions
 
 | Kext                   | Version        |
 |:---------------------- | -------------- |
-| AppleALC               | 1.5.0          |
+| AppleALC               | 1.5.1          |
 | CPUFriend              | 1.2.0          |
 | CPUFriendDataProvider  | i5-8250U       |
-| HibernationFixup       | 1.3.3          |
+| HibernationFixup       | 1.3.4          |
 | HoRNDIS                | Disabled, 9.2  |
 | IntelBluetoothFirmware | 1.0.3          |
 | IntelBluetoothInjector | 1.0.3          |
 | IntelMausiEthernet     | 2.5.1.d1       |
 | Itlwm                  | 1.0.1          |
-| Lilu                   | 1.4.5          |
+| Lilu                   | 1.4.6          |
 | NoTouchID              | 1.0.3          |
 | RTCMemoryFixup         | 1.0.6          |
 | NVMeFix                | 1.0.3          |
-| USBInjectAll           | 0.7.1          |
-| VirtualSMC             | 1.1.4          |
+| VirtualSMC             | 1.1.5          |
 | VoltageShift           | Disabled, 1.22 |
 | VoodooPS2Controller    | 2.1.5          |
 | VoodooRMI              | 0.4.0          |
 | VoodooSMBus            | 2.1.0          |
-| WhateverGreen          | 1.4.0          |
+| WhateverGreen          | 1.4.1          |
 
 ## UEFI Drivers
 
 | Driver          | Version           |
 |:---------------:| ----------------- |
-| AudioDxe.efi    | OpenCorePkg 0.5.9 |
+| AudioDxe.efi    | OpenCorePkg 0.6.0 |
 | HfsPlus.efi     | OcBinaryData      |
-| OpenCanopy.efi  | OpenCorePkg 0.5.9 |
-| OpenRuntime.efi | OpenCorePkg 0.5.9 |
+| OpenCanopy.efi  | OpenCorePkg 0.6.0 |
+| OpenRuntime.efi | OpenCorePkg 0.6.0 |
 
 ## What's working
 
@@ -104,6 +103,8 @@
 
 - [x] Perfomance `Now on par with Windows without XTU undervolt.`
 
+- [x] Power Management 
+
 - [x] Sleep/Wake `Does not work when booting over USB.`
 
 ## What's not working ⚠️
@@ -117,8 +118,6 @@
 ## Not tested
 
 - [ ] FireVault 2 
-
-- [ ] Power Management `Needs more testing. Works.`
 
 - [ ] Thunderbolt  `No device to test.`
 
