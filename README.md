@@ -35,7 +35,7 @@
 | Kext                   | Version        |
 |:---------------------- | -------------- |
 | AppleALC               | 1.5.1          |
-| CPUFriend              | 1.2.0          |
+| CPUFriend              | 1.2.1          |
 | CPUFriendDataProvider  | i5-8250U       |
 | HibernationFixup       | 1.3.4          |
 | HoRNDIS                | Disabled, 9.2  |
