@@ -2,6 +2,8 @@
 
 **Status: Work In Progress**
 
+[![release](https://img.shields.io/badge/download-release-blue.svg)](https://github.com/EETagent/T480-OpenCore-Hackintosh/releases)
+
 ### General knowledge & credits
 
 - To install macOS follow the guides provided by [Dortania](https://dortania.github.io/getting-started/)
@@ -99,6 +101,8 @@
 
 - [x] Sidecar wired `Works with 15,2 SMBIOS. I was unable to get it working wit 14,1 SMBIOS, which some T480 configs uses.`
 
+- [x] Sidecar wireless `If you want to use this feature, buy a compatible Broadcom card!`
+
 - [x] USB Ports `USB Map is different for devices with Win Hello camera.`
 
 - [x] Perfomance `Now on par with Windows without XTU undervolt.`
@@ -108,8 +112,6 @@
 - [x] Sleep/Wake `Does not work when booting over USB.`
 
 ## What's not working ⚠️
-
-- [ ] Sidecar wireless `If you want to use this feature, buy a Broadcom card`
 
 - [ ] Fingerprint reader `Drivers aren't even on Linux. The chances of creating a driver for macOS are minimal.`
 

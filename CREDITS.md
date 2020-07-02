@@ -27,11 +27,10 @@
 - [zxystd](https://github.com/zxystd) for [IntelBluetoothFirmware](https://github.com/zxystd/IntelBluetoothFirmware) and [itlwm](https://github.com/zxystd/itlwm)
   
    
-
-- People at [r/hackintosh](https://www.reddit.com/r/hackintosh/) for their advices
+- To all people who help with testing - [danny7g](https://github.com/danny7g), [khokho](https://github.com/khokho), [zombillano](https://github.com/zombillano)
 
 - Lots of SSDT patches from [OC-little](https://translate.google.it/translate?sl=zh-CN&tl=en&u=https%3A%2F%2Fgithub.com%2Fdaliansky%2FOC-little)
 
-- To all people who help with testing - [danny7g](https://github.com/danny7g), [khokho](https://github.com/khokho)
+- People at [r/hackintosh](https://www.reddit.com/r/hackintosh/) for their advices
 
 - [simprecicchiani](https://github.com/simprecicchiani) and [xma](https://github.com/xma) for inspirational ThinkPad configurations
