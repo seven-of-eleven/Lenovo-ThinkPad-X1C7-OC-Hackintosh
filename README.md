@@ -3,7 +3,9 @@
 **Status: Work In Progress**
 
 [![release](https://img.shields.io/badge/download-release-blue.svg)](https://github.com/EETagent/T480-OpenCore-Hackintosh/releases)
-
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.0-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
+[![macOS-Stable](https://img.shields.io/badge/macOS-10.15.6-green.svg)](https://www.apple.com/macos/catalina/)
+[![macOS-Unstable](https://img.shields.io/badge/macOS-11-yellow.svg)](https://www.apple.com/macos/big-sur-preview/)
 ### General knowledge & credits
 
 - To install macOS follow the guides provided by [Dortania](https://dortania.github.io/getting-started/)
@@ -27,10 +29,10 @@
 
 ## Main software:
 
-| Component      | Version          |
-| -------------- | ---------------- |
-| MacOS Catalina | 10.15.5 (19F101) |
-| OpenCore       | v0.6.0 Beta      |
+| Component      | Version           |
+| -------------- | ----------------- |
+| MacOS Catalina | 10.15.6 (20A4299v)|
+| OpenCore       | v0.6.0 Beta       |
 
 ## Kernel extensions
 
