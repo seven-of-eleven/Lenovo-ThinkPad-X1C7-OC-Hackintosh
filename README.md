@@ -32,7 +32,7 @@
 
 | Component      | Version           |
 | -------------- | ----------------- |
-| MacOS Catalina | 10.15.6 (20A4299v)|
+| MacOS Catalina | 10.15.6 (19G60d)  |
 | OpenCore       | v0.6.0 Beta       |
 
 ## Kernel extensions
@@ -70,47 +70,47 @@
 
 ## What's working
 
+- [x] Battery percentage
+
+- [x] Bluetooth - Intel Wireless-AC 8265 (0x0A2B) 
+
 - [x] Boot chime `Works. Sometimes, chime plays for like 0.2 seconds and then stops. Don't know why.`
 
 - [x] Boot menu
 
-- [x] Internal camera
+- [x] CPU power management / performance `Now on par with Windows without XTU undervolt.`
 
-- [x] Intel I219V Ethernet port
+- [x] FireVault 2 
 
-- [x] Bluetooth - Intel Wireless-AC 8265 (0x0A2B) 
-
-- [x] Wifi - Intel Wireless-AC 8265 `Wifi requires to manually place passwords and SSIDs in the Kext plist file. (Basic control with HeliPort app in Other folder)`
-
-- [x] iMessage, FaceTime, App Store, iTunes Store. **Generate your own SMBIOS**
-
-- [x] Realtek® ALC3287 ("ALC257") Audio
-
-- [x] Microphone `With keyboard switch using ThinkPad Assistant.`
-
-- [x] Battery percentage
-
-- [x] TrackPoint  `Works perfectly. Just like on Windows or Linux. Lower cursor speed or use previous release.`
-
-- [x] TouchPad `1-5 fingers swipe works. Emulate force touch longer and more voluminous touch.`
-
-- [x] Keyboard `Volume and brightness hotkeys. Another media keys with ThinkPad Assistant.`
+- [x] GPU UHD 620 hardware acceleration / performance 
 
 - [x] HDMI `Closed and opened lid. With audio.`
 
-- [x] UHD 620 hardware acceleration `AVC/HEVC encode and decode works.`
+- [x] iMessage, FaceTime, App Store, iTunes Store. **Generate your own SMBIOS**
 
-- [x] SD Card Reader `Fortunately, USB connected.`
+- [x] Intel I219V Ethernet port
+
+- [x] Keyboard `Volume and brightness hotkeys. Another media keys with ThinkPad Assistant.`
+
+- [x] Microphone `With keyboard switch using ThinkPad Assistant.`
+
+- [x] Realtek® ALC3287 ("ALC257") Audio
+
+- [x] SD card reader `Fortunately, USB connected.`
 
 - [x] Sidecar wired `Works with 15,2 SMBIOS. I was unable to get it working wit 14,1 SMBIOS, which some T480 configs uses.`
 
 - [x] Sidecar wireless `If you want to use this feature, buy a compatible Broadcom card!`
 
+- [x] TouchPad `1-5 fingers swipe works. Emulate force touch using longer and more voluminous touch.`
+
+- [x] TrackPoint  `Works perfectly. Just like on Windows or Linux.`
+
 - [x] USB Ports `USB Map is different for devices with Win Hello camera.`
 
-- [x] Perfomance `Now on par with Windows without XTU undervolt.`
+- [x] Web camera
 
-- [x] Power Management 
+- [x] Wifi - Intel Wireless-AC 8265 `Wifi requires to manually place passwords and SSIDs in the Kext plist file. (Basic control with HeliPort app in Other folder)`
 
 - [x] Sleep/Wake `Does not work when booting over USB.`
 
@@ -121,8 +121,6 @@
 - [ ] PM 981 `Still unstable. Could work for some, not for others.`
 
 ## Not tested
-
-- [ ] FireVault 2 
 
 - [ ] Thunderbolt  `No device to test.`
 

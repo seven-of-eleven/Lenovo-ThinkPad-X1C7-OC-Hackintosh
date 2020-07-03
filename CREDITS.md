@@ -24,10 +24,10 @@
 
 - [sicreative](https://github.com/sicreative) for [VoltageShift](https://github.com/sicreative/VoltageShift)
 
-- [zxystd](https://github.com/zxystd) for [IntelBluetoothFirmware](https://github.com/zxystd/IntelBluetoothFirmware) and [itlwm](https://github.com/zxystd/itlwm)
+- [zxystd](https://github.com/zxystd) for [IntelBluetoothFirmware](https://github.com/zxystd/IntelBluetoothFirmware) and [itlwm](https://github.com/zxystd/itlwm) and [HeliPort](https://github.com/zxystd/HeliPort)
   
    
-- To all people who help with testing - [danny7g](https://github.com/danny7g), [khokho](https://github.com/khokho), [zombillano](https://github.com/zombillano)
+- To all people who help with testing - [danny7g](https://github.com/danny7g), [khokho](https://github.com/khokho), [tienhuynh5312](https://github.com/tienhuynh5312), [villeheikkila](https://github.com/villeheikkila), [zombillano](https://github.com/zombillano)
 
 - Lots of SSDT patches from [OC-little](https://translate.google.it/translate?sl=zh-CN&tl=en&u=https%3A%2F%2Fgithub.com%2Fdaliansky%2FOC-little)
 

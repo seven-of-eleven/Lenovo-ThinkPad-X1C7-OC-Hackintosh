@@ -10,7 +10,7 @@
 		</data>
 		<key>Resources/Assets.car</key>
 		<data>
-		nFC1hb0YSDt3HVmHlW95nSWm+OA=
+		5DK+OGpS2AkuargZeigh17FNPoY=
 		</data>
 		<key>Resources/Base.lproj/MainMenu.nib</key>
 		<data>
@@ -28,7 +28,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ux03a/DQN0YAf9IRhjVs70fbZNk=
+			6ZQ+TaFtmGC2WB6LczI0U7sc67Q=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -45,14 +45,14 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/Pods_HeliPort.framework</key>
+		<key>Frameworks/KeychainAccess.framework</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			CvtiHAqpiHSSijylQ+lKZbzAhHU=
+			yV8K/1ar1JTVmwftzr/8zIWVoSQ=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"4a112568d557bb8d88502300dcaa435339ea7116" or cdhash H"0afb621c0aa98874928a3ca543e94a65bcc08475"</string>
+			<string>cdhash H"6a688667c45b38cc5f8dba8e9d7d91fde8ed1366" or cdhash H"c95f0aff56abd494d59b07edcebffccc8595a124"</string>
 		</dict>
 		<key>Frameworks/Sparkle.framework</key>
 		<dict>
@@ -135,6 +135,24 @@
 			<key>requirement</key>
 			<string>cdhash H"bd96f82f185bd671d189123976b51076190ccd28" or cdhash H"e1e1cca0d89b4c27a07621fbb416966985de12b5"</string>
 		</dict>
+		<key>Frameworks/libswiftXPC.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			6MPIdTDBXAtAo9yqCoBoyxL+U8s=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"49fa9c8d039af4afe6f5c5e79d997dfff086bc44" or cdhash H"e8c3c87530c15c0b40a3dcaa0a8068cb12fe53cb"</string>
+		</dict>
+		<key>Frameworks/libswiftos.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			/Nk9FyHvf7whO+02U8QE2ADsrjg=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"a18612d2eccee6fe22332c3b57ae07e6635c3ef4" or cdhash H"fcd93d1721ef7fbc213bed3653c404d800ecae38"</string>
+		</dict>
 		<key>Resources/AppIcon.icns</key>
 		<dict>
 			<key>hash2</key>
@@ -146,7 +164,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			A0UN68eRj4u4sYrb5IuDUcKe3mdI132snJ514ur2Irs=
+			COTvJqQk3Z35LHtIVurEbn8wnSVHt5Ic5zuT1hvGMe0=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/MainMenu.nib</key>
@@ -174,7 +192,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AYto0hp+ojDESAfSjYfuiWORfuvdi6tITXOLagrUtno=
+			VM9VnQTuLAkYEW93XMPNfVgFSuVNKxGgXMSKAZr4aKQ=
 			</data>
 			<key>optional</key>
 			<true/>
