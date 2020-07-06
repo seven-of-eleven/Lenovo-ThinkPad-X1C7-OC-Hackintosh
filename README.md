@@ -5,6 +5,7 @@
 [![release](https://img.shields.io/badge/Download-latest-brightgreen.svg)](https://github.com/EETagent/T480-OpenCore-Hackintosh/releases/latest)
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.6.0-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
 [![ThinkPad](https://img.shields.io/badge/ThinkPad-T480-blue.svg)]()
+[![macOS-Previous](https://img.shields.io/badge/macOS-10.14.6-brightgreen.svg)](https://github.com/EETagent/T480-OpenCore-Hackintosh/issues/11)
 [![macOS-Stable](https://img.shields.io/badge/macOS-10.15.6-brightgreen.svg)](https://www.apple.com/macos/catalina/)
 [![macOS-Unstable](https://img.shields.io/badge/macOS-11-yellow.svg)](https://www.apple.com/macos/big-sur-preview/)
 ### General knowledge & credits
@@ -25,7 +26,7 @@
 | Memory    | 8GB DDR4 2400                        |                                                                                                                                          |
 | Battery   | Dual battery                         |                                                                                                                                          |
 | Camera    | 720p Camera                          |                                                                                                                                          |
-| Wifi & BT | Intel Wireless-AC 8265               | Both works. Wifi requres to manually place passwords and SSIDs in the Kext plist file (Basic control with HeliPort app in Other folder)  |
+| Wifi & BT | Intel Wireless-AC 8265               | Both works. Place Wi-Fi SSIDs and passwords either in the kext plist file or use amazing HeliPort application.                                   |
 | KBD       | Keyboard                             | [ThinkPad Assistant](https://github.com/MSzturc/ThinkpadAssistant) for media keys like microphone switch, etc. PrtSc is mapped as F13.   |
 
 ## Main software:
@@ -44,8 +45,8 @@
 | CPUFriendDataProvider  | i5-8250U       |
 | HibernationFixup       | 1.3.4          |
 | HoRNDIS                | Disabled, 9.2  |
-| IntelBluetoothFirmware | 1.0.3          |
-| IntelBluetoothInjector | 1.0.3          |
+| IntelBluetoothFirmware | 1.1.1          |
+| IntelBluetoothInjector | 1.1.1          |
 | IntelMausiEthernet     | 2.5.1.d1       |
 | Itlwm                  | 1.0.1          |
 | Lilu                   | 1.4.6          |
@@ -74,7 +75,7 @@
 
 - [x] Bluetooth - Intel Wireless-AC 8265 (0x0A2B) 
 
-- [x] Boot chime `Works. Sometimes, chime plays for like 0.2 seconds and then stops. Don't know why.`
+- [x] Boot chime
 
 - [x] Boot menu
 
@@ -106,7 +107,7 @@
 
 - [x] TrackPoint  `Works perfectly. Just like on Windows or Linux.`
 
-- [x] USB Ports `USB Map is different for devices with Win Hello camera.`
+- [x] USB Ports `USB Map is different for devices with Windows Hello camera.`
 
 - [x] Web camera
 
@@ -124,9 +125,10 @@
 
 - [ ] Thunderbolt  `No device to test.`
 
+- [ ] Upper (charging) USB Type C port
+
 - [ ] USB Type C Video output `No device to test.`
 
-- [ ] Upper (charging) USB Type C port
 
 ## Bios settings
 
@@ -164,7 +166,7 @@ Generate CPUFriendDataProvider for your machine [here](https://github.com/corpne
 
 ### VoltageShift undervolt
 
-It is possible to use VoltageShift from EFI folder instead of disabling SIP. You need to use specific version provided in Other folder.
+It is possible to use VoltageShift from EFI folder instead of disabling SIP. You need to use specific version provided in the Other folder.
 
 **If you want to use this feature, enable it in config.plist**
 
