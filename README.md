@@ -56,7 +56,7 @@
 | VirtualSMC             | 1.1.5          |
 | VoltageShift           | Disabled, 1.22 |
 | VoodooPS2Controller    | 2.1.5          |
-| VoodooRMI              | 0.4.0          |
+| VoodooRMI              | 0.5.0          |
 | VoodooSMBus            | 2.1.0          |
 | WhateverGreen          | 1.4.1          |
 
