@@ -33,7 +33,7 @@
 
 | Component      | Version           |
 | -------------- | ----------------- |
-| MacOS Catalina | 10.15.6 (19G60d)  |
+| MacOS Catalina | 10.15.6 (19G73)  |
 | OpenCore       | v0.6.0 Beta       |
 
 ## Kernel extensions
@@ -55,7 +55,7 @@
 | NVMeFix                | 1.0.3          |
 | VirtualSMC             | 1.1.5          |
 | VoltageShift           | Disabled, 1.22 |
-| VoodooPS2Controller    | 2.1.5          |
+| VoodooPS2Controller    | 2.1.6          |
 | VoodooRMI              | 0.5.0          |
 | VoodooSMBus            | 2.1.0          |
 | WhateverGreen          | 1.4.1          |
