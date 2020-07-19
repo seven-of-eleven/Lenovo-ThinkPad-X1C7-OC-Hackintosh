@@ -1351,7 +1351,7 @@
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>BundlePath</key>
-				<string>USBMap.kext</string>
+				<string>USBPorts.kext</string>
 			</dict>
 			<dict>
 				<key>Comment</key>

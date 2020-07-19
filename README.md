@@ -12,7 +12,7 @@
 
 - To install macOS follow the guides provided by [Dortania](https://dortania.github.io/getting-started/)
 
-- Useful tools by [CorpNewt](https://github.com/corpnewt)
+- Useful tools by [CorpNewt](https://github.com/corpnewt) and [headkaze](https://github.com/headkaze/Hackintool)
 
 - [CREDITS](CREDITS.md) file
 
@@ -148,6 +148,13 @@
 - `UEFI/Legacy Boot` **UEFI Only**
 - `CSM Support` **No**
 
+**Thunderbolt**
+
+- `Thunderbolt BIOS Assist Mode` **Disabled**
+- `Wake by Thunderbolt(TM) 3` **Enabled**
+- `Security Level` **User Authorization**
+- `Support in Pre Boot Environment -> Thunderbolt(TM) device` **Enabled**
+
 ### Generate your own SMBIOS
 
 [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
@@ -157,6 +164,10 @@ MacBookPro15,2
 ### USB ports map
 
 For different models, use
+
+[Hackintool](https://github.com/headkaze/Hackintool)
+
+or
 
 [GitHub - corpnewt/USBMap: Py script for mapping out USB ports and creating a custom SSDT or injector kext (WIP)](https://github.com/corpnewt/USBMap)
 
