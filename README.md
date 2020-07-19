@@ -77,11 +77,11 @@
 
 - [x] Boot chime
 
-- [x] Boot menu
+- [x] Boot menu GUI
 
 - [x] CPU power management / performance `Now on par with Windows without XTU undervolt.`
 
-- [x] FireVault 2 
+- [x] FireVault 2 `No config.plist changes needed` 
 
 - [x] GPU UHD 620 hardware acceleration / performance 
 
@@ -111,13 +111,13 @@
 
 - [x] Web camera
 
-- [x] Wifi - Intel Wireless-AC 8265 `Wifi requires to manually place passwords and SSIDs in the Kext plist file. (Basic control with HeliPort app in Other folder)`
+- [x] Wifi - Intel Wireless-AC 8265 `Use provided HeliPort app for Wi-Fi control`
 
 - [x] Sleep/Wake `Does not work when booting over USB.`
 
 ## What's not working ⚠️
 
-- [ ] Fingerprint reader `Drivers aren't even on Linux. The chances of creating a driver for macOS are minimal.`
+- [ ] Fingerprint reader  `There is finally after many years working driver for Linux (python-validity), don't expect macOS driver any time soon.`
 
 - [ ] PM 981 `Still unstable. Could work for some, not for others.`
 
@@ -125,9 +125,7 @@
 
 - [ ] Thunderbolt  `No device to test.`
 
-- [ ] Upper (charging) USB Type C port
-
-- [ ] USB Type C Video output `No device to test.`
+- [ ] DRM `Widevine, FairPlay`
 
 
 ## Bios settings
