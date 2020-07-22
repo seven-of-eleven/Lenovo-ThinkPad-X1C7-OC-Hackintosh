@@ -45,8 +45,8 @@
 | CPUFriendDataProvider  | i5-8250U       |
 | HibernationFixup       | 1.3.4          |
 | HoRNDIS                | Disabled, 9.2  |
-| IntelBluetoothFirmware | 1.1.1          |
-| IntelBluetoothInjector | 1.1.1          |
+| IntelBluetoothFirmware | 1.1.2          |
+| IntelBluetoothInjector | 1.1.2          |
 | IntelMausiEthernet     | 2.5.1.d1       |
 | Itlwm                  | 1.0.1          |
 | Lilu                   | 1.4.6          |
@@ -77,7 +77,7 @@
 
 - [x] Boot chime
 
-- [x] Boot menu GUI
+- [x] Boot menu `OpenCanopy` 
 
 - [x] CPU power management / performance `Now on par with Windows without XTU undervolt.`
 
@@ -111,9 +111,9 @@
 
 - [x] Web camera
 
-- [x] Wifi - Intel Wireless-AC 8265 `Use provided HeliPort app for Wi-Fi control`
+- [x] Wifi - Intel Wireless-AC 8265 `Use provided HeliPort app for menu Wi-Fi control`
 
-- [x] Sleep/Wake `Does not work when booting over USB.`
+- [x] Sleep/Wake 
 
 ## What's not working ⚠️
 
@@ -213,6 +213,10 @@ Format is lang-COUNTRY:keyboard
 etc.
 
 [AppleKeyboardLayouts.txt](https://github.com/acidanthera/OpenCorePkg/blob/master/Utilities/AppleKeyboardLayouts/AppleKeyboardLayouts.txt)
+
+### OpenCore Vault ( Like Secure Boot for OC )
+
+[Here](https://dortania.github.io/OpenCore-Post-Install/universal/security.html#vault)
 
 ## CFG Lock | Advanced menu
 
