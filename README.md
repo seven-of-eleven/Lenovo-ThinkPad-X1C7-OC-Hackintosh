@@ -48,7 +48,7 @@
 | IntelBluetoothFirmware | 1.1.2          |
 | IntelBluetoothInjector | 1.1.2          |
 | IntelMausiEthernet     | 2.5.1.d1       |
-| Itlwm                  | 1.0.1          |
+| Itlwm                  | 1.0.0          |
 | Lilu                   | 1.4.6          |
 | NoTouchID              | 1.0.3          |
 | RTCMemoryFixup         | 1.0.6          |
