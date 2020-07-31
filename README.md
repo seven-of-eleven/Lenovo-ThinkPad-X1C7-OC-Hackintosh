@@ -56,8 +56,8 @@
 | VirtualSMC             | 1.1.5          |
 | VoltageShift           | Disabled, 1.22 |
 | VoodooPS2Controller    | 2.1.6          |
-| VoodooRMI              | 0.5.0          |
-| VoodooSMBus            | 2.1.0          |
+| VoodooRMI              | 1.0.1          |
+| VoodooSMBus            | 2.2.0          |
 | WhateverGreen          | 1.4.1          |
 
 ## UEFI Drivers
