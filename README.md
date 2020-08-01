@@ -43,15 +43,13 @@
 | AppleALC               | 1.5.1          |
 | CPUFriend              | 1.2.1          |
 | CPUFriendDataProvider  | i5-8250U       |
-| HibernationFixup       | 1.3.4          |
 | HoRNDIS                | Disabled, 9.2  |
 | IntelBluetoothFirmware | 1.1.2          |
 | IntelBluetoothInjector | 1.1.2          |
 | IntelMausiEthernet     | 2.5.1.d1       |
 | Itlwm                  | 1.0.0          |
 | Lilu                   | 1.4.6          |
-| NoTouchID              | 1.0.3          |
-| RTCMemoryFixup         | 1.0.6          |
+| NoTouchID              | 1.0.4          |
 | NVMeFix                | 1.0.3          |
 | VirtualSMC             | 1.1.5          |
 | VoltageShift           | Disabled, 1.22 |
