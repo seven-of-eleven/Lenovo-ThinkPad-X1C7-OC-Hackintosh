@@ -1649,6 +1649,8 @@
 			<false/>
 			<key>ExposeSensitiveData</key>
 			<integer>6</integer>
+			<key>DmgLoading</key>
+			<string>Signed</string>
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
 			<key>Vault</key>

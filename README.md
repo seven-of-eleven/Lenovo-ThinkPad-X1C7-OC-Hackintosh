@@ -3,7 +3,7 @@
 **Status: Work In Progress**
 
 [![release](https://img.shields.io/badge/Download-latest-brightgreen.svg)](https://github.com/EETagent/T480-OpenCore-Hackintosh/releases/latest)
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.0-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.1-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
 [![ThinkPad](https://img.shields.io/badge/ThinkPad-T480-blue.svg)]()
 [![macOS-Previous](https://img.shields.io/badge/macOS-10.14.6-brightgreen.svg)](https://github.com/EETagent/T480-OpenCore-Hackintosh/issues/11)
 [![macOS-Stable](https://img.shields.io/badge/macOS-10.15.6-brightgreen.svg)](https://www.apple.com/macos/catalina/)
@@ -34,38 +34,38 @@
 | Component      | Version           |
 | -------------- | ----------------- |
 | MacOS Catalina | 10.15.6 (19G73)  |
-| OpenCore       | v0.6.0 Beta       |
+| OpenCore       | v0.6.1 Beta       |
 
 ## Kernel extensions
 
 | Kext                   | Version        |
 |:---------------------- | -------------- |
-| AppleALC               | 1.5.1          |
-| CPUFriend              | 1.2.1          |
+| AppleALC               | 1.5.2          |
+| CPUFriend              | 1.2.2          |
 | CPUFriendDataProvider  | i5-8250U       |
 | HoRNDIS                | Disabled, 9.2  |
 | IntelBluetoothFirmware | 1.1.2          |
 | IntelBluetoothInjector | 1.1.2          |
 | IntelMausiEthernet     | 2.5.1.d1       |
 | Itlwm                  | 1.0.0          |
-| Lilu                   | 1.4.6          |
+| Lilu                   | 1.4.7          |
 | NoTouchID              | 1.0.4          |
-| NVMeFix                | 1.0.3          |
-| VirtualSMC             | 1.1.5          |
+| NVMeFix                | 1.0.4          |
+| VirtualSMC             | 1.1.6          |
 | VoltageShift           | Disabled, 1.22 |
-| VoodooPS2Controller    | 2.1.6          |
+| VoodooPS2Controller    | 2.1.7          |
 | VoodooRMI              | 1.0.1          |
 | VoodooSMBus            | 2.2.0          |
-| WhateverGreen          | 1.4.1          |
+| WhateverGreen          | 1.4.2          |
 
 ## UEFI Drivers
 
 | Driver          | Version           |
 |:---------------:| ----------------- |
-| AudioDxe.efi    | OpenCorePkg 0.6.0 |
+| AudioDxe.efi    | OpenCorePkg 0.6.1 |
 | HfsPlus.efi     | OcBinaryData      |
-| OpenCanopy.efi  | OpenCorePkg 0.6.0 |
-| OpenRuntime.efi | OpenCorePkg 0.6.0 |
+| OpenCanopy.efi  | OpenCorePkg 0.6.1 |
+| OpenRuntime.efi | OpenCorePkg 0.6.1 |
 
 ## What's working
 
