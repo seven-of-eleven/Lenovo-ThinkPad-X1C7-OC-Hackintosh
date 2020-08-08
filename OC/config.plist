@@ -31,70 +31,6 @@
 				<string>SSDT-PNLF-SKL_KBL.aml</string>
 			</dict>
 			<dict>
-				<key>Enabled</key>
-				<true/>
-				<key>Comment</key>
-				<string>SSDT-SLEEP-PTSWAK.aml</string>
-				<key>Path</key>
-				<string>SSDT-SLEEP-PTSWAK.aml</string>
-			</dict>
-			<dict>
-				<key>Enabled</key>
-				<true/>
-				<key>Comment</key>
-				<string>SSDT-SLEEP-EXT4-WakeScreen.aml</string>
-				<key>Path</key>
-				<string>SSDT-SLEEP-EXT4-WakeScreen.aml</string>
-			</dict>
-			<dict>
-				<key>Enabled</key>
-				<true/>
-				<key>Comment</key>
-				<string>SSDT-SLEEP-WAKE-GPRW.aml</string>
-				<key>Path</key>
-				<string>SSDT-SLEEP-WAKE-GPRW.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-BATC.aml</string>
-				<key>Path</key>
-				<string>SSDT-BATC.aml</string>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-BATT.aml</string>
-				<key>Path</key>
-				<string>SSDT-BATT.aml</string>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-HRTF.aml</string>
-				<key>Path</key>
-				<string>SSDT-HRTF.aml</string>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-NTFY.aml</string>
-				<key>Path</key>
-				<string>SSDT-NTFY.aml</string>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-SLEEP-LID.aml</string>
-				<key>Path</key>
-				<string>SSDT-SLEEP-LID.aml</string>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
 				<key>Comment</key>
 				<string>SSDT-LED.aml</string>
 				<key>Path</key>
@@ -103,17 +39,80 @@
 				<true/>
 			</dict>
 			<dict>
-				<key>Comment</key>
-				<string>SSDT-KBRD.aml</string>
-				<key>Path</key>
-				<string>SSDT-KBRD.aml</string>
 				<key>Enabled</key>
 				<true/>
+				<key>Comment</key>
+				<string>SSDT-DMAC.aml</string>
+				<key>Path</key>
+				<string>SSDT-DMAC.aml</string>
+			</dict>
+			<dict>
+				<key>Enabled</key>
+				<true/>
+				<key>Comment</key>
+				<string>SSDT-EXT4-WakeScreen.aml</string>
+				<key>Path</key>
+				<string>SSDT-EXT4-WakeScreen.aml</string>
+			</dict>
+			<dict>
+				<key>Enabled</key>
+				<true/>
+				<key>Comment</key>
+				<string>SSDT-GPRW.aml</string>
+				<key>Path</key>
+				<string>SSDT-GPRW.aml</string>
+			</dict>
+			<dict>
+				<key>Enabled</key>
+				<true/>
+				<key>Comment</key>
+				<string>SSDT-HPET.aml</string>
+				<key>Path</key>
+				<string>SSDT-HPET.aml</string>
+			</dict>
+			<dict>
+				<key>Enabled</key>
+				<true/>
+				<key>Comment</key>
+				<string>SSDT-Keyboard.aml</string>
+				<key>Path</key>
+				<string>SSDT-Keyboard.aml</string>
+			</dict>
+			<dict>
+				<key>Enabled</key>
+				<true/>
+				<key>Comment</key>
+				<string>SSDT-OCBAT0-TP_tx80_x1c6th.aml</string>
+				<key>Path</key>
+				<string>SSDT-OCBAT0-TP_tx80_x1c6th.aml</string>
+			</dict>
+			<dict>
+				<key>Enabled</key>
+				<true/>
+				<key>Comment</key>
+				<string>SSDT-PMCR.aml</string>
+				<key>Path</key>
+				<string>SSDT-PMCR.aml</string>
+			</dict>
+			<dict>
+				<key>Enabled</key>
+				<true/>
+				<key>Comment</key>
+				<string>SSDT-PTSWAK.aml</string>
+				<key>Path</key>
+				<string>SSDT-PTSWAK.aml</string>
+			</dict>
+			<dict>
+				<key>Enabled</key>
+				<true/>
+				<key>Comment</key>
+				<string>SSDT-PWRB.aml</string>
+				<key>Path</key>
+				<string>SSDT-PWRB.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
-		<array>
-		</array>
+		<array/>
 		<key>Patch</key>
 		<array>
 			<dict>
@@ -940,8 +939,7 @@
 	<key>Booter</key>
 	<dict>
 		<key>MmioWhitelist</key>
-		<array>
-		</array>
+		<array/>
 		<key>Quirks</key>
 		<dict>
 			<key>AvoidRuntimeDefrag</key>
@@ -1421,8 +1419,7 @@
 			</dict>
 		</array>
 		<key>Block</key>
-		<array>
-		</array>
+		<array/>
 		<key>Emulate</key>
 		<dict>
 			<key>Cpuid1Data</key>
@@ -1582,8 +1579,7 @@
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array>
-		</array>
+		<array/>
 		<key>Boot</key>
 		<dict>
 			<key>HibernateMode</key>
@@ -1661,8 +1657,7 @@
 			<string>Bootstrap</string>
 		</dict>
 		<key>Tools</key>
-		<array>
-		</array>
+		<array/>
 	</dict>
 	<key>NVRAM</key>
 	<dict>
