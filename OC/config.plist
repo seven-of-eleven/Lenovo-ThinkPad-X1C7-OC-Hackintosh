@@ -1633,6 +1633,10 @@
 			<integer>0</integer>
 			<key>BootProtect</key>
 			<string>Bootstrap</string>
+			<key>ApECID</key>
+			<integer>0</integer>
+			<key>SecureBootModel</key>
+			<string>j132</string>
 		</dict>
 		<key>Tools</key>
 		<array>
@@ -1846,6 +1850,10 @@
 			<key>AppleRtcRam</key>
 			<false/>
 			<key>AppleFramebufferInfo</key>
+			<false/>
+			<key>AppleImg4Verification</key>
+			<false/>
+			<key>AppleSecureBoot</key>
 			<false/>
 		</dict>
 		<key>Quirks</key>
