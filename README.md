@@ -192,9 +192,7 @@ You should see new Ethernet connection in the network settings. Works with USB T
 
 **If you want to use this feature, enable it in config.plist**
 
-Some devices changes MAC adress on every connection, so macOS creates new ethernet`en` connection every time. To delete them, you must remove 
-
-`/Library/Preferences/SystemConfiguration` or included networking plists.
+Problems with recreating new `en` device every time are now solved on latest macOS version with patched version of this kext. If it does not work for you, revert to official version.
 
 ### Own prev-lang-kbd settings
 
