@@ -28,10 +28,10 @@
 
 - And every other contributor
 
-- To all people who help with testing - [afreuden](https://github.com/afreuden),[danny7g](https://github.com/danny7g), [khokho](https://github.com/khokho), [tienhuynh5312](https://github.com/tienhuynh5312), [villeheikkila](https://github.com/villeheikkila), [zombillano](https://github.com/zombillano)
+- To all people who help with testing and improving this repo - [afreuden](https://github.com/afreuden), [benbender](https://github.com/benbender), [danny7g](https://github.com/danny7g), [khokho](https://github.com/khokho), [swatchie-1](https://github.com/swatchie-1) , [tienhuynh5312](https://github.com/tienhuynh5312), [villeheikkila](https://github.com/villeheikkila), [zombillano](https://github.com/zombillano)
 
 - Lots of SSDT patches from [OC-little](https://translate.google.it/translate?sl=zh-CN&tl=en&u=https%3A%2F%2Fgithub.com%2Fdaliansky%2FOC-little)
 
 - People at [r/hackintosh](https://www.reddit.com/r/hackintosh/) for their advices
 
-- [simprecicchiani](https://github.com/simprecicchiani) and [xma](https://github.com/xma) for inspirational ThinkPad configurations
+- [MSzturc](https://github.com/MSzturc), [simprecicchiani](https://github.com/simprecicchiani) and [xma](https://github.com/xma) for inspirational ThinkPad configurations

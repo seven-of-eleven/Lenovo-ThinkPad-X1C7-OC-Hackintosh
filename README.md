@@ -8,6 +8,7 @@
 [![macOS-Previous](https://img.shields.io/badge/macOS-10.14.6-brightgreen.svg)](https://github.com/EETagent/T480-OpenCore-Hackintosh/issues/11)
 [![macOS-Stable](https://img.shields.io/badge/macOS-10.15.6-brightgreen.svg)](https://www.apple.com/macos/catalina/)
 [![macOS-Unstable](https://img.shields.io/badge/macOS-11-yellow.svg)](https://www.apple.com/macos/big-sur-preview/)
+
 ### General knowledge & credits
 
 - To install macOS follow the guides provided by [Dortania](https://dortania.github.io/getting-started/)
@@ -15,6 +16,10 @@
 - Useful tools by [CorpNewt](https://github.com/corpnewt) and [headkaze](https://github.com/headkaze/Hackintool)
 
 - [CREDITS](CREDITS.md) file
+
+Catalina | Big Sur
+:---:|:----:
+![Catalina](Other/README%20resources/Neofetch-Catalina.png) | ![BigSur](Other/README%20resources/Neofetch-BigSur.png)
 
 ## Hardware:
 
@@ -26,14 +31,14 @@
 | Memory    | 8GB DDR4 2400                        |                                                                                                                                          |
 | Battery   | Dual battery                         |                                                                                                                                          |
 | Camera    | 720p Camera                          |                                                                                                                                          |
-| Wifi & BT | Intel Wireless-AC 8265               | Both works. Place Wi-Fi SSIDs and passwords either in the kext plist file or use amazing HeliPort application.                                   |
+| Wifi & BT | Intel Wireless-AC 8265               | Both works. Place Wi-Fi SSIDs and passwords either in the kext plist file or use amazing HeliPort application.                           |
 | KBD       | Keyboard                             | [ThinkPad Assistant](https://github.com/MSzturc/ThinkpadAssistant) for media keys like microphone switch, etc. PrtSc is mapped as F13.   |
 
 ## Main software:
 
 | Component      | Version           |
 | -------------- | ----------------- |
-| MacOS Catalina | 10.15.6 (19G73)  |
+| macOS Catalina | 10.15.6 (19G2021) |
 | OpenCore       | v0.6.1 Beta       |
 
 ## Kernel extensions
@@ -125,7 +130,6 @@
 
 - [ ] DRM `Widevine, FairPlay`
 
-
 ## Bios settings
 
 **Security**
@@ -192,7 +196,7 @@ You should see new Ethernet connection in the network settings. Works with USB T
 
 **If you want to use this feature, enable it in config.plist**
 
-Problems with recreating new `en` device every time are now solved on latest macOS version with patched version of this kext. If it does not work for you, revert to official version.
+Problems with recreating new `en` device every time are now solved on latest macOS versions with patched version of this kext. If it does not work for you, revert to official version.
 
 ### Own prev-lang-kbd settings
 
@@ -209,10 +213,6 @@ Format is lang-COUNTRY:keyboard
 etc.
 
 [AppleKeyboardLayouts.txt](https://github.com/acidanthera/OpenCorePkg/blob/master/Utilities/AppleKeyboardLayouts/AppleKeyboardLayouts.txt)
-
-### OpenCore Vault ( Like Secure Boot for OC )
-
-[Here](https://dortania.github.io/OpenCore-Post-Install/universal/security.html#vault)
 
 ## CFG Lock | Advanced menu
 
