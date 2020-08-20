@@ -19,7 +19,7 @@
 
 Catalina | Big Sur
 :---:|:----:
-![Catalina](Other/README%20resources/Neofetch-Catalina.png) | ![BigSur](Other/README%20resources/Neofetch-BigSur.png)
+![Catalina](https://raw.githubusercontent.com/EETagent/T480-OpenCore-Hackintosh/master/Other/README%20Resources/Neofetch-Catalina.png) | ![BigSur](https://raw.githubusercontent.com/EETagent/T480-OpenCore-Hackintosh/master/Other/README%20Resources/Neofetch-BigSur.png)
 
 ## Hardware:
 
