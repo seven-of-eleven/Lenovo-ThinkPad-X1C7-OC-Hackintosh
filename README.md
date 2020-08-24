@@ -52,7 +52,7 @@ Catalina | Big Sur
 | IntelBluetoothFirmware | 1.1.2          |
 | IntelBluetoothInjector | 1.1.2          |
 | IntelMausiEthernet     | 2.5.1.d1       |
-| Itlwm                  | 1.0.0          |
+| Itlwm                  | 1.1.0          |
 | Lilu                   | 1.4.7          |
 | NoTouchID              | 1.0.4          |
 | NVMeFix                | 1.0.4          |
