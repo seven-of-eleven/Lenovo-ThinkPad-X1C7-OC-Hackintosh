@@ -28,11 +28,11 @@ Catalina | Big Sur
 | CPU       | Intel Core i5-8250U                  | 20L50000MC                                                                                                                               |
 | GPU       | Intel UHD 620                        |                                                                                                                                          |
 | SSD       | Samsung PM981 NVMe solid-state drive | Fixed in NVMeFix 1.0.2 for Acidanthera testing machines. [Problems still persist](https://github.com/acidanthera/bugtracker/issues/780). |
-| Memory    | 8GB DDR4 2400                        |                                                                                                                                          |
+| Memory    | 8GB DDR4 2400Mhz                     |                                                                                                                                          |
 | Battery   | Dual battery                         |                                                                                                                                          |
 | Camera    | 720p Camera                          |                                                                                                                                          |
 | Wifi & BT | Intel Wireless-AC 8265               | Both works. Place Wi-Fi SSIDs and passwords either in the kext plist file or use amazing HeliPort application.                           |
-| KBD       | Keyboard                             | [ThinkPad Assistant](https://github.com/MSzturc/ThinkpadAssistant) for media keys like microphone switch, etc. PrtSc is mapped as F13.   |
+| Input     | PS2 Keyboard & Synaptics TrackPad    | [ThinkPad Assistant](https://github.com/MSzturc/ThinkpadAssistant) for media keys like microphone switch, etc. PrtSc is mapped as F13.   |
 
 ## Main software:
 
@@ -114,7 +114,9 @@ Catalina | Big Sur
 
 - [x] Web camera
 
-- [x] Wifi - Intel Wireless-AC 8265 `Use provided HeliPort app for menu Wi-Fi control`
+- [x] Windows/Linux from OC boot menu `It's best practice to not boot from OC when performing firmware upgrade`
+
+- [x] Wifi - Intel Wireless-AC 8265 `Use HeliPort app for Wi-Fi control`
 
 - [x] Sleep/Wake 
 

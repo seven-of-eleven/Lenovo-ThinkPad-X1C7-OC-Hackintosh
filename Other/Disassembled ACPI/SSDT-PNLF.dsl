@@ -1,28 +1,25 @@
 // Backlight
 
-DefinitionBlock("", "SSDT", 2, "T480", "PNLF", 0)
+DefinitionBlock ("", "SSDT", 2, "T480", "PNLF", 0)
 {
-    Scope(_SB)
+    If (_OSI ("Darwin"))
     {
-        Device(PNLF)
+        Scope (_SB)
         {
-            Name(_ADR, Zero)
-            Name(_HID, EisaId ("APP0002"))
-            Name(_CID, "backlight")
-            //Skylake/KabyLake/KabyLake-R
-            Name(_UID, 16)
-            Method (_STA, 0, NotSerialized)
+            Device (PNLF)
             {
-                If (_OSI ("Darwin"))
+                Name (_ADR, Zero)  
+                Name (_HID, EisaId ("APP0002"))
+                Name (_CID, "backlight")
+                //Skylake/KabyLake/KabyLake-R
+                Name (_UID, 0x10)
+                Method (_STA, 0, NotSerialized)
                 {
                     Return (0x0B)
                 }
-                Else
-                {
-                    Return (Zero)
-                }
             }
-        }        
+        }
     }
 }
+
 //EOF
