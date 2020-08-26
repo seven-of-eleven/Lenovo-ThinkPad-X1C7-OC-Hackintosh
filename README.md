@@ -72,7 +72,7 @@ Catalina | Big Sur
 | OpenCanopy.efi  | OpenCorePkg 0.6.1 |
 | OpenRuntime.efi | OpenCorePkg 0.6.1 |
 
-## What's working
+## What's working ✅
 
 - [x] Battery percentage
 
@@ -102,9 +102,9 @@ Catalina | Big Sur
 
 - [x] SD card reader `Fortunately, USB connected.`
 
-- [x] Sidecar wired `Works with 15,2 SMBIOS. I was unable to get it working wit 14,1 SMBIOS, which some T480 configs uses.`
+- [x] Sidecar wired `Works with 15,2 SMBIOS.`
 
-- [x] Sidecar wireless `If you want to use this feature, buy a compatible Broadcom card!`
+- [x] Sleep/Wake 
 
 - [x] TouchPad `1-5 fingers swipe works. Emulate force touch using longer and more voluminous touch.`
 
@@ -114,17 +114,17 @@ Catalina | Big Sur
 
 - [x] Web camera
 
-- [x] Windows/Linux from OC boot menu `It's best practice to not boot from OC when performing firmware upgrade`
-
 - [x] Wifi - Intel Wireless-AC 8265 `Use HeliPort app for Wi-Fi control`
 
-- [x] Sleep/Wake 
+- [x] Windows/Linux from OC boot menu `It's best practice to not boot from OC when planning to perform firmware upgrade`
 
 ## What's not working ⚠️
 
 - [ ] Fingerprint reader  `There is finally after many years working driver for Linux (python-validity), don't expect macOS driver any time soon.`
 
 - [ ] PM 981 `Still unstable. Could work for some, not for others.`
+
+- [ ] Sidecar wireless `If you want to use this feature, buy a compatible Broadcom card!`
 
 ## Not tested
 
