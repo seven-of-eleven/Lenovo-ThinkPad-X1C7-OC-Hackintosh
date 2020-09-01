@@ -12,7 +12,7 @@
 **DISCLAIMER:**
 Read the entire README and Dortania guides before you start. I am not responsible for any damage.
 When you encounter bug or want to improve this repo, consider opening issue or pull request. 
-If you find this bootloader configuration useful, consider giving it star to make it more visible.
+If you find this bootloader configuration useful, consider giving it a star to make it more visible.
 
 ## Introduction
 
@@ -176,7 +176,7 @@ etc.
 
 <details>  
 
-<summary><strong>USB Ports map</strong></summary>
+<summary><strong>USB ports map</strong></summary>
 <br>
 
 If you are using different model and alternative kext from Other folder does not work for you. Try:
@@ -201,7 +201,7 @@ Generate CPUFriendDataProvider for your machine [here](https://github.com/corpne
 <summary><strong>VoltageShift undervolt</strong></summary>
 <br>
 
-It is possible to use VoltageShift from EFI folder instead of disabling SIP. You need to use specific version provided in the Other folder.
+It is possible to use VoltageShift from the EFI folder instead of disabling SIP. You need to use specific version provided in the Other folder.
 
 ```diff
 ! If you want to use this feature, enable it in config.plist
@@ -210,7 +210,7 @@ It is possible to use VoltageShift from EFI folder instead of disabling SIP. You
 
 <details>  
 
-<summary><strong>Android USB Tethering | HoRNDIS | "Wi-Fi adapter</strong></summary>
+<summary><strong>Android USB Tethering | HoRNDIS</strong></summary>
 <br>
 
 > **Important:** Mac computers can't tether with Android. 
@@ -312,8 +312,11 @@ Problems with recreating new `en` device every time are now solved on latest mac
 <summary><strong>CFG Lock | Advanced menu</strong></summary>
 <br>
 
-It's possible to unlock Advanced menu thus disable CFG Lock natively in UEFI + Other Advanced menu benefits. Hardare
+<img align="left" src="./Other/README_Resources/SPI_Programmer_CH341a.jpg" alt="SPI_Programmer_CH341a.jpg" width="220">
 
+It's possible to unlock Advanced menu thus disable CFG Lock natively in UEFI + Other Advanced menu benefits. SPI Programmer CH341a is required
+
+<br>
 https://www.reddit.com/r/thinkpad/comments/ffqqx5/currently_testing_skyra1n/
 
 [T480 consuming 60w (~85w total) - unlimited TDP : thinkpad](https://www.reddit.com/r/thinkpad/comments/g8fk51/t480_consuming_60w_85w_total_unlimited_tdp/)
