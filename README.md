@@ -1,15 +1,24 @@
 # T480-OpenCore-Hackintosh
 
-**Status: Work In Progress**
+**Status: Work In Progress | Stable**
 
-[![release](https://img.shields.io/badge/Download-latest-brightgreen.svg)](https://github.com/EETagent/T480-OpenCore-Hackintosh/releases/latest)
+<img align="right" src="./Other/README_Resources/ThinkPad.gif" alt="T480s macOS" width="430">
+
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.6.1-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
-[![ThinkPad](https://img.shields.io/badge/ThinkPad-T480-blue.svg)]()
 [![macOS-Previous](https://img.shields.io/badge/macOS-10.14.6-brightgreen.svg)](https://github.com/EETagent/T480-OpenCore-Hackintosh/issues/11)
 [![macOS-Stable](https://img.shields.io/badge/macOS-10.15.6-brightgreen.svg)](https://www.apple.com/macos/catalina/)
 [![macOS-Unstable](https://img.shields.io/badge/macOS-11-yellow.svg)](https://www.apple.com/macos/big-sur-preview/)
 
-### General knowledge & credits
+**DISCLAIMER:**
+Read the entire README and Dortania guides before you start. I am not responsible for any damage.
+When you encounter bug or want to improve this repo, consider opening issue or pull request. 
+If you find this bootloader configuration useful, consider giving it star to make it more visible.
+
+## Introduction
+
+<details> 
+
+<summary><strong>General knowledge & credits</strong></summary>
 
 - To install macOS follow the guides provided by [Dortania](https://dortania.github.io/getting-started/)
 
@@ -17,12 +26,15 @@
 
 - [CREDITS](CREDITS.md) file
 
-Catalina | Big Sur
-:---:|:----:
-![Catalina](https://raw.githubusercontent.com/EETagent/T480-OpenCore-Hackintosh/master/Other/README%20Resources/Neofetch-Catalina.png) | ![BigSur](https://raw.githubusercontent.com/EETagent/T480-OpenCore-Hackintosh/master/Other/README%20Resources/Neofetch-BigSur.png)
+</details>  
 
-## Hardware:
+<details>
 
+<summary><strong>Hardware</strong></summary>
+<br>
+
+
+[![UEFI](https://img.shields.io/badge/UEFI-N24ET59W-lightgrey)](https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-t-series-laptops/thinkpad-t480-type-20l5-20l6/downloads/ds502355)
 | Category  | Component                            | Note                                                                                                                                     |
 | --------- | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | CPU       | Intel Core i5-8250U                  | 20L50000MC                                                                                                                               |
@@ -34,14 +46,24 @@ Catalina | Big Sur
 | Wifi & BT | Intel Wireless-AC 8265               | Both works. Place Wi-Fi SSIDs and passwords either in the kext plist file or use amazing HeliPort application.                           |
 | Input     | PS2 Keyboard & Synaptics TrackPad    | [ThinkPad Assistant](https://github.com/MSzturc/ThinkpadAssistant) for media keys like microphone switch, etc. PrtSc is mapped as F13.   |
 
-## Main software:
+</details>  
+
+<details>
+
+<summary><strong>Main software</strong></summary>
+<br>
 
 | Component      | Version           |
 | -------------- | ----------------- |
 | macOS Catalina | 10.15.6 (19G2021) |
 | OpenCore       | v0.6.1 Beta       |
 
-## Kernel extensions
+</details>
+
+<details>
+
+<summary><strong>Kernel extensions</strong></summary>
+<br>
 
 | Kext                   | Version        |
 |:---------------------- | -------------- |
@@ -63,7 +85,11 @@ Catalina | Big Sur
 | VoodooSMBus            | 2.2.0          |
 | WhateverGreen          | 1.4.2          |
 
-## UEFI Drivers
+</details>
+<details>
+
+<summary><strong>UEFI drivers</strong></summary>
+<br>
 
 | Driver          | Version           |
 |:---------------:| ----------------- |
@@ -71,8 +97,145 @@ Catalina | Big Sur
 | HfsPlus.efi     | OcBinaryData      |
 | OpenCanopy.efi  | OpenCorePkg 0.6.1 |
 | OpenRuntime.efi | OpenCorePkg 0.6.1 |
+</details>
 
-## What's working ✅
+<details>
+    <summary><strong>Neofetch screenshots</strong></summary>
+    <br>
+    <p float="left">
+        <img src="./Other/README_Resources/Neofetch-Catalina.png" alt="Neofetch Catalina" width="350">
+        <img src="./Other/README_Resources/Neofetch-BigSur.png" alt="Neofetch Catalina" width="350">
+    </p>
+</details> 
+
+## Before installation
+
+<details>  
+
+<summary><strong>UEFI settings</strong></summary>
+<br>
+
+**Security**
+
+- `Security Chip` **Disabled**
+- `Memory Protection -> Execution Prevention` **Enabled**
+- `Virtualization -> Intel Virtualization Technology` **Enabled**
+- `Virtualization -> Intel VT-d Feature` **Enabled**
+- `Anti-Theft -> Computrace -> Current Setting` **Disabled**
+- `Secure Boot -> Secure Boot` **Disabled**
+- `Intel SGX -> Intel SGX Control` **Disabled**
+- `Device Guard` **Disabled**
+
+**Startup**
+
+- `UEFI/Legacy Boot` **UEFI Only**
+- `CSM Support` **No**
+
+**Thunderbolt**
+
+- `Thunderbolt BIOS Assist Mode` **Disabled**
+- `Wake by Thunderbolt(TM) 3` **Disabled**
+- `Security Level` **User Authorization**
+- `Support in Pre Boot Environment -> Thunderbolt(TM) device` **Enabled**
+
+</details>  
+
+<details>
+
+<summary><strong>Own prev-lang-kbd</strong></summary>
+<br>
+
+Data field accepts HEX data [(ProperTree)](https://github.com/corpnewt/ProperTree)
+
+Format is lang-COUNTRY:keyboard
+
+- 🇺🇸 | [0] en_US - U.S --> en-US:0 --> 656e2d55 533a30
+
+- 🇨🇿 | [30776] cs - Czech --> cs-CZ:30776 --> 63732d43 5a3a3330 373736
+
+- 🇨🇿 | cs-CZ:0 --> 63732d43 5a3a30
+
+etc.
+
+[AppleKeyboardLayouts.txt](https://github.com/acidanthera/OpenCorePkg/blob/master/Utilities/AppleKeyboardLayouts/AppleKeyboardLayouts.txt)
+
+</details>
+
+## Post-Install
+
+<details>  
+
+<summary><strong>Generate your own SMBIOS</strong></summary>
+<br>
+
+[GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
+
+- MacBookPro15,2
+
+</details>  
+
+<details>  
+
+<summary><strong>USB Ports map</strong></summary>
+<br>
+
+If you are using different model and alternative kext from Other folder does not work for you. Try:
+
+- [USBMap](https://github.com/corpnewt/USBMap)
+
+- [Hackintool](https://github.com/headkaze/Hackintool)
+
+</details>  
+
+<details>  
+
+<summary><strong>CPUFriend power management</strong></summary>
+<br>
+
+Generate CPUFriendDataProvider for your machine [here](https://github.com/corpnewt/CPUFriendFriend) or use at your own risk files provided in the Other folder.
+
+</details>  
+
+<details>  
+
+<summary><strong>VoltageShift undervolt</strong></summary>
+<br>
+
+It is possible to use VoltageShift from EFI folder instead of disabling SIP. You need to use specific version provided in the Other folder.
+
+```diff
+! If you want to use this feature, enable it in config.plist
+```
+</details>  
+
+<details>  
+
+<summary><strong>Android USB Tethering | HoRNDIS | "Wi-Fi adapter</strong></summary>
+<br>
+
+> **Important:** Mac computers can't tether with Android. 
+
+I don't think so Google.
+
+1. Using a USB cable, connect your phone to the other device. A "Connected as a…" notification shows at the top of the screen.
+2. Open your phone's Settings app.
+3. Tap Network & internet ![And then](https://lh3.googleusercontent.com/WD3LKKej34vq3cZXwilgeahIPOiokN2uarmkDxtMqKMFg4SSys8BkOBJbn4_4R930gE=h18 "And then") Hotspot & tethering.
+4. Turn on USB tethering.
+
+You should see new Ethernet connection in the network settings. Works with USB Type C and USB A.
+
+```diff
+! If you want to use this feature, enable it in config.plist
+```
+Problems with recreating new `en` device every time are now solved on latest macOS versions with patched version of this kext. If it does not work for you, revert to official version.
+
+</details>  
+
+## Status
+
+<details>  
+
+<summary><strong>What's working ✅</strong></summary>
 
 - [x] Battery percentage
 
@@ -118,7 +281,11 @@ Catalina | Big Sur
 
 - [x] Windows/Linux from OC boot menu `It's best practice to not boot from OC when planning to perform firmware upgrade`
 
-## What's not working ⚠️
+</details>  
+
+<details>  
+
+<summary><strong>What's not working ⚠️</strong></summary>
 
 - [ ] Fingerprint reader  `There is finally after many years working driver for Linux (python-validity), don't expect macOS driver any time soon.`
 
@@ -126,102 +293,31 @@ Catalina | Big Sur
 
 - [ ] Sidecar wireless `If you want to use this feature, buy a compatible Broadcom card!`
 
-## Not tested
+</details>  
+
+<details>  
+
+<summary><strong>Untested</strong></summary>
 
 - [ ] Thunderbolt  `No device to test.`
 
 - [ ] DRM `Widevine, FairPlay`
 
-## Bios settings
+</details>  
 
-**Security**
+## UEFI modding
 
-- `Security Chip` **Disabled**
-- `Memory Protection -> Execution Prevention` **Enabled**
-- `Virtualization -> Intel Virtualization Technology` **Enabled**
-- `Virtualization -> Intel VT-d Feature` **Disabled**
-- `Anti-Theft -> Computrace -> Current Setting` **Disabled**
-- `Secure Boot -> Secure Boot` **Disabled**
-- `Intel SGX -> Intel SGX Control` **Disabled**
-- `Device Guard` **Disabled**
+<details>  
 
-**Startup**
+<summary><strong>CFG Lock | Advanced menu</strong></summary>
+<br>
 
-- `UEFI/Legacy Boot` **UEFI Only**
-- `CSM Support` **No**
-
-**Thunderbolt**
-
-- `Thunderbolt BIOS Assist Mode` **Disabled**
-- `Wake by Thunderbolt(TM) 3` **Enabled**
-- `Security Level` **User Authorization**
-- `Support in Pre Boot Environment -> Thunderbolt(TM) device` **Enabled**
-
-### Generate your own SMBIOS
-
-[GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
-
-MacBookPro15,2
-
-### USB ports map
-
-For different models, use
-
-[Hackintool](https://github.com/headkaze/Hackintool)
-
-or
-
-[GitHub - corpnewt/USBMap: Py script for mapping out USB ports and creating a custom SSDT or injector kext (WIP)](https://github.com/corpnewt/USBMap)
-
-### CPUFriend power management
-
-Generate CPUFriendDataProvider for your machine [here](https://github.com/corpnewt/CPUFriendFriend) or use at your own risk files provided in the Other folder.
-
-### VoltageShift undervolt
-
-It is possible to use VoltageShift from EFI folder instead of disabling SIP. You need to use specific version provided in the Other folder.
-
-**If you want to use this feature, enable it in config.plist**
-
-### Android USB Tethering | HoRNDIS | "Wifi adapter"
-
-> **Important:** Mac computers can't tether with Android. 
-
-I don't think so Google.
-
-1. Using a USB cable, connect your phone to the other device. A "Connected as a…" notification shows at the top of the screen.
-2. Open your phone's Settings app.
-3. Tap Network & internet ![And then](https://lh3.googleusercontent.com/WD3LKKej34vq3cZXwilgeahIPOiokN2uarmkDxtMqKMFg4SSys8BkOBJbn4_4R930gE=h18 "And then") Hotspot & tethering.
-4. Turn on USB tethering.
-
-You should see new Ethernet connection in the network settings. Works with USB Type C and USB A.
-
-**If you want to use this feature, enable it in config.plist**
-
-Problems with recreating new `en` device every time are now solved on latest macOS versions with patched version of this kext. If it does not work for you, revert to official version.
-
-### Own prev-lang-kbd settings
-
-Data field accepts HEX data [(ProperTree)](https://github.com/corpnewt/ProperTree)
-
-Format is lang-COUNTRY:keyboard
-
-- [0] en_US - U.S --> en-US:0 --> 656e2d55 533a30
-
-- [30776] cs - Czech --> cs-CZ:30776 --> 63732d43 5a3a3330 373736
-
-- cs-CZ:0 --> 63732d43 5a3a30
-
-etc.
-
-[AppleKeyboardLayouts.txt](https://github.com/acidanthera/OpenCorePkg/blob/master/Utilities/AppleKeyboardLayouts/AppleKeyboardLayouts.txt)
-
-## CFG Lock | Advanced menu
-
-It's possible to unlock Advanced menu thus disable CFG Lock natively in BIOS + Other Advanced menu benefits. Flasher is needed
+It's possible to unlock Advanced menu thus disable CFG Lock natively in UEFI + Other Advanced menu benefits. Hardare
 
 https://www.reddit.com/r/thinkpad/comments/ffqqx5/currently_testing_skyra1n/
 
 [T480 consuming 60w (~85w total) - unlimited TDP : thinkpad](https://www.reddit.com/r/thinkpad/comments/g8fk51/t480_consuming_60w_85w_total_unlimited_tdp/)
 
 [ThinkPad discord](discord.gg/Ybdz7AS)
+
+</details>  
