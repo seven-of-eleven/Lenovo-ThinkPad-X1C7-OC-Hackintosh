@@ -161,6 +161,40 @@ etc.
 
 </details>
 
+<details>
+
+<summary><strong>Secure Boot (Optional)</strong></summary>
+<br>
+
+1. Set Secure Boot to Setup Mode. Secure Boot should be reported as off by UEFI main tab
+2. Create FAT32 formatted USB
+3. Create EFI folder in the root of the newly formatted flash drive and move there content of SecureBoot/KeyTool
+4. Boot flash drive via F12 boot menu
+5. Choose **Edit keys**
+
+
+<img src="./Other/README_Resources/SecureBoot/MainMenu.png" alt="Main menu">
+
+6. Start by **replacing** Signature Database. Select .auth file
+
+
+<img src="./Other/README_Resources/SecureBoot/ManipulateKey.png" alt="Select key to manipulate with">
+<img src="./Other/README_Resources/SecureBoot/SelectAuth.png" alt="Select .auth file">
+
+
+7. Do the same for Key Exchange Keys Database (KEK) and Platform Key (PK) **in this order**
+8. Exit and shutdown your machine
+9. Boot into the UEFI settings and check if Secure Boot is reported as `on`
+10. Boot you favorite OS with Secure Boot enabled
+
+[More detailed information here](https://habr.com/en/post/273497)
+
+```diff
+! Still quite experimental
+```
+
+</details>
+
 ## Post-Install
 
 <details>  
