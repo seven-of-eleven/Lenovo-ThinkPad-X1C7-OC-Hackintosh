@@ -81,8 +81,8 @@ If you find this bootloader configuration useful, consider giving it a star to m
 | VirtualSMC             | 1.1.6          |
 | VoltageShift           | Disabled, 1.22 |
 | VoodooPS2Controller    | 2.1.7          |
-| VoodooRMI              | 1.0.1          |
-| VoodooSMBus            | 2.2.0          |
+| VoodooRMI              | 1.1.0          |
+| VoodooSMBus            | 3.0.0          |
 | WhateverGreen          | 1.4.2          |
 
 </details>
