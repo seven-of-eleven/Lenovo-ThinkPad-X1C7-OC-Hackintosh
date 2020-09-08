@@ -27,7 +27,7 @@
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>11E708</string>
+	<string>11E801a</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
@@ -35,9 +35,9 @@
 	<key>DTSDKName</key>
 	<string>macosx10.15</string>
 	<key>DTXcode</key>
-	<string>1160</string>
+	<string>1170</string>
 	<key>DTXcodeBuild</key>
-	<string>11E708</string>
+	<string>11E801a</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>RMIDevice</key>
@@ -50,10 +50,14 @@
 				<integer>100</integer>
 				<key>DisableWhileTypingTimeout</key>
 				<integer>100</integer>
+				<key>FingerMajorMinorDiffMax</key>
+				<integer>3</integer>
 				<key>ForceTouchEmulation</key>
 				<true/>
 				<key>ForceTouchMinPressure</key>
 				<integer>90</integer>
+				<key>MaxObjectSize</key>
+				<integer>7</integer>
 				<key>MinYDiffThumbDetection</key>
 				<integer>200</integer>
 				<key>TrackstickDeadzone</key>
