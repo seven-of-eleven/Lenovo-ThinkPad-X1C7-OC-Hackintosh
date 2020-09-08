@@ -56,7 +56,7 @@ If you find this bootloader configuration useful, consider giving it a star to m
 | Component      | Version           |
 | -------------- | ----------------- |
 | macOS Catalina | 10.15.6 (19G2021) |
-| OpenCore       | v0.6.1 Beta       |
+| OpenCore       | v0.6.1            |
 
 </details>
 
