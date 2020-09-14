@@ -3,9 +3,9 @@
  */
 DefinitionBlock ("", "SSDT", 2, "T480", "PLUG", 0x00003000)
 {
-    External (_SB.PR00, ProcessorObj)
+    External (_PR.PR00, ProcessorObj)
 
-    Scope (_SB.PR00)
+    Scope (_PR.PR00)
     {
         Method (DTGP, 5, NotSerialized)
         {
