@@ -2,12 +2,12 @@
 
 **Status: Work In Progress | Stable**
 
-<img align="right" src="./Other/README_Resources/ThinkPad.gif" alt="T480s macOS" width="430">
+<img align="right" src="./Other/README_Resources/ThinkPad.gif" alt="T480 macOS" width="430">
 
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.1-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.2-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
 [![macOS-Previous](https://img.shields.io/badge/macOS-10.14.6-brightgreen.svg)](https://github.com/EETagent/T480-OpenCore-Hackintosh/issues/11)
 [![macOS-Stable](https://img.shields.io/badge/macOS-10.15.6-brightgreen.svg)](https://www.apple.com/macos/catalina/)
-[![macOS-Unstable](https://img.shields.io/badge/macOS-11-yellow.svg)](https://www.apple.com/macos/big-sur-preview/)
+[![macOS-Unstable](https://img.shields.io/badge/macOS-11-brightgreen.svg)](https://www.apple.com/macos/big-sur-preview/)
 
 **DISCLAIMER:**
 Read the entire README and Dortania guides before you start. I am not responsible for any damage.
@@ -34,13 +34,13 @@ If you find this bootloader configuration useful, consider giving it a star to m
 <br>
 
 
-[![UEFI](https://img.shields.io/badge/UEFI-N24ET59W-lightgrey)](https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-t-series-laptops/thinkpad-t480-type-20l5-20l6/downloads/ds502355)
+[![UEFI](https://img.shields.io/badge/UEFI-N24ET60W-lightgrey)](https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-t-series-laptops/thinkpad-t480-type-20l5-20l6/downloads/ds502355)
 | Category  | Component                            | Note                                                                                                                                     |
 | --------- | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | CPU       | Intel Core i5-8250U                  | 20L50000MC                                                                                                                               |
 | GPU       | Intel UHD 620                        |                                                                                                                                          |
-| SSD       | Samsung PM981 NVMe solid-state drive | Fixed in NVMeFix 1.0.2 for Acidanthera testing machines. [Problems still persist](https://github.com/acidanthera/bugtracker/issues/780). |
-| Memory    | 8GB DDR4 2400Mhz                     |                                                                                                                                          |
+| SSD       | Samsung 970 Evo 512GB                | Replaced cursed PM 981 which stil doesn't work                                                                                           |
+| Memory    | 12GB DDR4 2400Mhz                    |                                                                                                                                          |
 | Battery   | Dual battery                         |                                                                                                                                          |
 | Camera    | 720p Camera                          |                                                                                                                                          |
 | Wifi & BT | Intel Wireless-AC 8265               | Both works. Place Wi-Fi SSIDs and passwords either in the kext plist file or use amazing HeliPort application.                           |
@@ -56,7 +56,7 @@ If you find this bootloader configuration useful, consider giving it a star to m
 | Component      | Version           |
 | -------------- | ----------------- |
 | macOS Catalina | 10.15.6 (19G2021) |
-| OpenCore       | v0.6.1            |
+| OpenCore       | v0.6.2            |
 
 </details>
 
@@ -93,10 +93,10 @@ If you find this bootloader configuration useful, consider giving it a star to m
 
 | Driver          | Version           |
 |:---------------:| ----------------- |
-| AudioDxe.efi    | OpenCorePkg 0.6.1 |
+| AudioDxe.efi    | OpenCorePkg 0.6.2 |
 | HfsPlus.efi     | OcBinaryData      |
-| OpenCanopy.efi  | OpenCorePkg 0.6.1 |
-| OpenRuntime.efi | OpenCorePkg 0.6.1 |
+| OpenCanopy.efi  | OpenCorePkg 0.6.2 |
+| OpenRuntime.efi | OpenCorePkg 0.6.2 |
 </details>
 
 <details>
