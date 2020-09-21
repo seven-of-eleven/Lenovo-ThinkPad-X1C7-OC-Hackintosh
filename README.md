@@ -199,6 +199,29 @@ etc.
 
 <details>  
 
+<summary><strong>Colour banding</strong></summary>
+<br>
+
+If you encounter some serious colour banding issues ( Keep in mind that T480 stock panel colour accuracy is not really good, cca 50-60% sRGB), your only solution is to replace GPU properties as bellow or replace the stock panel with one from T490 (400 nits, Low power).
+
+```
+<key>AAPL,ig-platform-id</key>
+<data>AAAWGQ==</data>
+<key>device-id</key>
+<data>FhkAAA==</data>
+</dict>
+```
+
+Also add these two args to your boot arguments:
+
+```-cdfon lilucpu=8```
+
+You can check your screen in gradient test [here](https://www.eizo.be/monitor-test/) or just by simple look at Launchpad background.
+
+</details>  
+
+<details>  
+
 <summary><strong>Generate your own SMBIOS</strong></summary>
 <br>
 
