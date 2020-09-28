@@ -1798,8 +1798,12 @@
 		<dict>
 			<key>AdviseWindows</key>
 			<false/>
+			<key>ARTFrequency</key>
+			<integer>0</integer>
 			<key>MLB</key>
 			<string>C02953609GUJH4R1F</string>
+			<key>ProcessorType</key>
+			<integer>0</integer>
 			<key>ROM</key>
 			<data></data>
 			<key>SpoofVendor</key>
@@ -1970,13 +1974,15 @@
 		<array>
 			<dict>
 				<key>Address</key>
-				<integer>268435456</integer>
+				<integer>569344</integer>
+				<key>Type</key>
+				<string>RuntimeCode</string>
 				<key>Comment</key>
-				<string>HD3000: IGPU memory corruption errata</string>
+				<string>Fix black screen on wake from hibernation for Lenovo Thinkpad T480/T490</string>
 				<key>Enabled</key>
 				<false/>
 				<key>Size</key>
-				<integer>268435456</integer>
+				<integer>4096</integer>
 			</dict>
 		</array>
 	</dict>
