@@ -1798,8 +1798,6 @@
 		<dict>
 			<key>AdviseWindows</key>
 			<false/>
-			<key>ARTFrequency</key>
-			<integer>0</integer>
 			<key>MLB</key>
 			<string>C02953609GUJH4R1F</string>
 			<key>ProcessorType</key>
