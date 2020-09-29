@@ -6,8 +6,8 @@
 
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.6.2-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
 [![macOS-Previous](https://img.shields.io/badge/macOS-10.14.6-brightgreen.svg)](https://github.com/EETagent/T480-OpenCore-Hackintosh/issues/11)
-[![macOS-Stable](https://img.shields.io/badge/macOS-10.15.6-brightgreen.svg)](https://www.apple.com/macos/catalina/)
-[![macOS-Unstable](https://img.shields.io/badge/macOS-11-brightgreen.svg)](https://www.apple.com/macos/big-sur-preview/)
+[![macOS-Stable](https://img.shields.io/badge/macOS-10.15.7-brightgreen.svg)](https://www.apple.com/macos/catalina/)
+[![macOS-Unstable](https://img.shields.io/badge/macOS-11.0-brightgreen.svg)](https://www.apple.com/macos/big-sur-preview/)
 
 **DISCLAIMER:**
 Read the entire README and Dortania guides before you start. I am not responsible for any damage.
@@ -53,10 +53,11 @@ If you find this bootloader configuration useful, consider giving it a star to m
 <summary><strong>Main software</strong></summary>
 <br>
 
-| Component      | Version           |
-| -------------- | ----------------- |
-| macOS Catalina | 10.15.6 (19G2021) |
-| OpenCore       | v0.6.2            |
+| Component      | Version                |
+| -------------- | ---------------------- |
+| macOS Catalina | 10.15.7 (19H2)         |
+| macOS Big Sur  | 11.0 Beta 8 (20A5374i) |
+| OpenCore       | v0.6.2                 |
 
 </details>
 
