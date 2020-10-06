@@ -56,7 +56,7 @@ If you find this bootloader configuration useful, consider giving it a star to m
 | Component      | Version                |
 | -------------- | ---------------------- |
 | macOS Catalina | 10.15.7 (19H2)         |
-| macOS Big Sur  | 11.0 Beta 8 (20A5374i) |
+| macOS Big Sur  | 11.0 Beta 9 (20A5384c) |
 | OpenCore       | v0.6.2                 |
 
 </details>
@@ -68,23 +68,25 @@ If you find this bootloader configuration useful, consider giving it a star to m
 
 | Kext                   | Version        |
 |:---------------------- | -------------- |
-| AppleALC               | 1.5.2          |
-| CPUFriend              | 1.2.2          |
+| AppleALC               | 1.5.4          |
+| CPUFriend              | 1.2.3          |
 | CPUFriendDataProvider  | i5-8250U       |
+| HibernationFixup       | 1.3.7          |
 | HoRNDIS                | Disabled, 9.2  |
 | IntelBluetoothFirmware | 1.1.2          |
 | IntelBluetoothInjector | 1.1.2          |
-| IntelMausiEthernet     | 2.5.1.d1       |
+| IntelMausi             | 1.0.5          |
 | Itlwm                  | 1.1.0          |
-| Lilu                   | 1.4.7          |
+| Lilu                   | 1.4.9          |
 | NoTouchID              | 1.0.4          |
-| NVMeFix                | 1.0.4          |
-| VirtualSMC             | 1.1.6          |
+| NVMeFix                | 1.0.5          |
+| RTCMemoryFixup         | 1.0.8          |
+| VirtualSMC             | 1.1.8          |
 | VoltageShift           | Disabled, 1.22 |
-| VoodooPS2Controller    | 2.1.7          |
-| VoodooRMI              | 1.1.0          |
+| VoodooPS2Controller    | 2.1.8          |
+| VoodooRMI              | 1.2.0          |
 | VoodooSMBus            | 3.0.0          |
-| WhateverGreen          | 1.4.2          |
+| WhateverGreen          | 1.4.4          |
 
 </details>
 <details>
