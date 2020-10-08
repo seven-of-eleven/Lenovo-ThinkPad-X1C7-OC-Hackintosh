@@ -1669,7 +1669,7 @@
 		<key>Boot</key>
 		<dict>
 			<key>HibernateMode</key>
-			<string>Auto</string>
+			<string>NVRAM</string>
 			<key>PickerMode</key>
 			<string>External</string>
 			<key>HideAuxiliary</key>
