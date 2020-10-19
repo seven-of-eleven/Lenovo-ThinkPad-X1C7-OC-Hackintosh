@@ -4,7 +4,7 @@
 
 <img align="right" src="./Other/README_Resources/ThinkPad.gif" alt="T480 macOS" width="430">
 
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.2-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.3-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
 [![macOS-Previous](https://img.shields.io/badge/macOS-10.14.6-brightgreen.svg)](https://github.com/EETagent/T480-OpenCore-Hackintosh/issues/11)
 [![macOS-Stable](https://img.shields.io/badge/macOS-10.15.7-brightgreen.svg)](https://www.apple.com/macos/catalina/)
 [![macOS-Unstable](https://img.shields.io/badge/macOS-11.0-brightgreen.svg)](https://www.apple.com/macos/big-sur-preview/)
@@ -57,7 +57,7 @@ If you find this bootloader configuration useful, consider giving it a star to m
 | -------------- | ---------------------- |
 | macOS Catalina | 10.15.7 (19H2)         |
 | macOS Big Sur  | 11.0 Beta 9 (20A5384c) |
-| OpenCore       | v0.6.2                 |
+| OpenCore       | v0.6.3                 |
 
 </details>
 
@@ -96,10 +96,10 @@ If you find this bootloader configuration useful, consider giving it a star to m
 
 | Driver          | Version           |
 |:---------------:| ----------------- |
-| AudioDxe.efi    | OpenCorePkg 0.6.2 |
+| AudioDxe.efi    | OpenCorePkg 0.6.3 |
 | HfsPlus.efi     | OcBinaryData      |
-| OpenCanopy.efi  | OpenCorePkg 0.6.2 |
-| OpenRuntime.efi | OpenCorePkg 0.6.2 |
+| OpenCanopy.efi  | OpenCorePkg 0.6.3 |
+| OpenRuntime.efi | OpenCorePkg 0.6.3 |
 </details>
 
 <details>
