@@ -112,7 +112,5 @@
 	</dict>
 	<key>OSBundleRequired</key>
 	<string>Network-Root</string>
-	<key>XCBUILD</key>
-	<string>1.2.0</string>
 </dict>
 </plist>
