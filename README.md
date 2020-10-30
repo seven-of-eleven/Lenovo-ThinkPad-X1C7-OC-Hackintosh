@@ -341,6 +341,8 @@ Problems with recreating new `en` device every time are now solved on latest mac
 
 - [x] Windows/Linux from OC boot menu `It's best practice to not boot from OC when planning to perform firmware upgrade`
 
+- [x] DRM `Widevine, validated on Firefox 82`
+
 </details>  
 
 <details>  
@@ -360,8 +362,6 @@ Problems with recreating new `en` device every time are now solved on latest mac
 <summary><strong>Untested</strong></summary>
 
 - [ ] Thunderbolt  `No device to test.`
-
-- [ ] DRM `Widevine, FairPlay`
 
 </details>  
 
