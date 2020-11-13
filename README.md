@@ -4,10 +4,10 @@
 
 <img align="right" src="./Other/README_Resources/ThinkPad.gif" alt="T480 macOS" width="430">
 
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.3-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.4-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
 [![macOS-Previous](https://img.shields.io/badge/macOS-10.14.6-brightgreen.svg)](https://github.com/EETagent/T480-OpenCore-Hackintosh/issues/11)
 [![macOS-Stable](https://img.shields.io/badge/macOS-10.15.7-brightgreen.svg)](https://www.apple.com/macos/catalina/)
-[![macOS-Unstable](https://img.shields.io/badge/macOS-11.0-brightgreen.svg)](https://www.apple.com/macos/big-sur-preview/)
+[![macOS-Unstable](https://img.shields.io/badge/macOS-11.0.1-brightgreen.svg)](https://www.apple.com/macos/big-sur-preview/)
 
 **DISCLAIMER:**
 Read the entire README and Dortania guides before you start. I am not responsible for any damage.
@@ -53,11 +53,11 @@ If you find this bootloader configuration useful, consider giving it a star to m
 <summary><strong>Main software</strong></summary>
 <br>
 
-| Component      | Version                |
-| -------------- | ---------------------- |
-| macOS Catalina | 10.15.7 (19H2)         |
-| macOS Big Sur  | 11.0 Beta 9 (20A5384c) |
-| OpenCore       | v0.6.3                 |
+| Component      | Version        |
+| -------------- | -------------- |
+| macOS Catalina | 10.15.7 (19H2) |
+| macOS Big Sur  | 11.0.1 (20B29) |
+| OpenCore       | v0.6.4         |
 
 </details>
 
@@ -68,7 +68,9 @@ If you find this bootloader configuration useful, consider giving it a star to m
 
 | Kext                   | Version        |
 |:---------------------- | -------------- |
+| AirportItlwm           | 1.2.0          |
 | AppleALC               | 1.5.4          |
+| AppleBacklightSmoother | 1.0.2          |
 | CPUFriend              | 1.2.3          |
 | CPUFriendDataProvider  | i5-8250U       |
 | HibernationFixup       | 1.3.7          |
@@ -76,7 +78,6 @@ If you find this bootloader configuration useful, consider giving it a star to m
 | IntelBluetoothFirmware | 1.1.2          |
 | IntelBluetoothInjector | 1.1.2          |
 | IntelMausi             | 1.0.5          |
-| Itlwm                  | 1.1.0          |
 | Lilu                   | 1.4.9          |
 | NoTouchID              | 1.0.4          |
 | NVMeFix                | 1.0.5          |
@@ -96,10 +97,10 @@ If you find this bootloader configuration useful, consider giving it a star to m
 
 | Driver          | Version           |
 |:---------------:| ----------------- |
-| AudioDxe.efi    | OpenCorePkg 0.6.3 |
+| AudioDxe.efi    | OpenCorePkg 0.6.4 |
 | HfsPlus.efi     | OcBinaryData      |
-| OpenCanopy.efi  | OpenCorePkg 0.6.3 |
-| OpenRuntime.efi | OpenCorePkg 0.6.3 |
+| OpenCanopy.efi  | OpenCorePkg 0.6.4 |
+| OpenRuntime.efi | OpenCorePkg 0.6.4 |
 </details>
 
 <details>
