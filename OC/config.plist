@@ -1318,7 +1318,7 @@
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AirportItlwm</string>
 				<key>BundlePath</key>
-				<string>AurportItlwmCatalina.kext</string>
+				<string>AirportItlwmCatalina.kext</string>
 			</dict>
 			<dict>
 				<key>Arch</key>
