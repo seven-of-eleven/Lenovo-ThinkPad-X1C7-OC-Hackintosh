@@ -149,7 +149,7 @@ If you find this bootloader configuration useful, consider giving it a star to m
 <summary><strong>Own prev-lang-kbd</strong></summary>
 <br>
 
-Data field accepts HEX data [(ProperTree)](https://github.com/corpnewt/ProperTree)
+Either add as a string or as a data ( HEX data [(ProperTree)](https://github.com/corpnewt/ProperTree) )
 
 Format is lang-COUNTRY:keyboard
 
@@ -206,7 +206,7 @@ etc.
 <summary><strong>Colour banding</strong></summary>
 <br>
 
-If you encounter some serious colour banding issues ( Keep in mind that T480 stock panel colour accuracy is not really good, cca 50-60% sRGB), your only solution is to replace GPU properties as bellow or replace the stock panel with one from T490 (400 nits, Low power).
+If you encounter some serious colour banding issues ( Keep in mind that T480 1080p stock panel colour accuracy is not really good, cca 50-60% sRGB), your only solution is to replace GPU properties as bellow or replace the stock panel with one from T490 (400 nits, Low power).
 
 ```
 <key>AAPL,ig-platform-id</key>
@@ -216,9 +216,7 @@ If you encounter some serious colour banding issues ( Keep in mind that T480 sto
 </dict>
 ```
 
-Also add these two args to your boot arguments:
-
-```-cdfon lilucpu=8```
+Do not use these any additional boot arguments! Get custom WhateverGreen version instead from Other folder
 
 You can check your screen in gradient test [here](https://www.eizo.be/monitor-test/) or just by simple look at Launchpad background.
 
@@ -230,6 +228,8 @@ You can check your screen in gradient test [here](https://www.eizo.be/monitor-te
 <br>
 
 [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
+
+- MacBookPro14,1
 
 - MacBookPro15,2
 
@@ -253,7 +253,7 @@ If you are using different model and alternative kext from Other folder does not
 <summary><strong>CPUFriend power management</strong></summary>
 <br>
 
-Generate CPUFriendDataProvider for your machine [here](https://github.com/corpnewt/CPUFriendFriend) or use at your own risk files provided in the Other folder.
+Generate CPUFriendDataProvider for your machine [here](https://github.com/fewtarius/CPUFriendFriend) or use at your own risk files provided in the Other folder.
 
 </details>  
 
@@ -262,7 +262,7 @@ Generate CPUFriendDataProvider for your machine [here](https://github.com/corpne
 <summary><strong>VoltageShift undervolt</strong></summary>
 <br>
 
-It is possible to use VoltageShift from the EFI folder instead of disabling SIP. You need to use specific version provided in the Other folder.
+It is possible to use VoltageShift directly from the EFI folder instead of disabling SIP. You need to use specific version provided in the Other folder.
 
 ```diff
 ! If you want to use this feature, enable it in config.plist
@@ -342,7 +342,7 @@ Problems with recreating new `en` device every time are now solved on latest mac
 
 - [x] Windows/Linux from OC boot menu `It's best practice to not boot from OC when planning to perform firmware upgrade`
 
-- [x] DRM `Widevine, validated on Firefox 82`
+- [x] DRM `Widevine, validated on Firefox 82. WhateverGreen's DRM is broken on Big Sur`
 
 </details>  
 
