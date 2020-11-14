@@ -1855,10 +1855,13 @@
 			<dict>
 				<key>boot-args</key>
 				<string>rtcfx_exclude=80-AB</string>
+				<!-- Debug -->
+				<!-- <string>rtcfx_exclude=80-AB keepsyms=1 debug=0x100 -v</string> -->
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
-				<data>ZW4tVVM6MA==</data>
+				<string>en-US:0</string>
+				<!-- <string>cs-CZ:30776</string> -->
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>run-efi-updater</key>
