@@ -1812,6 +1812,8 @@
 			<true/>
 			<key>AllowSetDefault</key>
 			<true/>
+			<key>BlacklistAppleUpdate</key>
+			<true/>
 			<key>AuthRestart</key>
 			<false/>
 			<key>ExposeSensitiveData</key>
