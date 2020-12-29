@@ -35,16 +35,16 @@ If you find this bootloader configuration useful, consider giving it a star to m
 
 
 [![UEFI](https://img.shields.io/badge/UEFI-N24ET60W-lightgrey)](https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-t-series-laptops/thinkpad-t480-type-20l5-20l6/downloads/ds502355)
-| Category  | Component                            | Note                                                                                                                                     |
-| --------- | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| CPU       | Intel Core i5-8250U                  | 20L50000MC                                                                                                                               |
-| GPU       | Intel UHD 620                        |                                                                                                                                          |
-| SSD       | Samsung 970 Evo 512GB                | Replaced cursed PM 981 which stil doesn't work                                                                                           |
-| Memory    | 12GB DDR4 2400Mhz                    |                                                                                                                                          |
-| Battery   | Dual battery                         |                                                                                                                                          |
-| Camera    | 720p Camera                          |                                                                                                                                          |
-| Wifi & BT | Intel Wireless-AC 8265               | Both works. Place Wi-Fi SSIDs and passwords either in the kext plist file or use amazing HeliPort application.                           |
-| Input     | PS2 Keyboard & Synaptics TrackPad    | [ThinkPad Assistant](https://github.com/MSzturc/ThinkpadAssistant) for media keys like microphone switch, etc. PrtSc is mapped as F13.   |
+| Category  | Component                            | Note                                                                                                               |
+| --------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
+| CPU       | Intel Core i5-8250U                  | 20L50000MC                                                                                                         |
+| GPU       | Intel UHD 620                        |                                                                                                                    |
+| SSD       | Samsung 970 Evo 512GB                | Replaced cursed PM 981 which stil doesn't work reliably                                                            |
+| Memory    | 12GB DDR4 2400Mhz                    |                                                                                                                    |
+| Battery   | Dual battery                         |                                                                                                                    |
+| Camera    | 720p Camera                          |                                                                                                                    |
+| Wifi & BT | Intel Wireless-AC 8265               | Download AirportItlwm for you macOS version and enjoy native Wi-Fi control, or use Heliport app.                   |
+| Input     | PS2 Keyboard & Synaptics TrackPad    | [YogaSMC](https://github.com/zhen-zen/YogaSMC) for media keys like microphone switch, etc. PrtSc is mapped as F13. |
 
 </details>  
 
@@ -71,6 +71,7 @@ If you find this bootloader configuration useful, consider giving it a star to m
 | AirportItlwm           | 1.2.0          |
 | AppleALC               | 1.5.4          |
 | AppleBacklightSmoother | 1.0.2          |
+| BrightnessKeys         | 1.0.1          |
 | CPUFriend              | 1.2.3          |
 | CPUFriendDataProvider  | i5-8250U       |
 | HibernationFixup       | 1.3.7          |
@@ -88,6 +89,7 @@ If you find this bootloader configuration useful, consider giving it a star to m
 | VoodooRMI              | 1.2.0          |
 | VoodooSMBus            | 3.0.0          |
 | WhateverGreen          | 1.4.4          |
+| YogaSMC                | 1.2.0          |
 
 </details>
 <details>
@@ -237,19 +239,6 @@ You can check your screen in gradient test [here](https://www.eizo.be/monitor-te
 
 <details>  
 
-<summary><strong>USB ports map</strong></summary>
-<br>
-
-If you are using different model and alternative kext from Other folder does not work for you. Try:
-
-- [USBMap](https://github.com/corpnewt/USBMap)
-
-- [Hackintool](https://github.com/headkaze/Hackintool)
-
-</details>  
-
-<details>  
-
 <summary><strong>CPUFriend power management</strong></summary>
 <br>
 
@@ -318,7 +307,7 @@ Problems with recreating new `en` device every time are now solved on latest mac
 
 - [x] Intel I219V Ethernet port
 
-- [x] Keyboard `Volume and brightness hotkeys. Another media keys with ThinkPad Assistant.`
+- [x] Keyboard `Volume and brightness hotkeys. Another media keys with YogaSMC.`
 
 - [x] Microphone `With keyboard switch using ThinkPad Assistant.`
 
