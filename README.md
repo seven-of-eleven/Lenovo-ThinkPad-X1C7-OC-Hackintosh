@@ -329,8 +329,6 @@ Problems with recreating new `en` device every time are now solved on latest mac
 
 - [x] Wifi - Intel Wireless-AC 8265 `Use HeliPort app for Wi-Fi control`
 
-- [x] Windows/Linux from OC boot menu `It's best practice to not boot from OC when planning to perform firmware upgrade`
-
 - [x] DRM `Widevine, validated on Firefox 82. WhateverGreen's DRM is broken on Big Sur`
 
 </details>  
@@ -344,6 +342,9 @@ Problems with recreating new `en` device every time are now solved on latest mac
 - [ ] PM 981 `Still unstable. Could work for some, not for others.`
 
 - [ ] Sidecar wireless `If you want to use this feature, buy a compatible Broadcom card!`
+
+- [ ] Windows/Linux from OC boot menu `It's best practice to not boot from OC when planning to perform firmware upgrade`
+
 
 </details>  
 
