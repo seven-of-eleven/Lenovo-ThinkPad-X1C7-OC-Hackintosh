@@ -259,6 +259,7 @@ Use GenSMBIOS to create your own serial #... based off of your preferred model.
 <details>  
 <summary><strong>CPUFriend power management</strong></summary>
 <br>
+
 Generate CPUFriendDataProvider for your machine [here](https://github.com/fewtarius/CPUFriendFriend) or use those I've provided. My files are set for power conservation over performance. Highly recommended that you use power management.
 
 </details>  
