@@ -2,7 +2,7 @@
 
 **Status: Work In Progress | Just started updating this guide**
 
-<img align="right" src="./Other/README_Resources/ThinkPad.gif" alt="X1C7 macOS" width="430">
+<img align="right" src="./Other/README_Resources/x1c7.png" alt="X1C7 macOS" width="430">
 
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.6.5-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
 [![macOS-Unstable](https://img.shields.io/badge/macOS-11.2.2-brightgreen.svg)](https://www.apple.com/macos/big-sur)
@@ -10,7 +10,7 @@
 **DISCLAIMER:**
 As you embark on your Hackintosh journey you are encouraged to **READ** the entire README and [Dortania](https://dortania.github.io/getting-started/) guides before you start. It will save many a message instructing you to RTFM. I am not an expert, I haven't forced you to do anything, put on your big boy pants and take responsibility for any mess you get yourself into.
 
-When you encounter bug or want to improve this repo, consider opening issue or pull request. 
+When you encounter bug or want to improve this repo, consider opening an issue or pull request. 
 
 ## Introduction
 
@@ -28,20 +28,37 @@ When you encounter bug or want to improve this repo, consider opening issue or p
 <details>
 <summary><strong>Hardware</strong></summary>
 <br>
-
 [![UEFI](https://img.shields.io/badge/UEFI-N2HET58W-lightgrey)](https://pcsupport.lenovo.com/ca/en/products/laptops-and-netbooks/thinkpad-x-series-laptops/thinkpad-x1-carbon-7th-gen-type-20qd-20qe/downloads/ds540232-bios-update-utility-bootable-cd-for-linux-windows-10-64-bit-thinkpad-x1-carbon-7th-gen-x1-yoga-4th-gen)
+
+### X1C7 i5
 
 | Category  | Component                                       | Note                                                         |
 | --------- | ----------------------------------------------- | ------------------------------------------------------------ |
 | Type      | 20QD, 20QE                                      |                                                              |
-| CPU       | Intel Core i5-8265U<br />Intel Core i7-8565U    |                                                              |
+| CPU       | Intel Core i5-8265U                             |                                                              |
 | GPU       | Intel UHD 620                                   |                                                              |
-| SSD       | Toshiba 512GB                                   | Replaced cursed PM 981 which stil doesn't work reliably      |
+| SSD       | Toshiba 512GB                                   | Replaced cursed PM 981 which still doesn't work reliably     |
+| Screen    | 14" WQHD - 2560x1440                            |                                                              |
 | Memory    | 16GB / 2133MHz LPDDR3                           |                                                              |
 | Battery   | Integrated Li-Polymer 51Wh                      | Single battery                                               |
 | Camera    | 720p Camera                                     |                                                              |
 | Wifi & BT | Intel Wireless-AC 9560                          | Use AirportItlwm for your macOS version and enjoy native Wi-Fi control, or use Heliport app. |
-| Input     | PS2 Keyboard & Synaptics TrackPad (touchscreen) | I'm using ThinkPad Assistant an alternative most are moving to is [YogaSMC](https://github.com/zhen-zen/YogaSMC) for media keys like microphone switch, etc. |
+| Input     | PS2 Keyboard & Synaptics TrackPad (touchscreen) | I'm using ThinkPad Assistant an alternative most seem to be moving to [YogaSMC](https://github.com/zhen-zen/YogaSMC) for media keys like microphone switch, etc. |
+
+### X1C7 i7
+
+| Category  | Component                                       | Note                                                         |
+| --------- | ----------------------------------------------- | ------------------------------------------------------------ |
+| Type      | 20QD, 20QE                                      |                                                              |
+| CPU       | Intel Core i7-8565U                             |                                                              |
+| GPU       | Intel UHD 620                                   |                                                              |
+| SSD       | WD 1TB                                          | Replaced cursed PM 981 which still doesn't work reliably     |
+| Screen    | 14" FHD 1920x1080                               | Multi-Touch                                                  |
+| Memory    | 16GB / 2133MHz LPDDR3                           |                                                              |
+| Battery   | Integrated Li-Polymer 51Wh                      | Single battery                                               |
+| Camera    | 720p Camera                                     |                                                              |
+| Wifi & BT | Intel Wireless-AC 9560                          | Use AirportItlwm for your macOS version and enjoy native Wi-Fi control, or use Heliport app. |
+| Input     | PS2 Keyboard & Synaptics TrackPad (touchscreen) | I'm using ThinkPad Assistant an alternative most seem to be moving to [YogaSMC](https://github.com/zhen-zen/YogaSMC) for media keys like microphone switch, etc. |
 
 </details>  
 
@@ -115,17 +132,16 @@ When you encounter bug or want to improve this repo, consider opening issue or p
     <summary><strong>Neofetch screenshots</strong></summary>
     <br>
     <p float="left">
-        <img src="./Other/README_Resources/Neofetch-Catalina.png" alt="Neofetch Catalina" width="350">
-        <img src="./Other/README_Resources/Neofetch-BigSur.png" alt="Neofetch Catalina" width="350">
+        <img src="./Other/README_Resources/Neofetch-BigSur.png" alt="Neofetch Big Sur" width="427">
     </p>
 </details> 
+
 
 ## Before installation
 
 <details>  
 <summary><strong>UEFI settings</strong></summary>
 <br>
-
 **Security**
 
 - `Security Chip` **Disabled**
@@ -169,72 +185,32 @@ etc.
 
 </details>
 
-<details>
-<summary><strong>Secure Boot (Optional)</strong></summary>
-<br>
-
-1. Set Secure Boot to Setup Mode. Secure Boot should be reported as off by UEFI main tab
-2. Create FAT32 formatted USB
-3. Create EFI folder in the root of the newly formatted flash drive and move there content of SecureBoot/KeyTool
-4. Boot flash drive via F12 boot menu
-5. Choose **Edit keys**
-
-
-<img src="./Other/README_Resources/SecureBoot/MainMenu.png" alt="Main menu">
-
-6. Start by **replacing** Signature Database. Select .auth file
-
-
-<img src="./Other/README_Resources/SecureBoot/ManipulateKey.png" alt="Select key to manipulate with">
-<img src="./Other/README_Resources/SecureBoot/SelectAuth.png" alt="Select .auth file">
-
-
-7. Do the same for Key Exchange Keys Database (KEK) and Platform Key (PK) **in this order**
-8. Exit and shutdown your machine
-9. Boot into the UEFI settings and check if Secure Boot is reported as `on`
-10. Boot you favorite OS with Secure Boot enabled
-
-[More detailed information here](https://habr.com/en/post/273497)
-
-```diff
-! Still quite experimental
-```
-
-</details>
-
 ## Post-Install
 
 <details>  
-
-<summary><strong>Colour banding</strong></summary>
+<summary><strong>TrackPad - Disable force touch</strong></summary>
 <br>
 
-If you encounter some serious colour banding issues ( Keep in mind that T480 1080p stock panel colour accuracy is not really good, cca 50-60% sRGB), your only solution is to replace GPU properties as bellow or replace the stock panel with one from T490 (400 nits, Low power).
+If the **Battery** management **doesn't show up** in the System Preferences after the SSDT-Batt.aml file is added to your ACPI folder and config.plist file. You will not be able to change any trackpad settings. You may experience the annoying behaviour of clicking on the touchpad and it doing a **Force Touch** where the preview of the file is shown. I found this very annoying. You can disable force touch by modifying the file in `~/Library/Preferences/com.apple.AppleMultitouchTrackpad.plist`
+Opened it with Propertree and changed **ForceSuppressed** to **True**
 
-```
-<key>AAPL,ig-platform-id</key>
-<data>AAAWGQ==</data>
-<key>device-id</key>
-<data>FhkAAA==</data>
-</dict>
-```
+Another trick to manage your trackpad, if you can't get the battery to work, is to connect a bluetooth trackpad. Once the bluetooth trackpad is connected you can adjust the settings. Disconnect the bluetooth trackpad and your built in one will maintain those settings.
 
-Do not use these any additional boot arguments! Get custom WhateverGreen version instead from Other folder
-
-You can check your screen in gradient test [here](https://www.eizo.be/monitor-test/) or just by simple look at Launchpad background.
-
+I used these options to get by this prior to receiving a SSDT-Batt.aml that worked from a friendly Redditor [Galactic_Dev](https://www.reddit.com/user/Galactic_Dev)
 </details>  
 
 <details>  
-
 <summary><strong>Generate your own SMBIOS</strong></summary>
 <br>
 
 [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
 
-- MacBookPro15,1
+Use GenSMBIOS to create your own serial #... based off of your preferred model.
 
-- MacBookPro15,4
+- MacBookPro15,1 -`What I've used`
+- MacBookPro15,4 -`Reported used by others`
+
+Note if you use a different SMBIOS model than the MacbookPro15,1 your USB will not be mapped.  You will need to edit the **USBMap.kext file**.  You can right click on the file and select **Show Package Contents**.  From there you can open the Info.plist file in ProperTree and change MacBookPro15,1 to whatever you've chosen. This should enable the USBMap.kext.
 
 </details>  
 
