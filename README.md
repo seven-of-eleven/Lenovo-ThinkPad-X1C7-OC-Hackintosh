@@ -1,23 +1,20 @@
-# T480-OpenCore-Hackintosh
+# X1C7-OpenCore-Hackintosh
 
-**Status: Work In Progress | Stable**
+**Status: Work In Progress | Just started updating this guide**
 
-<img align="right" src="./Other/README_Resources/ThinkPad.gif" alt="T480 macOS" width="430">
+<img align="right" src="./Other/README_Resources/ThinkPad.gif" alt="X1C7 macOS" width="430">
 
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.5-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
-[![macOS-Previous](https://img.shields.io/badge/macOS-10.14.6-brightgreen.svg)](https://github.com/EETagent/T480-OpenCore-Hackintosh/issues/11)
-[![macOS-Stable](https://img.shields.io/badge/macOS-10.15.7-brightgreen.svg)](https://www.apple.com/macos/catalina/)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.3-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
 [![macOS-Unstable](https://img.shields.io/badge/macOS-11.1-brightgreen.svg)](https://www.apple.com/macos/big-sur)
 
 **DISCLAIMER:**
-Read the entire README and Dortania guides before you start. I am not responsible for any damage.
+As you embark on your Hackintosh journey you are encouraged to **READ** the entire README and [Dortania](https://dortania.github.io/getting-started/) guides before you start. It will save many a message instructing you to RTFM. I am not an expert, I haven't forced you to do anything, put on your big boy pants and take responsibility for any mess you get yourself into.
+
 When you encounter bug or want to improve this repo, consider opening issue or pull request. 
-If you find this bootloader configuration useful, consider giving it a star to make it more visible.
 
 ## Introduction
 
 <details> 
-
 <summary><strong>General knowledge & credits</strong></summary>
 
 - To install macOS follow the guides provided by [Dortania](https://dortania.github.io/getting-started/)
@@ -29,35 +26,34 @@ If you find this bootloader configuration useful, consider giving it a star to m
 </details>  
 
 <details>
-
 <summary><strong>Hardware</strong></summary>
 <br>
 
+[![UEFI](https://img.shields.io/badge/UEFI-N2HET58W-lightgrey)](https://pcsupport.lenovo.com/ca/en/products/laptops-and-netbooks/thinkpad-x-series-laptops/thinkpad-x1-carbon-7th-gen-type-20qd-20qe/downloads/ds540232-bios-update-utility-bootable-cd-for-linux-windows-10-64-bit-thinkpad-x1-carbon-7th-gen-x1-yoga-4th-gen)
 
-[![UEFI](https://img.shields.io/badge/UEFI-N24ET61W-lightgrey)](https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-t-series-laptops/thinkpad-t480-type-20l5-20l6/downloads/ds502355)
-| Category  | Component                            | Note                                                                                                               |
-| --------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
-| CPU       | Intel Core i5-8250U                  | 20L50000MC                                                                                                         |
-| GPU       | Intel UHD 620                        |                                                                                                                    |
-| SSD       | Samsung 970 Evo 512GB                | Replaced cursed PM 981 which stil doesn't work reliably                                                            |
-| Memory    | 12GB DDR4 2400Mhz                    |                                                                                                                    |
-| Battery   | Dual battery                         |                                                                                                                    |
-| Camera    | 720p Camera                          |                                                                                                                    |
-| Wifi & BT | Intel Wireless-AC 8265               | Use AirportItlwm for your macOS version and enjoy native Wi-Fi control, or use Heliport app.                        |
-| Input     | PS2 Keyboard & Synaptics TrackPad    | [YogaSMC](https://github.com/zhen-zen/YogaSMC) for media keys like microphone switch, etc. PrtSc is mapped as F13. |
+| Category  | Component                                       | Note                                                         |
+| --------- | ----------------------------------------------- | ------------------------------------------------------------ |
+| Type      | 20QD, 20QE                                      |                                                              |
+| CPU       | Intel Core i5-8265U<br />Intel Core i7-8565U    |                                                              |
+| GPU       | Intel UHD 620                                   |                                                              |
+| SSD       | Toshiba 512GB                                   | Replaced cursed PM 981 which stil doesn't work reliably      |
+| Memory    | 16GB / 2133MHz LPDDR3                           |                                                              |
+| Battery   | Integrated Li-Polymer 51Wh                      | Single battery                                               |
+| Camera    | 720p Camera                                     |                                                              |
+| Wifi & BT | Intel Wireless-AC 9560                          | Use AirportItlwm for your macOS version and enjoy native Wi-Fi control, or use Heliport app. |
+| Input     | PS2 Keyboard & Synaptics TrackPad (touchscreen) | [YogaSMC](https://github.com/zhen-zen/YogaSMC) for media keys like microphone switch, etc. PrtSc is mapped as F13. |
 
 </details>  
 
 <details>
-
 <summary><strong>Main software</strong></summary>
 <br>
 
-| Component      | Version        |
-| -------------- | -------------- |
-| macOS Catalina | 10.15.7 (19H2) |
-| macOS Big Sur  | 11.1 (20C69)   |
-| OpenCore       | v0.6.5         |
+| Component      | Version  |
+| -------------- | -------- |
+| macOS Catalina | Untested |
+| macOS Big Sur  | 11.2.2   |
+| OpenCore       | v0.6.3   |
 
 </details>
 
@@ -66,30 +62,19 @@ If you find this bootloader configuration useful, consider giving it a star to m
 <summary><strong>Kernel extensions</strong></summary>
 <br>
 
-| Kext                   | Version        |
-|:---------------------- | -------------- |
-| AirportItlwm           | 1.2.0          |
-| AppleALC               | 1.5.6          |
-| AppleBacklightSmoother | 1.0.2          |
-| BrightnessKeys         | 1.0.1          |
-| CPUFriend              | 1.2.3          |
-| CPUFriendDataProvider  | i5-8250U       |
-| HibernationFixup       | 1.3.9          |
-| HoRNDIS                | Disabled, 9.2  |
-| IntelBluetoothFirmware | 1.1.2          |
-| IntelBluetoothInjector | 1.1.2          |
-| IntelMausi             | 1.0.5          |
-| Lilu                   | 1.5.1          |
-| NoTouchID              | 1.0.4          |
-| NVMeFix                | 1.0.5          |
-| RTCMemoryFixup         | 1.0.8          |
-| VirtualSMC             | 1.2.0          |
-| VoltageShift           | Disabled, 1.22 |
-| VoodooPS2Controller    | 2.2.0          |
-| VoodooRMI              | 1.3.0          |
-| VoodooSMBus            | 3.0.0          |
-| WhateverGreen          | 1.4.6          |
-| YogaSMC                | 1.4.1          |
+| Kext                   | Version  |
+| :--------------------- | -------- |
+| AirportItlwm           | 1.2.0    |
+| AppleALC               | 1.5.6    |
+| CPUFriend              | 1.2.3    |
+| CPUFriendDataProvider  | i5-8250U |
+| IntelBluetoothFirmware | 1.1.2    |
+| IntelBluetoothInjector | 1.1.2    |
+| IntelMausi             | 1.0.5    |
+| Lilu                   | 1.5.1    |
+| VirtualSMC             | 1.2.0    |
+| VoodooPS2Controller    | 2.2.0    |
+| WhateverGreen          | 1.4.6    |
 
 </details>
 <details>
