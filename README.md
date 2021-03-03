@@ -28,6 +28,7 @@ When you encounter bug or want to improve this repo, consider opening an issue o
 <details>
 <summary><strong>Hardware</strong></summary>
 <br>
+
 [![UEFI](https://img.shields.io/badge/UEFI-N2HET58W-lightgrey)](https://pcsupport.lenovo.com/ca/en/products/laptops-and-netbooks/thinkpad-x-series-laptops/thinkpad-x1-carbon-7th-gen-type-20qd-20qe/downloads/ds540232-bios-update-utility-bootable-cd-for-linux-windows-10-64-bit-thinkpad-x1-carbon-7th-gen-x1-yoga-4th-gen)
 
 ### X1C7 i5
