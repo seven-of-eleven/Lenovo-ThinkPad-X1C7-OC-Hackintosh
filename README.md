@@ -23,7 +23,7 @@ I understand that some may simply add the OC and Boot folders to their EFI folde
 
 ```EFI
 EFI (drive)
-EFI
+	EFI
 	├── BOOT
 	├── OC
 ```
