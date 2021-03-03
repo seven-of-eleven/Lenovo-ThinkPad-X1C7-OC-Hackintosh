@@ -15,6 +15,24 @@ When you encounter bug or want to improve this repo, consider opening an issue o
 ## Introduction
 
 <details> 
+<summary><strong>This is not a guide!</strong></summary>
+
+This is not a guide. It shoud only be used as a reference. I provide some tips and tricks I learned on my journey in building a hackintosh. The best way of using this is as a supplement to the OpenCore guide. If you have questions about how to setup your specific hardware, are unclear about what to do, or would like to see the settings I've used.
+
+I understand that some may simply add the OC and Boot folders to their EFI folder. For clarity the EFI partition needs a folder called EFI that contains the Boot and OC folder.
+
+```EFI
+EFI (drive)
+EFI
+	├── BOOT
+	├── OC
+```
+
+It should work and your X1C7 should boot and work fine. You will at minimum need to generate SMBIOS values if you want Apple services to work. Note that all error reporting/logging has been turned off in the config.plist. You will have a difficult time trouble shooting with the setup provided. You can easily turn on the error reporting and logging if you follow the Dortania guide. Best of luck.
+
+</details>  
+
+<details> 
 <summary><strong>General knowledge & credits</strong></summary>
 
 - To install macOS follow the guides provided by [Dortania](https://dortania.github.io/OpenCore-Install-Guide/)
