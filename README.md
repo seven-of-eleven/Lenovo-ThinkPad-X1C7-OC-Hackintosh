@@ -1,6 +1,6 @@
 # X1C7-OpenCore-Hackintosh
 
-**Status: Work In Progress | Just started updating this guide**
+**Status: Work In Progress | Stable | Used daily**
 
 <img align="right" src="./Other/README_Resources/x1c7.png" alt="X1C7 macOS" width="430">
 
@@ -10,7 +10,7 @@
 **DISCLAIMER:**
 As you embark on your Hackintosh journey you are encouraged to **READ** the entire README and [Dortania](https://dortania.github.io/getting-started/) guides before you start. It will save many a message instructing you to RTFM. I am not an expert, I haven't forced you to do anything, put on your big boy pants and take responsibility for any mess you get yourself into.
 
-When you encounter bug or want to improve this repo, consider opening an issue or pull request. 
+When you encounter bug or want to improve this repo, consider opening an issue or pull request. You can also find a wealth of knowledge on [Reddit](https://www.reddit.com/r/hackintosh/), [TonyMacX86](https://www.tonymacx86.com) or [Google](https://www.google.com).
 
 ## Introduction
 
@@ -143,13 +143,36 @@ When you encounter bug or want to improve this repo, consider opening an issue o
 <details>  
 <summary><strong>UEFI settings</strong></summary>
 <br>
+
+**Config**
+
+- **Keyboard/Mouse**
+  - `Trackpoint` **Enabled**
+  - `Trackpad` **Enabled**
+- **Display**
+  - `Boot Display Device` **ThinkPad LCD**
+  - `Total Graphics Memory` **256MB**
+  - `Boot Time Extension` **Disabled**
+- **CPU**
+  - `Intel Hyper-Threading Technology` **Enabled**
+- **Thunderbolt**
+  - `Thunderbolt BIOS Assist Mode` **Disabled**
+  - `Security Level` **No Security**
+  - `Support in Pre Boot Environment -> Thunderbolt(TM) device` **Disabled**
+
 **Security**
 
+
+- `Password` **Disabled**
+- `Fingerprint` **Disabled**
 - `Security Chip` **Disabled**
 - `Memory Protection -> Execution Prevention` **Enabled**
+- `Virtualization -> Kernel DMA Protection` **Disabled**
 - `Virtualization -> Intel Virtualization Technology` **Enabled**
-- `Virtualization -> Intel VT-d Feature` **Enabled**
-- `Anti-Theft -> Computrace -> Current Setting` **Disabled**
+- `Virtualization -> Intel VT-d Feature` **Disabled**
+- `Virtualization -> Enhanced Windows Biometric Security` **Disabled**
+- `I/O Port Access -> FingerPrint Reader` **Disabled**
+- `I/O Port Access -> Wireless WAN` **Disabled**
 - `Secure Boot -> Secure Boot` **Disabled**
 - `Intel SGX -> Intel SGX Control` **Disabled**
 - `Device Guard` **Disabled**
@@ -158,13 +181,7 @@ When you encounter bug or want to improve this repo, consider opening an issue o
 
 - `UEFI/Legacy Boot` **UEFI Only**
 - `CSM Support` **No**
-
-**Thunderbolt**
-
-- `Thunderbolt BIOS Assist Mode` **Disabled**
-- `Wake by Thunderbolt(TM) 3` **Disabled**
-- `Security Level` **User Authorization**
-- `Support in Pre Boot Environment -> Thunderbolt(TM) device` **Enabled**
+- `Boot Mode` **Diagnostics** (This can be changed to "Quick" once you know your system is running properly)
 
 </details>  
 
@@ -208,10 +225,10 @@ I used these options to get by this prior to receiving a SSDT-Batt.aml that work
 
 Use GenSMBIOS to create your own serial #... based off of your preferred model.
 
-- MacBookPro15,1 -`What I've used`
-- MacBookPro15,4 -`Reported used by others`
+- MacBookPro15,1 -`What I used`
+- MacBookPro15,4 -`Reported as used by others`
 
-Note if you use a different SMBIOS model than the MacbookPro15,1 your USB will not be mapped.  You will need to edit the **USBMap.kext file**.  You can right click on the file and select **Show Package Contents**.  From there you can open the Info.plist file in ProperTree and change MacBookPro15,1 to whatever you've chosen. This should enable the USBMap.kext.
+**Note:** If you use a different SMBIOS model than the MacbookPro15,1 that I've used. The provided USB mapping will not work.  You will need to edit the **USBMap.kext file**.  You can right click on the file and select **Show Package Contents**.  From there you can open the Info.plist file in ProperTree and change MacBookPro15,1 to whatever Model ID you've chosen. This should provide a working USBMap.kext.
 
 </details>  
 
@@ -219,19 +236,8 @@ Note if you use a different SMBIOS model than the MacbookPro15,1 your USB will n
 <summary><strong>CPUFriend power management</strong></summary>
 <br>
 
-Generate CPUFriendDataProvider for your machine [here](https://github.com/fewtarius/CPUFriendFriend) or use at your own risk files provided in the Other folder. My files are set for power conservation over performance.
+Generate CPUFriendDataProvider for your machine [here](https://github.com/fewtarius/CPUFriendFriend) or use those I've provided. My files are set for power conservation over performance.
 
-</details>  
-
-<details>  
-<summary><strong>VoltageShift undervolt</strong></summary>
-<br>
-
-It is possible to use VoltageShift directly from the EFI folder instead of disabling SIP. You need to use specific version provided in the Other folder.
-
-```diff
-! If you want to use this feature, enable it in config.plist
-```
 </details>  
 
 <details>  
@@ -240,13 +246,13 @@ It is possible to use VoltageShift directly from the EFI folder instead of disab
 
 ## Audio Setup enable both top and bottom speakers:
 
-| Key       | Factor   |
+| Key       | Value    |
 | --------- | -------- |
 | boot-args | alcid=71 |
 
-Using the above boot-arg to setup your config.plist file. This will enable the top and bottom speakers in the **System Preferences>Sound** allowing you to select either set of speakers. To combine the two you'll need to open **Audio MIDI Setup** (use Spotlight to find and open it) and create an **Aggregate Device** with both sets of speakers. Unfortunately you can't control the volume of an Aggregate Device with the volume keys. You'll need to install as highlighted below.
+Using the above boot-arg to initially setup your config.plist file. This will enable the top and bottom speakers in the **System Preferences>Sound** allowing you to select either set of speakers. To combine the two you'll need to open **Audio MIDI Setup** (use Spotlight to find and open it) and create an **Aggregate Device** with both sets of speakers. Unfortunately you can't control the volume of an Aggregate Device with the volume keys. You'll need to install a utility as highlighted below.
 
-Create **Multi-output device** in Midi controller for all speakers - use utility like [AggregateVolumeMenu](https://github.com/adaskar/AggregateVolumeMenu) to control the volume
+Create **Multi-output device** or **Aggregate Device** in **Audio MIDI Setup** controller for all speakers - use utility like [AggregateVolumeMenu](https://github.com/adaskar/AggregateVolumeMenu) to control the volume
 
 - See description here [Change Volume on Aggregate Sound](https://gurhanpolat.medium.com/change-volume-on-aggregate-sound-815fd575347a)
 

@@ -26,6 +26,6 @@
 
 - And every other contributor
 
-- People at [r/hackintosh](https://www.reddit.com/r/hackintosh/) for their advices
+- People at [r/hackintosh](https://www.reddit.com/r/hackintosh/) for their advice and help
 
 
