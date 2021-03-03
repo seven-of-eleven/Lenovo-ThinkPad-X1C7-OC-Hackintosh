@@ -17,7 +17,7 @@ When you encounter bug or want to improve this repo, consider opening an issue o
 <details> 
 <summary><strong>General knowledge & credits</strong></summary>
 
-- To install macOS follow the guides provided by [Dortania](https://dortania.github.io/getting-started/)
+- To install macOS follow the guides provided by [Dortania](https://dortania.github.io/OpenCore-Install-Guide/)
 
 - Useful tools by [CorpNewt](https://github.com/corpnewt) and [headkaze](https://github.com/headkaze/Hackintool)
 
@@ -28,6 +28,8 @@ When you encounter bug or want to improve this repo, consider opening an issue o
 <details>
 <summary><strong>Hardware</strong></summary>
 <br>
+
+I presently own two Lenovo ThinkPad X1 Gen 7 units which are outlined below:
 
 [![UEFI](https://img.shields.io/badge/UEFI-N2HET58W-lightgrey)](https://pcsupport.lenovo.com/ca/en/products/laptops-and-netbooks/thinkpad-x-series-laptops/thinkpad-x1-carbon-7th-gen-type-20qd-20qe/downloads/ds540232-bios-update-utility-bootable-cd-for-linux-windows-10-64-bit-thinkpad-x1-carbon-7th-gen-x1-yoga-4th-gen)
 
@@ -194,10 +196,14 @@ Either add as a string or as a data ( HEX data [(ProperTree)](https://github.com
 
 Format is lang-COUNTRY:keyboard
 
-- 🇺🇸 | [0] en_US - U.S --> en-US:0 --> 656e2d55 533a30
+- 🇺🇸 | [0] en_US - U.S --> en-US:0 --> (656e2d55 533a30 in HEX)
+
+| Key           | Type   | Value   |
+| ------------- | ------ | ------- |
+| prev-lang:kbd | String | en-US:0 |
 
 
-etc.
+Pick your keyboard layout here:
 
 [AppleKeyboardLayouts.txt](https://github.com/acidanthera/OpenCorePkg/blob/master/Utilities/AppleKeyboardLayouts/AppleKeyboardLayouts.txt)
 
@@ -214,7 +220,7 @@ Opened it with Propertree and changed **ForceSuppressed** to **True**
 
 Another trick to manage your trackpad, if you can't get the battery to work, is to connect a bluetooth trackpad. Once the bluetooth trackpad is connected you can adjust the settings. Disconnect the bluetooth trackpad and your built in one will maintain those settings.
 
-I used these options to get by this prior to receiving a SSDT-Batt.aml that worked from a friendly Redditor [Galactic_Dev](https://www.reddit.com/user/Galactic_Dev)
+I used these methods prior to receiving a SSDT-Batt.aml that worked from a friendly Redditor [Galactic_Dev](https://www.reddit.com/user/Galactic_Dev)
 </details>  
 
 <details>  
@@ -235,8 +241,7 @@ Use GenSMBIOS to create your own serial #... based off of your preferred model.
 <details>  
 <summary><strong>CPUFriend power management</strong></summary>
 <br>
-
-Generate CPUFriendDataProvider for your machine [here](https://github.com/fewtarius/CPUFriendFriend) or use those I've provided. My files are set for power conservation over performance.
+Generate CPUFriendDataProvider for your machine [here](https://github.com/fewtarius/CPUFriendFriend) or use those I've provided. My files are set for power conservation over performance. Highly recommended that you use power management.
 
 </details>  
 
@@ -282,6 +287,7 @@ If you're happy with the setup above you can use the guide to replace alcid=71 p
 - [x] USB Ports `USB Map is different for devices with Windows Hello camera.`
 - [x] Web camera
 - [x] Wifi - Intel Wireless-AC 9560
+- [x] Multi-Touch Screen
 - [x] Graphical Boot menu `OpenCanopy (It does work. Not included in OC folder as I skip the boot menu.)` 
 
 </details>  
