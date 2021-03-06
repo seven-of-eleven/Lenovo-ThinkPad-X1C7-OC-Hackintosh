@@ -28,4 +28,17 @@
 
 - People at [r/hackintosh](https://www.reddit.com/r/hackintosh/) for their advice and help
 
+<details>
+<summary><strong> OTHER REPOSITORIES </strong></summary>
+<br>
 
+- x1c7-hackintosh repositories:
+    - [suhrmann/x1c7-hackintosh](https://github.com/suhrmann/x1c7-hackintosh)
+    - [aidanchandra/x1c7-hackintosh](https://github.com/aidanchandra/x1c7-hackintosh)
+
+- x1c6-hackintosh repositories:
+    - [tylernguyen/x1c6-hackintosh](https://github.com/tylernguyen/x1c6-hackintosh) 
+    - [benbender/x1c6-hackintosh](https://github.com/benbender/x1c6-hackintosh)
+    - [zhtengw/EFI-for-X1C6-hackintosh](https://github.com/zhtengw/EFI-for-X1C6-hackintosh)
+
+</details>
