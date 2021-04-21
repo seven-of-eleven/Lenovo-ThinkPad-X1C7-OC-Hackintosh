@@ -5,7 +5,7 @@
 <img align="right" src="./Other/README_Resources/x1c7.png" alt="X1C7 macOS" width="430">
 
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.6.5-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
-[![macOS-Unstable](https://img.shields.io/badge/macOS-11.2.2-brightgreen.svg)](https://www.apple.com/macos/big-sur)
+[![macOS-Unstable](https://img.shields.io/badge/macOS-11.2.3-brightgreen.svg)](https://www.apple.com/macos/big-sur)
 
 **DISCLAIMER:**
 As you embark on your Hackintosh journey you are encouraged to **READ** the entire README and [Dortania](https://dortania.github.io/getting-started/) guides before you start. It will save many a message instructing you to RTFM. I am not an expert, I haven't forced you to do anything, put on your big boy pants and take responsibility for any mess you get yourself into.
@@ -91,7 +91,7 @@ I presently own two Lenovo ThinkPad X1 Gen 7 units which are outlined below:
 | Component      | Version  |
 | -------------- | -------- |
 | macOS Catalina | Untested |
-| macOS Big Sur  | 11.2.2   |
+| macOS Big Sur  | 11.2.3   |
 | OpenCore       | v0.6.5   |
 
 </details>
@@ -315,7 +315,7 @@ If you're happy with the setup above you can use the guide to replace alcid=71 p
 <summary><strong>What's not working ⚠️</strong></summary>
 
 - [ ] Fingerprint reader - `There is finally after many years working driver for Linux (python-validity), don't expect macOS driver any time soon.`
-- [ ] PM 981 - `Still unstable. Could work for some, not for others.`
+- [ ] Samsung PM 981 NVME - `Still unstable. Could work for some, not for others.`
 - [ ] HDMI -`Was not able to get it working through HDMI or USB-C port (others have reported it working) any help here would be appreciated.`
 - [ ] Microphone -`I haven't done much research into this. I plug in a headset and that works`
 
