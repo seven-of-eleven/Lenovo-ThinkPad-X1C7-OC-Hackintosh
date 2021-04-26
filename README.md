@@ -119,7 +119,7 @@ I presently own two Lenovo ThinkPad X1 Gen 7 units which are outlined below:
 
 | Kext                   | Version |
 | :--------------------- | ------- |
-| AirportItlwm           | 1.2.0   |
+| AirportItlwm           | 1.3.0   |
 | AppleALC               | 1.5.6   |
 | CPUFriend              | 1.2.3   |
 | CPUFriendDataProvider  | 1.00    |
