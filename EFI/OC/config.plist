@@ -708,19 +708,29 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>CQClPg==</data>
+				<data>AACbPg==</data>
 				<key>device-id</key>
-				<data>pT4AAA==</data>
+				<data>mz4AAA==</data>
+				<key>enable-hdmi20</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con0-alldata</key>
+				<data>AAAIAAIAAACYAAAA</data>
+				<key>framebuffer-con0-enable</key>
+				<integer>1</integer>
 				<key>framebuffer-con1-alldata</key>
-				<data>AQAJAAAIAADHAQAA</data>
+				<data>AQEJAAAIAACHAQAA</data>
 				<key>framebuffer-con1-enable</key>
-				<data>AQAAAA==</data>
+				<integer>1</integer>
 				<key>framebuffer-con2-alldata</key>
-				<data>AgUKAAAIAADHAQAA</data>
+				<data>AgQKAAAEAACHAQAA</data>
 				<key>framebuffer-con2-enable</key>
-				<data>AQAAAA==</data>
+				<integer>1</integer>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
+				<key>framebuffer-stolenmem</key>
+				<data>AAAwAQ==</data>
+				<key>framebuffer-fbmem</key>
+				<data>AACQAA==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
