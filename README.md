@@ -166,16 +166,12 @@ I used to own two Lenovo ThinkPad X1 Gen 7 laptops, an i5 and an i7. I now only 
 
 </details>
 
-<details>
-
-<summary><strong>UEFI drivers</strong></summary>
+<details><summary><strong>UEFI drivers</strong></summary>
 <br>
-
 |     Driver      | Version           |
 | :-------------: | ----------------- |
 |   HfsPlus.efi   | OcBinaryData      |
 | OpenRuntime.efi | OpenCorePkg 0.7.7 |
-|</details>||
 
 </details>
 
@@ -235,11 +231,8 @@ I used to own two Lenovo ThinkPad X1 Gen 7 laptops, an i5 and an i7. I now only 
 
 </details>  
 
-<details>
-
-<summary><strong>Own prev-lang-kbd</strong></summary>
+<details><summary><strong>Own prev-lang-kbd</strong></summary>
 <br>
-
 Either add as a string or as a data ( HEX data [(ProperTree)](https://github.com/corpnewt/ProperTree) )
 
 Format is lang-COUNTRY:keyboard
