@@ -4,13 +4,13 @@
 
 <img align="right" src="./Other/README_Resources/x1c7.png" alt="X1C7 macOS" width="430">
 
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.5-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
-[![macOS-Unstable](https://img.shields.io/badge/macOS-11.2.3-brightgreen.svg)](https://www.apple.com/macos/big-sur)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.7.7-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
+[![macOS-Unstable](https://img.shields.io/badge/macOS-12.1-brightgreen.svg)](https://www.apple.com/macos/big-sur)
 
 **DISCLAIMER:**
 As you embark on your Hackintosh journey you are encouraged to **READ** the entire README and [Dortania](https://dortania.github.io/getting-started/) guides before you start. It will save many a message instructing you to RTFM. I am not an expert, I haven't forced you to do anything, put on your big boy pants and take responsibility for any mess you get yourself into.
 
-When you encounter bug or want to improve this repo, consider opening an issue or pull request. You can also find a wealth of knowledge on [Reddit](https://www.reddit.com/r/hackintosh/), [TonyMacX86](https://www.tonymacx86.com) or [Google](https://www.google.com).
+All that said I'm happy to help when/where I can. When you encounter bug or want to improve this repo, consider opening an issue or pull request. You can also find a wealth of knowledge on [Reddit](https://www.reddit.com/r/hackintosh/), [TonyMacX86](https://www.tonymacx86.com) or [Google](https://www.google.com).
 
 ## Introduction
 
@@ -28,18 +28,60 @@ EFI (drive)
 	├── OC
 ```
 
-It should work and your X1C7 should boot and work fine. You will at minimum need to generate SMBIOS values if you want Apple services to work. Note that all error reporting/logging has been turned off in the config.plist. You will have a difficult time trouble shooting with the setup provided. You can easily turn on the error reporting and logging if you follow the Dortania guide. Best of luck.
+It should work and your X1C7 should boot and work fine. **You will at minimum need to generate SMBIOS values if you want Apple services to work.** Note that all error reporting/logging has been turned off in the config.plist. You will have a difficult time trouble shooting with the setup provided. You can easily turn on the error reporting and logging if you follow the Dortania guide. Best of luck.
+
+> **NOTE** if you simply wish to copy my EFI please do the following:
+>
+>1. [Generate SMBIOS values](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/coffee-lake-plus.html#nvram) and add them in the config.plist (Use MacBookPro15,1)
+>2. Ensure the value of `showpicker` is  `true` in the config.plist file to provide the opencore menu when booting. 
+>3. Prepare your install [USB](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/)
+>4. Move the entire EFI folder (with your modifications) to the proper partition on your [USB](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#setting-up-opencore-s-efi-environment) (or [hard drive](https://dortania.github.io/OpenCore-Post-Install/universal/oc2hdd.html) once the install is complete).
+>5. [Install](https://dortania.github.io/OpenCore-Install-Guide/installation/installation-process.html#double-checking-your-work) - You'll need to select F12 to get the boot menu options and **boot from the USB each time the computer restarts** until you've copied the EFI folder onto the hard drive. You may also need to select the correct boot option during install.
 
 </details>  
 
 <details> 
-<summary><strong>General knowledge & credits</strong></summary>
+<summary><strong>This is a guide!</strong></summary>
 
 - To install macOS follow the guides provided by [Dortania](https://dortania.github.io/OpenCore-Install-Guide/)
-
 - Useful tools by [CorpNewt](https://github.com/corpnewt) and [headkaze](https://github.com/headkaze/Hackintool)
 
-- [CREDITS](CREDITS.md) file
+</details>  
+
+<details> 
+<summary><strong>Credits</strong></summary>
+
+### Credit to all these great people whom I don't know but have made my hackintosh dreams a reality:
+
+- [EETagent](https://github.com/EETagent) For orginal T480 OpenCore repo (I like the layout of his guide and used it to create this one)
+- The guys from [Acidanthera](https://github.com/acidanthera) that make this possible
+- [1Revenger1](https://github.com/1Revenger1) and [leo-labs](https://github.com/leo-labs) for [VoodooRMI](https://github.com/VoodooSMBus/VoodooRMI) and [VoodooSMBus](https://github.com/VoodooSMBus/VoodooSMBus)
+- [Apple](http://apple.com) for macOS and HfsPlus.efi
+- [corpnewt](https://github.com/corpnewt) for [USBMap](https://github.com/corpnewt/USBMap) and [CPUFriendDataProvider](https://github.com/corpnewt/CPUFriendFriend)
+- [headkaze](https://github.com/headkaze) for [Hackintool](https://github.com/headkaze/Hackintool)
+- [jwise](https://github.com/jwise) for [HoRNDIS](https://github.com/jwise/HoRNDIS)
+- [Mieze](https://github.com/Mieze) for [IntelMausiEthernet](https://github.com/Mieze/IntelMausiEthernet)
+- [MSzturc](https://github.com/MSzturc) for [ThinkPad Assistant](https://github.com/MSzturc/ThinkpadAssistant)
+- [OpenIntelWireless](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases) for [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware), [itlwm](https://github.com/OpenIntelWireless/itlwm) and [HeliPort](hhttps://github.com/OpenIntelWireless/HeliPort)
+- [zhen-zen](https://github.com/zhen-zen) for [YogaSMC](https://github.com/zhen-zen/YogaSMC)
+- And every other contributor
+- People at [r/hackintosh](https://www.reddit.com/r/hackintosh/) for their advice and help
+
+</details>  
+
+<details>
+<summary><strong> OTHER REPOSITORIES </strong></summary>
+<br>
+
+
+- x1c7-hackintosh repositories:
+  - [suhrmann/x1c7-hackintosh](https://github.com/suhrmann/x1c7-hackintosh)
+  - [aidanchandra/x1c7-hackintosh](https://github.com/aidanchandra/x1c7-hackintosh)
+
+- x1c6-hackintosh repositories:
+  - [tylernguyen/x1c6-hackintosh](https://github.com/tylernguyen/x1c6-hackintosh) 
+  - [benbender/x1c6-hackintosh](https://github.com/benbender/x1c6-hackintosh)
+  - [zhtengw/EFI-for-X1C6-hackintosh](
 
 </details>  
 
@@ -47,7 +89,7 @@ It should work and your X1C7 should boot and work fine. You will at minimum need
 <summary><strong>Hardware</strong></summary>
 <br>
 
-I presently own two Lenovo ThinkPad X1 Gen 7 units which are outlined below:
+I used to own two Lenovo ThinkPad X1 Gen 7 laptops, an i5 and an i7. I now only have the one outlined below:
 
 [![UEFI](https://img.shields.io/badge/UEFI-N2HET58W-lightgrey)](https://pcsupport.lenovo.com/ca/en/products/laptops-and-netbooks/thinkpad-x-series-laptops/thinkpad-x1-carbon-7th-gen-type-20qd-20qe/downloads/ds540232-bios-update-utility-bootable-cd-for-linux-windows-10-64-bit-thinkpad-x1-carbon-7th-gen-x1-yoga-4th-gen)
 
@@ -66,21 +108,6 @@ I presently own two Lenovo ThinkPad X1 Gen 7 units which are outlined below:
 | Wifi & BT | Intel Wireless-AC 9560                          | Use AirportItlwm for your macOS version and enjoy native Wi-Fi control, or use Heliport app. |
 | Input     | PS2 Keyboard & Synaptics TrackPad (touchscreen) | I'm using ThinkPad Assistant an alternative most seem to be moving to [YogaSMC](https://github.com/zhen-zen/YogaSMC) for media keys like microphone switch, etc. |
 
-### X1C7 i7
-
-| Category  | Component                                       | Note                                                         |
-| --------- | ----------------------------------------------- | ------------------------------------------------------------ |
-| Type      | 20QD, 20QE                                      |                                                              |
-| CPU       | Intel Core i7-8565U                             |                                                              |
-| GPU       | Intel UHD 620                                   |                                                              |
-| SSD       | WD 1TB                                          | Replaced cursed PM 981 which still doesn't work reliably     |
-| Screen    | 14" FHD 1920x1080                               | Multi-Touch                                                  |
-| Memory    | 16GB / 2133MHz LPDDR3                           |                                                              |
-| Battery   | Integrated Li-Polymer 51Wh                      | Single battery                                               |
-| Camera    | 720p Camera                                     |                                                              |
-| Wifi & BT | Intel Wireless-AC 9560                          | Use AirportItlwm for your macOS version and enjoy native Wi-Fi control, or use Heliport app. |
-| Input     | PS2 Keyboard & Synaptics TrackPad (touchscreen) | I'm using ThinkPad Assistant an alternative most seem to be moving to [YogaSMC](https://github.com/zhen-zen/YogaSMC) for media keys like microphone switch, etc. |
-
 </details>  
 
 <details>
@@ -88,11 +115,10 @@ I presently own two Lenovo ThinkPad X1 Gen 7 units which are outlined below:
 <summary><strong>Main software</strong></summary>
 <br>
 
-| Component      | Version  |
-| -------------- | -------- |
-| macOS Catalina | Untested |
-| macOS Big Sur  | 11.2.3   |
-| OpenCore       | v0.6.5   |
+| Component      | Version |
+| -------------- | ------- |
+| macOS Monterey | 12.1    |
+| OpenCore       | v0.7.7  |
 
 </details>
 
@@ -119,23 +145,24 @@ I presently own two Lenovo ThinkPad X1 Gen 7 units which are outlined below:
 
 | Kext                   | Version |
 | :--------------------- | ------- |
-| AirportItlwm           | 1.3.0   |
-| AppleALC               | 1.5.6   |
-| CPUFriend              | 1.2.3   |
+| AirportItlwm           | 2.1.0   |
+| AppleALC               | 1.6.8   |
+| BlueToolFixup          | 2.6.1   |
+| CPUFriend              | 1.2.4   |
 | CPUFriendDataProvider  | 1.00    |
-| IntelBluetoothFirmware | 1.1.2   |
-| IntelBluetoothInjector | 1.1.2   |
-| IntelMausi             | 1.0.5   |
-| Lilu                   | 1.5.0   |
-| SMCBatteryManager      | 1.1.9   |
-| SMCProcessor           | 1.1.9   |
-| SMCSuperIO             | 1.1.9   |
+| IntelBluetoothFirmware | 2.1.0   |
+| IntelMausi             | 1.0.7   |
+| Lilu                   | 1.5.9   |
+| NVMeFix                | 1.0.9   |
+| SMCBatteryManager      | 1.2.8   |
+| SMCProcessor           | 1.2.8   |
+| SMCSuperIO             | 1.2.8   |
 | USBMap                 | 1.0.0   |
-| VirtualSMC             | 1.1.9   |
-| VoodooI2C              | 2.6.3   |
-| VoodooI2CHID           | 1.0     |
-| VoodooPS2Controller    | 2.2.0   |
-| WhateverGreen          | 1.4.6   |
+| VirtualSMC             | 1.2.8   |
+| VoodooI2C              | 2.6.5   |
+| VoodooI2CHID           | 2.6.5   |
+| VoodooPS2Controller    | 2.2.7   |
+| WhateverGreen          | 1.5.6   |
 
 </details>
 <details>
@@ -146,16 +173,17 @@ I presently own two Lenovo ThinkPad X1 Gen 7 units which are outlined below:
 |     Driver      | Version           |
 | :-------------: | ----------------- |
 |   HfsPlus.efi   | OcBinaryData      |
-| OpenRuntime.efi | OpenCorePkg 0.6.5 |
-</details>
+| OpenRuntime.efi | OpenCorePkg 0.7.7 |
+|</details>||
 
 <details>
     <summary><strong>Neofetch screenshots</strong></summary>
     <br>
     <p float="left">
-        <img src="./Other/README_Resources/Neofetch-BigSur.png" alt="Neofetch Big Sur" width="427">
+        <img src="./Other/README_Resources/Neofetch-Monterey.png" alt="Neofetch Monterey" width="600">
     </p>
 </details> 
+
 
 
 ## Before installation
@@ -163,7 +191,6 @@ I presently own two Lenovo ThinkPad X1 Gen 7 units which are outlined below:
 <details>  
 <summary><strong>UEFI settings</strong></summary>
 <br>
-
 **Config**
 
 - **Keyboard/Mouse**
