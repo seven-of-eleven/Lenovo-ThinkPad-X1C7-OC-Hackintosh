@@ -51,6 +51,8 @@ It should work and your X1C7 should boot and work fine. **You will at minimum ne
 <details> 
 <summary><strong>Credits</strong></summary>
 
+**Shout out** to [NotARobot6969](https://github.com/NotARobot6969) for the DevicesProperties patches to enable HDMI.
+
 ### Credit to all these great people whom I don't know but have made my hackintosh dreams a reality:
 
 - [EETagent](https://github.com/EETagent) For orginal T480 OpenCore repo (I like the layout of his guide and used it to create this one)
