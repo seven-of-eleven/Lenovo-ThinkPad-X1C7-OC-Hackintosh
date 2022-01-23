@@ -144,7 +144,7 @@ I used to own two Lenovo ThinkPad X1 Gen 7 laptops, an i5 and an i7. I now only 
 <br>
 
 | Kext                   | Version |
-| :--------------------- | ------- |
+| --------------------- | ------- |
 | AirportItlwm           | 2.1.0   |
 | AppleALC               | 1.6.8   |
 | BlueToolFixup          | 2.6.1   |
@@ -169,14 +169,13 @@ I used to own two Lenovo ThinkPad X1 Gen 7 laptops, an i5 and an i7. I now only 
 <details><summary><strong>UEFI drivers</strong></summary>
 <br>
 |     Driver      | Version           |
-| :-------------: | ----------------- |
+| ------------- | ----------------- |
 |   HfsPlus.efi   | OcBinaryData      |
 | OpenRuntime.efi | OpenCorePkg 0.7.7 |
 
 </details>
 
-<details>
-    <summary><strong>Neofetch screenshots</strong></summary>
+<details><summary><strong>Neofetch screenshots</strong></summary>
     <br>
     <p float="left">
         <img src="./Other/README_Resources/Neofetch-Monterey.png" alt="Neofetch Monterey" width="600">
@@ -187,8 +186,7 @@ I used to own two Lenovo ThinkPad X1 Gen 7 laptops, an i5 and an i7. I now only 
 
 ## Before installation
 
-<details>  
-<summary><strong>UEFI settings</strong></summary>
+<details><summary><strong>UEFI settings</strong></summary>
 <br>
 **Config**
 
@@ -252,8 +250,7 @@ Pick your keyboard layout here:
 
 ## Post-Install
 
-<details>  
-<summary><strong>TrackPad - Disable force touch</strong></summary>
+<details><summary><strong>TrackPad - Disable force touch</strong></summary>
 <br>
 
 If the **Battery** management **doesn't show up** in the System Preferences after the SSDT-Batt.aml file is added to your ACPI folder and config.plist file. You will not be able to change any trackpad settings. You may experience the annoying behaviour of clicking on the touchpad and it doing a **Force Touch** where the preview of the file is shown. I found this very annoying. You can disable force touch by modifying the file in `~/Library/Preferences/com.apple.AppleMultitouchTrackpad.plist`
@@ -264,8 +261,7 @@ Another trick to manage your trackpad, if you can't get the battery to work, is 
 I used these methods prior to receiving a SSDT-Batt.aml that worked from a friendly Redditor [Galactic_Dev](https://www.reddit.com/user/Galactic_Dev)
 </details>  
 
-<details>  
-<summary><strong>Generate your own SMBIOS</strong></summary>
+<details><summary><strong>Generate your own SMBIOS</strong></summary>
 <br>
 
 [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
