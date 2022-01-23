@@ -168,6 +168,7 @@ I used to own two Lenovo ThinkPad X1 Gen 7 laptops, an i5 and an i7. I now only 
 
 <details><summary><strong>UEFI drivers</strong></summary>
 <br>
+
 |     Driver      | Version           |
 | ------------- | ----------------- |
 |   HfsPlus.efi   | OcBinaryData      |
