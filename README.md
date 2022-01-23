@@ -165,6 +165,7 @@ I used to own two Lenovo ThinkPad X1 Gen 7 laptops, an i5 and an i7. I now only 
 | WhateverGreen          | 1.5.6   |
 
 </details>
+
 <details>
 
 <summary><strong>UEFI drivers</strong></summary>
@@ -175,6 +176,8 @@ I used to own two Lenovo ThinkPad X1 Gen 7 laptops, an i5 and an i7. I now only 
 |   HfsPlus.efi   | OcBinaryData      |
 | OpenRuntime.efi | OpenCorePkg 0.7.7 |
 |</details>||
+
+</details>
 
 <details>
     <summary><strong>Neofetch screenshots</strong></summary>
