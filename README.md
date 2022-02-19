@@ -317,6 +317,7 @@ If you're happy with the setup above you can use the guide to replace alcid=71 p
 - [x] Battery percentage
 - [x] Bluetooth - Intel Wireless-AC 9560 
 - [x] CPU power management
+- [x] HDMI - `HDMI is working fine through the HDMI port, haven't tested via the USB-C port though. Doesn't work if plugged in at boot until you unplug and replug.`
 - [x] GPU UHD 620 hardware acceleration / performance 
 - [x] iMessage, FaceTime, App Store, iTunes Store. **Generate your own SMBIOS**
 - [x] Intel I219-V Ethernet port -`works with the Lenovo dongle`
@@ -338,7 +339,6 @@ If you're happy with the setup above you can use the guide to replace alcid=71 p
 
 - [ ] Fingerprint reader - `There is finally after many years working driver for Linux (python-validity), don't expect macOS driver any time soon.`
 - [ ] Samsung PM 981 NVME - `Still unstable. Could work for some, not for others. (In all cases which it does work, it will give a "hash mismatch" error every so often.)`
-- [ ] HDMI - `Was not able to get it working through HDMI or USB-C port (others have reported it working) any help here would be appreciated.`
 - [ ] Microphone -`Microphone doesn't work due to the fact that there is no AppleALC layout specifically for the X1C7. This will require some knowledge on AppleALC to get working; specifically on how pin configs work and how to make custom layouts. Maybe for someone more experienced? If you're willing to give it a shot,` [here's a codec#0 dump I made under xubuntu](https://pastebin.com/HZu88UPr). `Remember to PR if you get it working!`
 
 </details>  
