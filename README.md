@@ -4,8 +4,8 @@
 
 <img align="right" src="./Other/README_Resources/x1c7.png" alt="X1C7 macOS" width="430">
 
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.7.7-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
-[![macOS-Unstable](https://img.shields.io/badge/version-macOS%20Monterey%2012.3%20Beta-brightgreen)](https://www.apple.com/macos/big-sur)
+[![OpenCore](https://img.shields.io/badge/OpenCore%20version-0.7.7-blue)](https://github.com/acidanthera/OpenCorePkg)
+[![macOS-Unstable](https://img.shields.io/badge/version-macOS%20Monterey%2012.3%20Beta-brightgreen)](https://www.apple.com/macos/monterey)
 
 **DISCLAIMER:**
 As you embark on your Hackintosh journey you are encouraged to **READ** the entire README and [Dortania](https://dortania.github.io/getting-started/) guides before you start. It will save many a message instructing you to RTFM. I am not an expert, I haven't forced you to do anything, put on your big boy pants and take responsibility for any mess you get yourself into.
