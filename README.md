@@ -6,8 +6,8 @@
 
 <img align="right" src="./Other/README_Resources/x1c7.png" alt="X1C7 macOS" width="430">
 
-[![OpenCore](https://img.shields.io/badge/version-0.7.7-blue?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBoZWlnaHQ9IjU0OSIgdmlld0JveD0iNjcwIDAgNTQ5IDU0OSIgd2lkdGg9IjU0OSIgeG1sbnM6dj0iaHR0cHM6Ly92ZWN0YS5pby9uYW5vIj48bGluZWFyR3JhZGllbnQgaWQ9IkEiIHgxPSI3OS41MDQ0ODQlIiB4Mj0iMjguMTE0MjQ0JSIgeTE9IjU3Ljc2NjU2JSIgeTI9IjgwLjE3OTY1NCUiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzI3ODZkNyIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzA5NmViNCIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJCIiB4MT0iMjEuMDc5NjkzJSIgeDI9Ijg2Ljc2MjEzJSIgeTE9IjEwLjEzNzM5JSIgeTI9IjYzLjI0MzU0OCUiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzAyYWRkYyIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzA4ZTRjYyIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJDIiB4MT0iNDQuNTg1Mzk3JSIgeDI9Ijk0Ljg3Mzc2JSIgeTE9IjEwNi43NjcwODUlIiB5Mj0iNTUuNjM0OCUiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzAwNzBlYyIgc3RvcC1vcGFjaXR5PSIuODcxIi8+PHN0b3Agb2Zmc2V0PSIuNjE0IiBzdG9wLWNvbG9yPSIjMDI5NmUzIiBzdG9wLW9wYWNpdHk9Ii40NTMiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwN2RmZDAiIHN0b3Atb3BhY2l0eT0iMCIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJEIiB4MT0iNTAlIiB4Mj0iNDguMzIzODE2JSIgeTE9IjcyLjQ5MTkwNSUiIHkyPSI5NC4xNjE3OTclIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMwMDg5ZTUiIHN0b3Atb3BhY2l0eT0iMCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzAwNzBlZCIgc3RvcC1vcGFjaXR5PSIuODEiLz48L2xpbmVhckdyYWRpZW50PjxnIHRyYW5zZm9ybT0ibWF0cml4KC43MDcxMDcgLS43MDcxMDcgLjcwNzEwNyAuNzA3MTA3IDYxNC45OTk5OTggMjY5LjI2MDc5OCkiPjxwYXRoIGQ9Ik0yMjkuOTk0IDQ1OS45ODhDMTAyLjk3MiA0NTkuOTg4IDAgMzU3LjAxNiAwIDIyOS45OTRTMTAyLjk3MiAwIDIyOS45OTQgMHMyMjkuOTk0IDEwMi45NzIgMjI5Ljk5NCAyMjkuOTk0LTEwMi45NzIgMjI5Ljk5NC0yMjkuOTk0IDIyOS45OTR6bTAtMTMwLjJjNTUuMTE1IDAgOTkuNzk0LTQ0LjY3OSA5OS43OTQtOTkuNzk0UzI4NS4xMDkgMTMwLjIgMjI5Ljk5NCAxMzAuMiAxMzAuMiAxNzQuODc5IDEzMC4yIDIyOS45OTRzNDQuNjc5IDk5Ljc5NCA5OS43OTQgOTkuNzk0eiIgZmlsbD0idXJsKCNBKSIvPjx1c2UgeGxpbms6aHJlZj0iI0YiIGZpbGw9InVybCgjQikiLz48dXNlIHhsaW5rOmhyZWY9IiNGIiBmaWxsPSJ1cmwoI0MpIi8+PHVzZSB4bGluazpocmVmPSIjRiIgZmlsbD0idXJsKCNEKSIvPjwvZz48ZGVmcyA+PHBhdGggaWQ9IkYiIGQ9Ik00NTkuNzUyIDIyNi43ODRjLTEuMjYyIDM0Ljg0My0yOS45MDYgNjIuNzAyLTY1LjA1NyA2Mi43MDItMzQuMDY1IDAtNjIuMDE5LTI2LjE2NS02NC44NjItNTkuNDk0bC0uMDQ2LjAwMS0uMDAyLS41ODlhNjYuMDEgNjYuMDEgMCAwIDEtLjE5MS01LjAxOWwuMDAzLS41OTVjLTMuMjAzLTUyLjIyNi00Ni41NzMtOTMuNTkxLTk5LjYwNC05My41OTEtNTUuMTE1IDAtMTEyLjM2MiA0My44NDQtMTI5Ljg4MyAxMDcuODYzLTI2LjI2MiA5NS45NTcgNTAuOTYyIDE5OC45MTQgMTI5Ljg0MiAyMjEuODg0bC4xNDEuMDQxaC0uMTAxQzEwMi45NzIgNDU5Ljk4OCAwIDM1Ny4wMTYgMCAyMjkuOTk0UzEwMi45NzIgMCAyMjkuOTk0IDBjMTI1Ljk0OSAwIDIyOC4yNTIgMTAxLjIzOSAyMjkuOTcyIDIyNi43NzlsLS4yMTQuMDA1eiIvPjwvZGVmcz48L3N2Zz4=)](https://github.com/acidanthera/OpenCorePkg)
-[![macOS-Stable](https://img.shields.io/badge/version-macOS%20Monterey-brightgreen?logo=apple)](https://www.apple.com/macos/monterey)
+[![OpenCore](https://img.shields.io/badge/version-0.8.1-blue?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBoZWlnaHQ9IjU0OSIgdmlld0JveD0iNjcwIDAgNTQ5IDU0OSIgd2lkdGg9IjU0OSIgeG1sbnM6dj0iaHR0cHM6Ly92ZWN0YS5pby9uYW5vIj48bGluZWFyR3JhZGllbnQgaWQ9IkEiIHgxPSI3OS41MDQ0ODQlIiB4Mj0iMjguMTE0MjQ0JSIgeTE9IjU3Ljc2NjU2JSIgeTI9IjgwLjE3OTY1NCUiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzI3ODZkNyIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzA5NmViNCIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJCIiB4MT0iMjEuMDc5NjkzJSIgeDI9Ijg2Ljc2MjEzJSIgeTE9IjEwLjEzNzM5JSIgeTI9IjYzLjI0MzU0OCUiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzAyYWRkYyIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzA4ZTRjYyIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJDIiB4MT0iNDQuNTg1Mzk3JSIgeDI9Ijk0Ljg3Mzc2JSIgeTE9IjEwNi43NjcwODUlIiB5Mj0iNTUuNjM0OCUiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzAwNzBlYyIgc3RvcC1vcGFjaXR5PSIuODcxIi8+PHN0b3Agb2Zmc2V0PSIuNjE0IiBzdG9wLWNvbG9yPSIjMDI5NmUzIiBzdG9wLW9wYWNpdHk9Ii40NTMiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwN2RmZDAiIHN0b3Atb3BhY2l0eT0iMCIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJEIiB4MT0iNTAlIiB4Mj0iNDguMzIzODE2JSIgeTE9IjcyLjQ5MTkwNSUiIHkyPSI5NC4xNjE3OTclIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMwMDg5ZTUiIHN0b3Atb3BhY2l0eT0iMCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzAwNzBlZCIgc3RvcC1vcGFjaXR5PSIuODEiLz48L2xpbmVhckdyYWRpZW50PjxnIHRyYW5zZm9ybT0ibWF0cml4KC43MDcxMDcgLS43MDcxMDcgLjcwNzEwNyAuNzA3MTA3IDYxNC45OTk5OTggMjY5LjI2MDc5OCkiPjxwYXRoIGQ9Ik0yMjkuOTk0IDQ1OS45ODhDMTAyLjk3MiA0NTkuOTg4IDAgMzU3LjAxNiAwIDIyOS45OTRTMTAyLjk3MiAwIDIyOS45OTQgMHMyMjkuOTk0IDEwMi45NzIgMjI5Ljk5NCAyMjkuOTk0LTEwMi45NzIgMjI5Ljk5NC0yMjkuOTk0IDIyOS45OTR6bTAtMTMwLjJjNTUuMTE1IDAgOTkuNzk0LTQ0LjY3OSA5OS43OTQtOTkuNzk0UzI4NS4xMDkgMTMwLjIgMjI5Ljk5NCAxMzAuMiAxMzAuMiAxNzQuODc5IDEzMC4yIDIyOS45OTRzNDQuNjc5IDk5Ljc5NCA5OS43OTQgOTkuNzk0eiIgZmlsbD0idXJsKCNBKSIvPjx1c2UgeGxpbms6aHJlZj0iI0YiIGZpbGw9InVybCgjQikiLz48dXNlIHhsaW5rOmhyZWY9IiNGIiBmaWxsPSJ1cmwoI0MpIi8+PHVzZSB4bGluazpocmVmPSIjRiIgZmlsbD0idXJsKCNEKSIvPjwvZz48ZGVmcyA+PHBhdGggaWQ9IkYiIGQ9Ik00NTkuNzUyIDIyNi43ODRjLTEuMjYyIDM0Ljg0My0yOS45MDYgNjIuNzAyLTY1LjA1NyA2Mi43MDItMzQuMDY1IDAtNjIuMDE5LTI2LjE2NS02NC44NjItNTkuNDk0bC0uMDQ2LjAwMS0uMDAyLS41ODlhNjYuMDEgNjYuMDEgMCAwIDEtLjE5MS01LjAxOWwuMDAzLS41OTVjLTMuMjAzLTUyLjIyNi00Ni41NzMtOTMuNTkxLTk5LjYwNC05My41OTEtNTUuMTE1IDAtMTEyLjM2MiA0My44NDQtMTI5Ljg4MyAxMDcuODYzLTI2LjI2MiA5NS45NTcgNTAuOTYyIDE5OC45MTQgMTI5Ljg0MiAyMjEuODg0bC4xNDEuMDQxaC0uMTAxQzEwMi45NzIgNDU5Ljk4OCAwIDM1Ny4wMTYgMCAyMjkuOTk0UzEwMi45NzIgMCAyMjkuOTk0IDBjMTI1Ljk0OSAwIDIyOC4yNTIgMTAxLjIzOSAyMjkuOTcyIDIyNi43NzlsLS4yMTQuMDA1eiIvPjwvZGVmcz48L3N2Zz4=)](https://github.com/acidanthera/OpenCorePkg)
+[![macOS-Stable](https://img.shields.io/badge/version-12.4-brightgreen?logo=apple)](https://www.apple.com/macos/monterey)
 
 **DISCLAIMER:**
 As you embark on your Hackintosh journey you are encouraged to **READ** the entire README and [Dortania](https://dortania.github.io/getting-started/) guides before you start. It will save many a message instructing you to RTFM. I am not an expert, I haven't forced you to do anything, put on your big boy pants and take responsibility for any mess you get yourself into.
@@ -121,7 +121,7 @@ I used to own two Lenovo ThinkPad X1 Gen 7 laptops, an i5 and an i7. Both worked
 | Component      | Version |
 | -------------- | ------- |
 | macOS Monterey | 12.4    |
-| OpenCore       | v0.7.7  |
+| OpenCore       | v0.8.1  |
 
 </details>
 
@@ -149,23 +149,23 @@ I used to own two Lenovo ThinkPad X1 Gen 7 laptops, an i5 and an i7. Both worked
 | Kext                   | Version |
 | --------------------- | ------- |
 | AirportItlwm           | 2.1.0   |
-| AppleALC               | 1.6.8   |
-| BlueToolFixup          | 2.6.1   |
-| CPUFriend              | 1.2.4   |
+| AppleALC               | 1.7.2 |
+| BlueToolFixup          | 2.6.2  |
+| CPUFriend              | 1.2.5  |
 | CPUFriendDataProvider  | 1.00    |
 | IntelBluetoothFirmware | 2.1.0   |
 | IntelMausi             | 1.0.7   |
-| Lilu                   | 1.5.9   |
+| Lilu                   | 1.6.0 |
 | NVMeFix                | 1.0.9   |
-| SMCBatteryManager      | 1.2.8   |
-| SMCProcessor           | 1.2.8   |
-| SMCSuperIO             | 1.2.8   |
+| SMCBatteryManager      | 1.2.9  |
+| SMCProcessor           | 1.2.9  |
+| SMCSuperIO             | 1.2.9 |
 | USBMap                 | 1.0.0   |
-| VirtualSMC             | 1.2.8   |
-| VoodooI2C              | 2.6.5   |
-| VoodooI2CHID           | 2.6.5   |
-| VoodooPS2Controller    | 2.2.7   |
-| WhateverGreen          | 1.5.6   |
+| VirtualSMC             | 1.2.9  |
+| VoodooI2C              | 2.7.0 |
+| VoodooI2CHID           | 2.7.0 |
+| VoodooPS2Controller    | 2.2.8   |
+| WhateverGreen          | 1.5.9   |
 
 </details>
 
@@ -175,7 +175,7 @@ I used to own two Lenovo ThinkPad X1 Gen 7 laptops, an i5 and an i7. Both worked
 |     Driver      | Version           |
 | ------------- | ----------------- |
 |   HfsPlus.efi   | OcBinaryData      |
-| OpenRuntime.efi | OpenCorePkg 0.7.7 |
+| OpenRuntime.efi | OpenCorePkg 0.8.1 |
 
 </details>
 
