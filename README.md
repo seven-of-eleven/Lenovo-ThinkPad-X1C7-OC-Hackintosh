@@ -78,14 +78,19 @@ It should work and your X1C7 should boot and work fine. **You will at minimum ne
 <br>
 
 
+- x1c8-hackintosh repositories:
+  - [HJebbour/ThinkPad-X1C8-Hackintosh](https://github.com/HJebbour/ThinkPad-X1C8-Hackintosh)
+  - [reactor900/X1C8-Opencore-EFI](https://github.com/reactor900/X1C8-Opencore-EFI)
 - x1c7-hackintosh repositories:
   - [suhrmann/x1c7-hackintosh](https://github.com/suhrmann/x1c7-hackintosh)
   - [aidanchandra/x1c7-hackintosh](https://github.com/aidanchandra/x1c7-hackintosh)
-
+  - [672368201/x1c7-hackintosh](https://github.com/672368201/x1c7-hackintosh)
+  - [huyhoang8398/x1c7-hackintosh-20R1](https://github.com/huyhoang8398/x1c7-hackintosh-20R1)
+  - [EequalsMCsquare/ThinkPad-X1C7-OpenCore](https://github.com/EequalsMCsquare/ThinkPad-X1C7-OpenCore)
+  - [notAperson535/x1c7-hackintosh](https://github.com/notAperson535/x1c7-hackintosh)
 - x1c6-hackintosh repositories:
-  - [tylernguyen/x1c6-hackintosh](https://github.com/tylernguyen/x1c6-hackintosh) 
+  - [tylernguyen/x1c6-hackintosh](https://github.com/tylernguyen/x1c6-hackintosh)
   - [benbender/x1c6-hackintosh](https://github.com/benbender/x1c6-hackintosh)
-  - [zhtengw/EFI-for-X1C6-hackintosh](
 
 </details>  
 
@@ -312,14 +317,13 @@ If you're happy with the setup above you can use the guide to replace alcid=71 p
 ## Status
 
 <details>  
-
 <summary><strong>What's working ✅</strong></summary>
 
 - [x] Battery percentage
 - [x] Bluetooth - Intel Wireless-AC 9560 
 - [x] CPU power management
 - [x] HDMI - `HDMI is working fine through the HDMI port, haven't tested via the USB-C port though. Doesn't work if plugged in at boot until you unplug and replug.`
-- [x] GPU UHD 620 hardware acceleration / performance 
+- [x] GPU UHD 620 hardware acceleration / performance (if not working add `-igfxmlr` flag to `boot-args` in config.plist [issue #6](https://github.com/seven-of-eleven/Lenovo-ThinkPad-X1C7-OC-Hackintosh/issues/6))
 - [x] iMessage, FaceTime, App Store, iTunes Store. **Generate your own SMBIOS**
 - [x] Intel I219-V Ethernet port -`works with the Lenovo dongle`
 - [x] Keyboard `Volume and brightness hotkeys. Another media keys with ThinkPad Assistant.`
@@ -348,7 +352,7 @@ If you're happy with the setup above you can use the guide to replace alcid=71 p
 <summary><strong>Untested</strong></summary>
 
 - [ ] Thunderbolt  `No device to test.`
-- [ ] Boot chime (should work just haven't bothered with it)
+- [ ] Boot chime `(should work just haven't bothered with it)`
 - [ ] FireVault 2
 - [ ] Sidecar wired
 - [ ] Sidecar wireless
