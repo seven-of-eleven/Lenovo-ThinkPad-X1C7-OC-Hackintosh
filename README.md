@@ -51,7 +51,9 @@ It should work and your X1C7 should boot and work fine. **You will at minimum ne
 >4. Move the entire EFI folder (with your modifications) to the proper partition on your [USB](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#setting-up-opencore-s-efi-environment) (or [hard drive](https://dortania.github.io/OpenCore-Post-Install/universal/oc2hdd.html) once the install is complete).
 >5. [Install](https://dortania.github.io/OpenCore-Install-Guide/installation/installation-process.html#double-checking-your-work) - You'll need to select <kbd>F12</kbd> to get the boot menu options and **boot from the USB each time the computer restarts** until you've copied the EFI folder onto the hard drive. You may also need to select the correct boot option during install.
 
-</details>  
+
+
+</details>
 
 <details> 
 <summary><strong>This is a guide!</strong></summary>
@@ -59,6 +61,8 @@ It should work and your X1C7 should boot and work fine. **You will at minimum ne
 
 
 - To install macOS follow the guides provided by [Dortania](https://dortania.github.io/OpenCore-Install-Guide/)
+
+
 
 </details>  
 
@@ -85,11 +89,13 @@ It should work and your X1C7 should boot and work fine. **You will at minimum ne
 - People at [r/hackintosh](https://www.reddit.com/r/hackintosh/) for their advice and help
 - Useful tools by [CorpNewt](https://github.com/corpnewt) and [headkaze](https://github.com/headkaze/Hackintool)
 
-</details>  
+
+
+</details>
 
 <details>
 <summary><strong> Other Repositories </strong></summary>
-<br>
+
 
 
 
@@ -107,11 +113,13 @@ It should work and your X1C7 should boot and work fine. **You will at minimum ne
   - [tylernguyen/x1c6-hackintosh](https://github.com/tylernguyen/x1c6-hackintosh)
   - [benbender/x1c6-hackintosh](https://github.com/benbender/x1c6-hackintosh)
 
-</details>  
+
+
+</details>
 
 <details>
 <summary><strong>Hardware</strong></summary>
-<br>
+
 
 
 I used to own two Lenovo ThinkPad X1 Gen 7 laptops, an i5 and an i7. Both worked great (including the touch screen on the i7). I now only have the one computer outlined below:
@@ -133,21 +141,28 @@ I used to own two Lenovo ThinkPad X1 Gen 7 laptops, an i5 and an i7. Both worked
 | Wifi & BT | Intel Wireless-AC 9560            | Used AirportItlwm for native Wi-Fi control                   |
 | Input     | PS2 Keyboard & Synaptics TrackPad | Switched to[YogaSMC](https://github.com/zhen-zen/YogaSMC) for media keys |
 
+
+
 </details>  
 
 <details>
 <summary><strong>Main software</strong></summary>
-<br>
+
+
+
 
 | Component      | Version |
 | -------------- | ------- |
 | macOS Monterey | 12.6.3 |
 | OpenCore       | v0.8.9  |
-|</details>||
+
+
+
+</details>
 
 <details>
 <summary><strong>ACPI Files</strong></summary>
-<br>
+
 
 | Component           |
 | ------------------- |
@@ -158,11 +173,13 @@ I used to own two Lenovo ThinkPad X1 Gen 7 laptops, an i5 and an i7. Both worked
 | SSDT-PNLF-CFL       |
 | SSDT-XOSI           |
 
+
+
 </details>
 
 <details>
 <summary><strong>Kernel extensions</strong></summary>
-<br>
+
 
 | Kext                   | Version |
 | --------------------- | ------- |
@@ -189,6 +206,8 @@ I used to own two Lenovo ThinkPad X1 Gen 7 laptops, an i5 and an i7. Both worked
 | WhateverGreen          | 1.6.4 |
 | YogaSMC | 1.5.3 |
 
+
+
 </details>
 
 <details><summary><strong>UEFI drivers</strong></summary>
@@ -198,6 +217,8 @@ I used to own two Lenovo ThinkPad X1 Gen 7 laptops, an i5 and an i7. Both worked
 | ------------- | ----------------- |
 |   HfsPlus.efi   | OcBinaryData      |
 | OpenRuntime.efi | OpenCorePkg 0.8.9 |
+
+
 
 </details>
 
@@ -257,6 +278,8 @@ I used to own two Lenovo ThinkPad X1 Gen 7 laptops, an i5 and an i7. Both worked
 - `CSM Support` **No**
 - `Boot Mode` **Diagnostics** (This can be changed to "Quick" once you know your system is running properly)
 
+
+
 </details>  
 
 <details><summary><strong>Own prev-lang-kbd</strong></summary>
@@ -279,23 +302,24 @@ Pick your keyboard layout here:
 
 [AppleKeyboardLayouts.txt](https://github.com/acidanthera/OpenCorePkg/blob/master/Utilities/AppleKeyboardLayouts/AppleKeyboardLayouts.txt)
 
+
+
 </details>
 
 <details>  
 <summary><strong>Monterey or Ventura</strong></summary>
-<br>
-
 
 
 
 The EFI folder is setup for both Monterey and Ventura. I used `MinKernel` and `MaxKernel` values in the config.plist to load the proper kexts based on which OS you are installing. It is no longer setup for Big Sur. It will likely boot but the kexts for WiFi and Bluetooth would need to be replaced for it to work properly.
+
+
 
 </details>  
 
 ## Post-Install
 
 <details><summary><strong>TrackPad - Disable force touch</strong></summary>
-<br>
 
 
 
@@ -305,10 +329,13 @@ Opened it with Propertree and changed **ForceSuppressed** to **True**
 Another trick to manage your trackpad, if you can't get the battery to work, is to connect a bluetooth trackpad. Once the bluetooth trackpad is connected you can adjust the settings. Disconnect the bluetooth trackpad and your built in one will maintain those settings.
 
 I used these methods prior to receiving a SSDT-Batt.aml that worked from a friendly Redditor [Galactic_Dev](https://www.reddit.com/user/Galactic_Dev)
-</details>  
+
+
+
+</details>
 
 <details><summary><strong>Generate your own SMBIOS</strong></summary>
-<br>
+
 
 
 [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
@@ -320,11 +347,13 @@ Use GenSMBIOS to create your own serial #... based off of your preferred model.
 
 **Note:** If you use a different SMBIOS model than either of the two above. The provided USB mapping will not work. You will need to edit the **USBMap.kext file**.  You can right click on the file and select **Show Package Contents**.  From there you can open the Info.plist file in ProperTree and change MacBookPro15,1 to whatever Model ID you've chosen. This will provide a working USBMap.kext.
 
-</details>  
+
+
+</details>
 
 <details>  
 <summary><strong>CPUFriend power management</strong></summary>
-<br>
+
 
 
 Thanks to [madeline-xoxo](https://github.com/madeline-xoxo) for the new CPUFriendDataProvider options.
@@ -341,11 +370,13 @@ To change the CPU tuning simply:
 2. Rename CPUFriendDataProvider_PERF.kext to CPUFriendDataProvider.kext.
 3. Reboot and enjoy.
 
-</details>  
+
+
+</details>
 
 <details>  
 <summary><strong>Audio Setup</strong></summary>
-<br>
+
 
 
 ### Audio Setup enable both top and bottom speakers:
@@ -364,7 +395,9 @@ If you're happy with the setup above you can use the guide to replace alcid=71 p
 
 - Add audio codec to DeviceProperties - layout-id | data | **47000000**
 
-</details>  
+
+
+</details>
 
 ## Status
 
@@ -391,7 +424,9 @@ If you're happy with the setup above you can use the guide to replace alcid=71 p
 - [x] Multi-Touch Screen
 - [x] Graphical Boot menu `OpenCanopy` 
 
-</details>  
+
+
+</details>
 
 <details>  
 <summary><strong>What's not working ⚠️</strong></summary>
@@ -401,6 +436,8 @@ If you're happy with the setup above you can use the guide to replace alcid=71 p
 - [ ] Fingerprint reader - `There is finally after many years working driver for Linux (python-validity), don't expect macOS driver any time.`
 - [ ] Samsung PM 981 NVME - `Still unstable. Could work for some, not for others. (In most cases which it does work, it will give a "hash mismatch" error every so often.)`
 - [ ] Microphone -`Microphone doesn't work due to the fact that there is no AppleALC layout specifically for the X1C7. This will require some knowledge on AppleALC to get working; specifically on how pin configs work and how to make custom layouts. Maybe for someone more experienced? If you're willing to give it a shot,` [here's a codec#0 dump I made under xubuntu](https://pastebin.com/HZu88UPr). `Remember to PR if you get it working!`
+
+
 
 </details>  
 
@@ -416,4 +453,6 @@ If you're happy with the setup above you can use the guide to replace alcid=71 p
 - [ ] Sidecar wireless
 - [ ] Windows/Linux from OC boot menu - `It's best practice to not boot from OC when planning to perform firmware upgrade`
 
-</details> 
+
+
+</details>
