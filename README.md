@@ -4,29 +4,35 @@
 
 <img align="right" src="./Other/README_Resources/x1c7.png" alt="X1C7 macOS" width="430">
 
-[![OpenCore](https://img.shields.io/badge/version-0.8.5-blue?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBoZWlnaHQ9IjU0OSIgdmlld0JveD0iNjcwIDAgNTQ5IDU0OSIgd2lkdGg9IjU0OSIgeG1sbnM6dj0iaHR0cHM6Ly92ZWN0YS5pby9uYW5vIj48bGluZWFyR3JhZGllbnQgaWQ9IkEiIHgxPSI3OS41MDQ0ODQlIiB4Mj0iMjguMTE0MjQ0JSIgeTE9IjU3Ljc2NjU2JSIgeTI9IjgwLjE3OTY1NCUiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzI3ODZkNyIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzA5NmViNCIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJCIiB4MT0iMjEuMDc5NjkzJSIgeDI9Ijg2Ljc2MjEzJSIgeTE9IjEwLjEzNzM5JSIgeTI9IjYzLjI0MzU0OCUiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzAyYWRkYyIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzA4ZTRjYyIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJDIiB4MT0iNDQuNTg1Mzk3JSIgeDI9Ijk0Ljg3Mzc2JSIgeTE9IjEwNi43NjcwODUlIiB5Mj0iNTUuNjM0OCUiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzAwNzBlYyIgc3RvcC1vcGFjaXR5PSIuODcxIi8+PHN0b3Agb2Zmc2V0PSIuNjE0IiBzdG9wLWNvbG9yPSIjMDI5NmUzIiBzdG9wLW9wYWNpdHk9Ii40NTMiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwN2RmZDAiIHN0b3Atb3BhY2l0eT0iMCIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJEIiB4MT0iNTAlIiB4Mj0iNDguMzIzODE2JSIgeTE9IjcyLjQ5MTkwNSUiIHkyPSI5NC4xNjE3OTclIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMwMDg5ZTUiIHN0b3Atb3BhY2l0eT0iMCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzAwNzBlZCIgc3RvcC1vcGFjaXR5PSIuODEiLz48L2xpbmVhckdyYWRpZW50PjxnIHRyYW5zZm9ybT0ibWF0cml4KC43MDcxMDcgLS43MDcxMDcgLjcwNzEwNyAuNzA3MTA3IDYxNC45OTk5OTggMjY5LjI2MDc5OCkiPjxwYXRoIGQ9Ik0yMjkuOTk0IDQ1OS45ODhDMTAyLjk3MiA0NTkuOTg4IDAgMzU3LjAxNiAwIDIyOS45OTRTMTAyLjk3MiAwIDIyOS45OTQgMHMyMjkuOTk0IDEwMi45NzIgMjI5Ljk5NCAyMjkuOTk0LTEwMi45NzIgMjI5Ljk5NC0yMjkuOTk0IDIyOS45OTR6bTAtMTMwLjJjNTUuMTE1IDAgOTkuNzk0LTQ0LjY3OSA5OS43OTQtOTkuNzk0UzI4NS4xMDkgMTMwLjIgMjI5Ljk5NCAxMzAuMiAxMzAuMiAxNzQuODc5IDEzMC4yIDIyOS45OTRzNDQuNjc5IDk5Ljc5NCA5OS43OTQgOTkuNzk0eiIgZmlsbD0idXJsKCNBKSIvPjx1c2UgeGxpbms6aHJlZj0iI0YiIGZpbGw9InVybCgjQikiLz48dXNlIHhsaW5rOmhyZWY9IiNGIiBmaWxsPSJ1cmwoI0MpIi8+PHVzZSB4bGluazpocmVmPSIjRiIgZmlsbD0idXJsKCNEKSIvPjwvZz48ZGVmcyA+PHBhdGggaWQ9IkYiIGQ9Ik00NTkuNzUyIDIyNi43ODRjLTEuMjYyIDM0Ljg0My0yOS45MDYgNjIuNzAyLTY1LjA1NyA2Mi43MDItMzQuMDY1IDAtNjIuMDE5LTI2LjE2NS02NC44NjItNTkuNDk0bC0uMDQ2LjAwMS0uMDAyLS41ODlhNjYuMDEgNjYuMDEgMCAwIDEtLjE5MS01LjAxOWwuMDAzLS41OTVjLTMuMjAzLTUyLjIyNi00Ni41NzMtOTMuNTkxLTk5LjYwNC05My41OTEtNTUuMTE1IDAtMTEyLjM2MiA0My44NDQtMTI5Ljg4MyAxMDcuODYzLTI2LjI2MiA5NS45NTcgNTAuOTYyIDE5OC45MTQgMTI5Ljg0MiAyMjEuODg0bC4xNDEuMDQxaC0uMTAxQzEwMi45NzIgNDU5Ljk4OCAwIDM1Ny4wMTYgMCAyMjkuOTk0UzEwMi45NzIgMCAyMjkuOTk0IDBjMTI1Ljk0OSAwIDIyOC4yNTIgMTAxLjIzOSAyMjkuOTcyIDIyNi43NzlsLS4yMTQuMDA1eiIvPjwvZGVmcz48L3N2Zz4=)](https://github.com/acidanthera/OpenCorePkg)[![macOS-Stable](https://img.shields.io/badge/version-13.1-brightgreen?logo=apple)](https://www.apple.com/macos/ventura)
+[![OpenCore](https://img.shields.io/badge/version-0.8.9-blue?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBoZWlnaHQ9IjU0OSIgdmlld0JveD0iNjcwIDAgNTQ5IDU0OSIgd2lkdGg9IjU0OSIgeG1sbnM6dj0iaHR0cHM6Ly92ZWN0YS5pby9uYW5vIj48bGluZWFyR3JhZGllbnQgaWQ9IkEiIHgxPSI3OS41MDQ0ODQlIiB4Mj0iMjguMTE0MjQ0JSIgeTE9IjU3Ljc2NjU2JSIgeTI9IjgwLjE3OTY1NCUiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzI3ODZkNyIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzA5NmViNCIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJCIiB4MT0iMjEuMDc5NjkzJSIgeDI9Ijg2Ljc2MjEzJSIgeTE9IjEwLjEzNzM5JSIgeTI9IjYzLjI0MzU0OCUiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzAyYWRkYyIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzA4ZTRjYyIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJDIiB4MT0iNDQuNTg1Mzk3JSIgeDI9Ijk0Ljg3Mzc2JSIgeTE9IjEwNi43NjcwODUlIiB5Mj0iNTUuNjM0OCUiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzAwNzBlYyIgc3RvcC1vcGFjaXR5PSIuODcxIi8+PHN0b3Agb2Zmc2V0PSIuNjE0IiBzdG9wLWNvbG9yPSIjMDI5NmUzIiBzdG9wLW9wYWNpdHk9Ii40NTMiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwN2RmZDAiIHN0b3Atb3BhY2l0eT0iMCIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJEIiB4MT0iNTAlIiB4Mj0iNDguMzIzODE2JSIgeTE9IjcyLjQ5MTkwNSUiIHkyPSI5NC4xNjE3OTclIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMwMDg5ZTUiIHN0b3Atb3BhY2l0eT0iMCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzAwNzBlZCIgc3RvcC1vcGFjaXR5PSIuODEiLz48L2xpbmVhckdyYWRpZW50PjxnIHRyYW5zZm9ybT0ibWF0cml4KC43MDcxMDcgLS43MDcxMDcgLjcwNzEwNyAuNzA3MTA3IDYxNC45OTk5OTggMjY5LjI2MDc5OCkiPjxwYXRoIGQ9Ik0yMjkuOTk0IDQ1OS45ODhDMTAyLjk3MiA0NTkuOTg4IDAgMzU3LjAxNiAwIDIyOS45OTRTMTAyLjk3MiAwIDIyOS45OTQgMHMyMjkuOTk0IDEwMi45NzIgMjI5Ljk5NCAyMjkuOTk0LTEwMi45NzIgMjI5Ljk5NC0yMjkuOTk0IDIyOS45OTR6bTAtMTMwLjJjNTUuMTE1IDAgOTkuNzk0LTQ0LjY3OSA5OS43OTQtOTkuNzk0UzI4NS4xMDkgMTMwLjIgMjI5Ljk5NCAxMzAuMiAxMzAuMiAxNzQuODc5IDEzMC4yIDIyOS45OTRzNDQuNjc5IDk5Ljc5NCA5OS43OTQgOTkuNzk0eiIgZmlsbD0idXJsKCNBKSIvPjx1c2UgeGxpbms6aHJlZj0iI0YiIGZpbGw9InVybCgjQikiLz48dXNlIHhsaW5rOmhyZWY9IiNGIiBmaWxsPSJ1cmwoI0MpIi8+PHVzZSB4bGluazpocmVmPSIjRiIgZmlsbD0idXJsKCNEKSIvPjwvZz48ZGVmcyA+PHBhdGggaWQ9IkYiIGQ9Ik00NTkuNzUyIDIyNi43ODRjLTEuMjYyIDM0Ljg0My0yOS45MDYgNjIuNzAyLTY1LjA1NyA2Mi43MDItMzQuMDY1IDAtNjIuMDE5LTI2LjE2NS02NC44NjItNTkuNDk0bC0uMDQ2LjAwMS0uMDAyLS41ODlhNjYuMDEgNjYuMDEgMCAwIDEtLjE5MS01LjAxOWwuMDAzLS41OTVjLTMuMjAzLTUyLjIyNi00Ni41NzMtOTMuNTkxLTk5LjYwNC05My41OTEtNTUuMTE1IDAtMTEyLjM2MiA0My44NDQtMTI5Ljg4MyAxMDcuODYzLTI2LjI2MiA5NS45NTcgNTAuOTYyIDE5OC45MTQgMTI5Ljg0MiAyMjEuODg0bC4xNDEuMDQxaC0uMTAxQzEwMi45NzIgNDU5Ljk4OCAwIDM1Ny4wMTYgMCAyMjkuOTk0UzEwMi45NzIgMCAyMjkuOTk0IDBjMTI1Ljk0OSAwIDIyOC4yNTIgMTAxLjIzOSAyMjkuOTcyIDIyNi43NzlsLS4yMTQuMDA1eiIvPjwvZGVmcz48L3N2Zz4=)](https://github.com/acidanthera/OpenCorePkg)[![macOS-Stable](https://img.shields.io/badge/version-12.6.3-brightgreen?logo=apple)](https://www.apple.com/macos/ventura)[![macOS-Stable](https://img.shields.io/badge/version-13.2-brightgreen?logo=apple)](https://www.apple.com/macos/ventura)
 =======
-## PLEASE READ! IMPORTANT!
-In the past, this EFI could typically work as-is, aside from the SMBIOS info. **Now, you will need to choose between the battery-conserving "CPUFriendDataProvider_BATT.kext", or the much more performant "CPUFriendDataProvider_PERF.kext".** As the names imply, BATT lasts far, far longer and charges much, much faster. You can expect battery life of about 18 hours or so in light usage, and anywhere between 14-15 hours or so with heavy usage (update: after writing this whole note, while on battery power, it is *still* on 100%. This goes to show how much of a difference BATT makes). PERF will give you far superior performance (boost, base and avg clocks are all set higher and MBA battery features are disabled), but will take a heavy toll on battery life. You can expect about 6 hours with light usage, and 2-3 hours with heavy usage. Obviously, these are two extremes, and if you want to customize a CPUFriendDataProvider, you can make your own using CorpNewt's amazing [CPUFriendFriend](https://github.com/corpnewt/CPUFriendFriend). If you don't know what you need, choose BATT. It'll grant you far superior battery life while still providing the boost needed for 1080p60 video streaming. 
 
-In terms of charging speed, you'll get from 0% to 100% in about 45 minutes to an hour using BATT, and 0% to 100% in 1 and a half to 2 hours using PERF in my experience. This only affects the laptop when it's on (duh). 
 
-In order to choose between which kext you want to use, rename the desired kext to `CPUFriendDataProvider.kext`. Optionally, you can delete the other one, too.
-
-## DISCLAIMER
+**DISCLAIMER**
 As you embark on your Hackintosh journey you are encouraged to **READ** the entire README and [Dortania](https://dortania.github.io/getting-started/) guides before you start. It will save many a message instructing you to RTFM. I am not an expert, I haven't forced you to do anything, put on your big boy pants and take responsibility for any mess you get yourself into.
 
 All that said I'm happy to help when/where I can. When you encounter bug or want to improve this repo, consider opening an issue or pull request. You can also find a wealth of knowledge on [Reddit](https://www.reddit.com/r/hackintosh/), [TonyMacX86](https://www.tonymacx86.com) or [Google](https://www.google.com).
 
 ## Introduction
 
+#### ⚠️ Highlighted OC-0.8.9 EFI changes ⚠️
+
+Note the following changes:
+
+1. Switch to [YogaSMC](https://github.com/zhen-zen/YogaSMC) for media keys (you will need to install the application and the preference pane)
+2. Included boot chime and gui picker in the EFI ¯\\\_(ツ)_/¯
+3. New power management CPUFriendDataProvider from [madeline-xoxo](https://github.com/madeline-xoxo) see details below.
+4. EFI limited to Monterey and Ventura. Big Sur will require different WiFi and Bluetooth kexts.
+5. USBMap.kext updated to work for both `MacBookPro15,1 and MacBookPro15,4`.
+
 <details> 
 <summary><strong>This is not a guide!</strong></summary>
 
 
-This is not a guide. It shoud only be used as a reference. I provide some tips and tricks I learned on my journey in building a hackintosh. The best way of using this is as a supplement to the OpenCore guide. If you have questions about how to setup your specific hardware, are unclear about what to do, or would like to see the settings I've used.
 
-I understand that some may simply add the OC and Boot folders to their EFI folder. For clarity the EFI partition needs a folder called EFI that contains the Boot and OC folder.
+This is not a guide. It shoud only be used as a reference. I provide some tips and tricks I learned on my journey in building this hackintosh. The best way of using this is as a supplement to the OpenCore guide. If you have questions about how to setup your specific hardware, are unclear about what to do, or would like to compare to the settings I've used.
+
+I understand that some may simply add the OC and Boot folders to their EFI folder. For clarity the EFI partition needs a folder called EFI that contains the Boot and OC folder:
 
 ```EFI
 EFI (drive)
@@ -35,15 +41,15 @@ EFI (drive)
 	├── OC
 ```
 
-It should work and your X1C7 should boot and work fine. **You will at minimum need to generate SMBIOS values if you want Apple services to work.** Note that all error reporting/logging has been turned off in the config.plist. You will have a difficult time trouble shooting with the setup provided. You can easily turn on the error reporting and logging if you follow the Dortania guide. Best of luck.
+It should work and your X1C7 should boot and work fine. **You will at minimum need to generate SMBIOS values if you want Apple services to work.** Note that all error reporting/logging has been turned off in the config.plist. You will have a difficult time trouble shooting with the setup provided. You can easily turn on the error reporting and logging if you follow the Dortania guide.
 
 > **NOTE** if you simply wish to copy my EFI please do the following:
 >
->1. [Generate SMBIOS values](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/coffee-lake-plus.html#nvram) and add them in the config.plist (Use MacBookPro15,1)
+>1. [Generate SMBIOS values](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/coffee-lake-plus.html#nvram) and add them in the config.plist (MacBookPro15,1 or MacBookPro15,4)
 >2. Ensure the value of `showpicker` is  `true` in the config.plist file to provide the opencore menu when booting. 
 >3. Prepare your install [USB](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/)
 >4. Move the entire EFI folder (with your modifications) to the proper partition on your [USB](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#setting-up-opencore-s-efi-environment) (or [hard drive](https://dortania.github.io/OpenCore-Post-Install/universal/oc2hdd.html) once the install is complete).
->5. [Install](https://dortania.github.io/OpenCore-Install-Guide/installation/installation-process.html#double-checking-your-work) - You'll need to select F12 to get the boot menu options and **boot from the USB each time the computer restarts** until you've copied the EFI folder onto the hard drive. You may also need to select the correct boot option during install.
+>5. [Install](https://dortania.github.io/OpenCore-Install-Guide/installation/installation-process.html#double-checking-your-work) - You'll need to select <kbd>F12</kbd> to get the boot menu options and **boot from the USB each time the computer restarts** until you've copied the EFI folder onto the hard drive. You may also need to select the correct boot option during install.
 
 </details>  
 
@@ -82,8 +88,9 @@ It should work and your X1C7 should boot and work fine. **You will at minimum ne
 </details>  
 
 <details>
-<summary><strong> OTHER REPOSITORIES </strong></summary>
+<summary><strong> Other Repositories </strong></summary>
 <br>
+
 
 
 - x1c8-hackintosh repositories:
@@ -113,18 +120,18 @@ I used to own two Lenovo ThinkPad X1 Gen 7 laptops, an i5 and an i7. Both worked
 
 ### X1C7 i5
 
-| Category  | Component                                       | Note                                                         |
-| --------- | ----------------------------------------------- | ------------------------------------------------------------ |
-| Type      | 20QD, 20QE                                      |                                                              |
-| CPU       | Intel Core i5-8265U                             |                                                              |
-| GPU       | Intel UHD 620                                   |                                                              |
-| SSD       | Toshiba 512GB                                   | Replaced cursed PM 981 which still doesn't work reliably     |
-| Screen    | 14" WQHD - 2560x1440                            |                                                              |
-| Memory    | 16GB / 2133MHz LPDDR3                           |                                                              |
-| Battery   | Integrated Li-Polymer 51Wh                      | Single battery                                               |
-| Camera    | 720p Camera                                     |                                                              |
-| Wifi & BT | Intel Wireless-AC 9560                          | Use AirportItlwm for your macOS version and enjoy native Wi-Fi control, or use Heliport app. |
-| Input     | PS2 Keyboard & Synaptics TrackPad (touchscreen) | I'm using ThinkPad Assistant an alternative most seem to be moving to [YogaSMC](https://github.com/zhen-zen/YogaSMC) for media keys like microphone switch, etc. |
+| Category  | Component                         | Note                                                         |
+| --------- | --------------------------------- | ------------------------------------------------------------ |
+| Type      | 20QD, 20QE                        |                                                              |
+| CPU       | Intel Core i5-8265U               |                                                              |
+| GPU       | Intel UHD 620                     |                                                              |
+| SSD       | Toshiba 512GB                     | Replaced cursed PM 981 which still doesn't work reliably     |
+| Screen    | 14" WQHD - 2560x1440              |                                                              |
+| Memory    | 16GB / 2133MHz LPDDR3             |                                                              |
+| Battery   | Integrated Li-Polymer 51Wh        | Single battery                                               |
+| Camera    | 720p Camera                       |                                                              |
+| Wifi & BT | Intel Wireless-AC 9560            | Used AirportItlwm for native Wi-Fi control                   |
+| Input     | PS2 Keyboard & Synaptics TrackPad | Switched to[YogaSMC](https://github.com/zhen-zen/YogaSMC) for media keys |
 
 </details>  
 
@@ -134,24 +141,22 @@ I used to own two Lenovo ThinkPad X1 Gen 7 laptops, an i5 and an i7. Both worked
 
 | Component      | Version |
 | -------------- | ------- |
-| macOS Monterey | 12.5    |
-| OpenCore       | v0.8.3  |
-</details>
+| macOS Monterey | 12.6.3 |
+| OpenCore       | v0.8.9  |
+|</details>||
 
 <details>
 <summary><strong>ACPI Files</strong></summary>
 <br>
 
-| Component              |
-| ---------------------- |
-| SSDT-AWAC              |
-| SSDT-BATT              |
-| SSDT-EC-USBX-LAPTOP    |
-| SSDT-PLUG-DRTNIA       |
-| SSDT-PNLF-CFL          |
-| SSDT-ThinkPad_ClickPad |
-| SSDT-X1C6-KBRD         |
-| SSDT-XOSI              |
+| Component           |
+| ------------------- |
+| SSDT-AWAC           |
+| SSDT-BATT           |
+| SSDT-EC-USBX-LAPTOP |
+| SSDT-PLUG-DRTNIA    |
+| SSDT-PNLF-CFL       |
+| SSDT-XOSI           |
 
 </details>
 
@@ -162,25 +167,27 @@ I used to own two Lenovo ThinkPad X1 Gen 7 laptops, an i5 and an i7. Both worked
 | Kext                   | Version |
 | --------------------- | ------- |
 | AirportItlwm           | 2.1.0   |
-| AirportItlwmBS (BigSur) | 2.1.0 |
-| AppleALC               | 1.7.4 |
-| BlueToolFixup          | 2.6.3 |
+| AirportItlwmV (Ventura) | 2.2.0 - alpha |
+| AppleALC               | 1.7.6 |
+| BlueToolFixup          | 2.6.4 |
+| BrightnessKeys | 1.0.2 |
 | CPUFriend              | 1.2.6 |
-| CPUFriendDataProvider  | 1.00    |
-| IntelBluetoothFirmware | 2.1.0   |
-| IntelBluetoothInjector | 2.1.0 |
+| CPUFriendDataProvider  | 1.01   |
+| IntelBluetoothFirmware | 2.2.0   |
+| IntelBTPatcher | 2.2.0 |
 | IntelMausi             | 1.0.7   |
-| Lilu                   | 1.6.2 |
+| Lilu                   | 1.6.3 |
 | NVMeFix                | 1.1.0   |
 | SMCBatteryManager      | 1.3.0  |
 | SMCProcessor           | 1.3.0 |
 | SMCSuperIO             | 1.3.0 |
-| USBMap                 | 1.0.0   |
+| USBMap                 | 1.0.1   |
 | VirtualSMC             | 1.3.0 |
-| VoodooI2C              | 2.7.0 |
-| VoodooI2CHID           | 2.7.0 |
-| VoodooPS2Controller    | 2.2.9   |
-| WhateverGreen          | 1.6.1   |
+| VoodooI2C              | 2.7.1 |
+| VoodooI2CHID           | 2.7.1 |
+| VoodooPS2Controller    | 2.3.2   |
+| WhateverGreen          | 1.6.4 |
+| YogaSMC | 1.5.3 |
 
 </details>
 
@@ -190,7 +197,7 @@ I used to own two Lenovo ThinkPad X1 Gen 7 laptops, an i5 and an i7. Both worked
 |     Driver      | Version           |
 | ------------- | ----------------- |
 |   HfsPlus.efi   | OcBinaryData      |
-| OpenRuntime.efi | OpenCorePkg 0.8.3 |
+| OpenRuntime.efi | OpenCorePkg 0.8.9 |
 
 </details>
 
@@ -275,12 +282,13 @@ Pick your keyboard layout here:
 </details>
 
 <details>  
-<summary><strong>Big Sur or Monterey</strong></summary>
+<summary><strong>Monterey or Ventura</strong></summary>
 <br>
 
 
 
-The EFI folder is setup for both Monterey and BigSur. I used `MinKernel` and `MaxKernel` values in the config.plist to load the proper kexts based on which OS you are installing. I tested it with Monterey, so let me know if you have issues with BigSur.
+
+The EFI folder is setup for both Monterey and Ventura. I used `MinKernel` and `MaxKernel` values in the config.plist to load the proper kexts based on which OS you are installing. It is no longer setup for Big Sur. It will likely boot but the kexts for WiFi and Bluetooth would need to be replaced for it to work properly.
 
 </details>  
 
@@ -310,7 +318,7 @@ Use GenSMBIOS to create your own serial #... based off of your preferred model.
 - MacBookPro15,1 -`What I used`
 - MacBookPro15,4 -`Reported as used by others`
 
-**Note:** If you use a different SMBIOS model than the MacbookPro15,1 that I've used. The provided USB mapping will not work.  You will need to edit the **USBMap.kext file**.  You can right click on the file and select **Show Package Contents**.  From there you can open the Info.plist file in ProperTree and change MacBookPro15,1 to whatever Model ID you've chosen. This should provide a working USBMap.kext.
+**Note:** If you use a different SMBIOS model than either of the two above. The provided USB mapping will not work. You will need to edit the **USBMap.kext file**.  You can right click on the file and select **Show Package Contents**.  From there you can open the Info.plist file in ProperTree and change MacBookPro15,1 to whatever Model ID you've chosen. This will provide a working USBMap.kext.
 
 </details>  
 
@@ -319,7 +327,19 @@ Use GenSMBIOS to create your own serial #... based off of your preferred model.
 <br>
 
 
-Generate CPUFriendDataProvider for your machine [here](https://github.com/fewtarius/CPUFriendFriend) or use those I've provided. My files are set for power conservation over performance. Highly recommended that you use power management.
+Thanks to [madeline-xoxo](https://github.com/madeline-xoxo) for the new CPUFriendDataProvider options.
+
+> The default CPUFriendDataProvider.kext has changed. **It is now set to a battery-conserving "CPUFriendDataProvider.kext". If you'd like more performance you can switch it to the more performant "CPUFriendDataProvider_PERF.kext".**
+
+The default CPUFriendDataProvider lasts far, far longer and charges much faster. You can expect battery life of about 18 hours or so in light usage, and anywhere between 14-15 hours or so with heavy usage (update: after writing this whole note, while on battery power, it is *still* on 100%. This goes to show how much of a difference tuning makes). The PERF option will give you far superior performance (boost, base and avg clocks are all set higher and MBA battery features are disabled), but will take a heavy toll on battery life. You can expect about 6 hours with light usage, and 2-3 hours with heavy usage. Obviously, these are two extremes, and if you want to customize a CPUFriendDataProvider, you can make your own using CorpNewt's amazing [CPUFriendFriend](https://github.com/corpnewt/CPUFriendFriend). If you don't know what you need, stick with the default. It'll grant you far superior battery life while still providing the boost needed for 1080p60 video streaming. 
+
+In terms of charging speed, you'll get from 0% to 100% in about 45 minutes to an hour using BATT, and 0% to 100% in 1 and a half to 2 hours using PERF in my experience.
+
+To change the CPU tuning simply:
+
+1. Rename the existing CPUFriendDataProvider.kext to something like CPUFriendDataProvider_BATT.kext.
+2. Rename CPUFriendDataProvider_PERF.kext to CPUFriendDataProvider.kext.
+3. Reboot and enjoy.
 
 </details>  
 
@@ -360,7 +380,7 @@ If you're happy with the setup above you can use the guide to replace alcid=71 p
 - [x] GPU UHD 620 hardware acceleration / performance (if not working add `-igfxmlr` flag to `boot-args` in config.plist [issue #6](https://github.com/seven-of-eleven/Lenovo-ThinkPad-X1C7-OC-Hackintosh/issues/6))
 - [x] iMessage, FaceTime, App Store, iTunes Store. **Generate your own SMBIOS**
 - [x] Intel I219-V Ethernet port -`works with the Lenovo dongle`
-- [x] Keyboard `Volume and brightness hotkeys. Another media keys with ThinkPad Assistant.`
+- [x] Keyboard `Volume and brightness hotkeys. Another media keys with YogaSMC.`
 - [x] Realtek® ALC3286 ("ALC285") Audio -`See setup above`
 - [x] Sleep/Wake 
 - [x] TouchPad `1-5 fingers swipe gestures`
@@ -369,7 +389,7 @@ If you're happy with the setup above you can use the guide to replace alcid=71 p
 - [x] Web camera
 - [x] Wifi - Intel Wireless-AC 9560
 - [x] Multi-Touch Screen
-- [x] Graphical Boot menu `OpenCanopy (It does work. Not included in OC folder as I skip the boot menu.)` 
+- [x] Graphical Boot menu `OpenCanopy` 
 
 </details>  
 
@@ -389,11 +409,11 @@ If you're happy with the setup above you can use the guide to replace alcid=71 p
 
 
 
-- [ ] Thunderbolt  `No device to test.`
-- [ ] Boot chime `(should work just haven't bothered with it)`
-- [ ] FireVault 2  `(should work just haven't bothered with it)`
+- [ ] Thunderbolt - `No device to test.`
+- [ ] Boot chime -`it is enable in the EFI but I don't use it personally`
+- [ ] FireVault 2  -`should work just haven't bothered with it`
 - [ ] Sidecar wired
 - [ ] Sidecar wireless
-- [ ] Windows/Linux from OC boot menu `It's best practice to not boot from OC when planning to perform firmware upgrade`
+- [ ] Windows/Linux from OC boot menu - `It's best practice to not boot from OC when planning to perform firmware upgrade`
 
 </details> 
