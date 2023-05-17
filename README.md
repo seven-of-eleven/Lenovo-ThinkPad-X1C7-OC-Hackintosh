@@ -4,26 +4,25 @@
 
 <img align="right" src="./Other/README_Resources/x1c7.png" alt="X1C7 macOS" width="430">
 
-[![OpenCore](https://img.shields.io/badge/version-0.8.9-blue?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBoZWlnaHQ9IjU0OSIgdmlld0JveD0iNjcwIDAgNTQ5IDU0OSIgd2lkdGg9IjU0OSIgeG1sbnM6dj0iaHR0cHM6Ly92ZWN0YS5pby9uYW5vIj48bGluZWFyR3JhZGllbnQgaWQ9IkEiIHgxPSI3OS41MDQ0ODQlIiB4Mj0iMjguMTE0MjQ0JSIgeTE9IjU3Ljc2NjU2JSIgeTI9IjgwLjE3OTY1NCUiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzI3ODZkNyIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzA5NmViNCIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJCIiB4MT0iMjEuMDc5NjkzJSIgeDI9Ijg2Ljc2MjEzJSIgeTE9IjEwLjEzNzM5JSIgeTI9IjYzLjI0MzU0OCUiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzAyYWRkYyIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzA4ZTRjYyIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJDIiB4MT0iNDQuNTg1Mzk3JSIgeDI9Ijk0Ljg3Mzc2JSIgeTE9IjEwNi43NjcwODUlIiB5Mj0iNTUuNjM0OCUiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzAwNzBlYyIgc3RvcC1vcGFjaXR5PSIuODcxIi8+PHN0b3Agb2Zmc2V0PSIuNjE0IiBzdG9wLWNvbG9yPSIjMDI5NmUzIiBzdG9wLW9wYWNpdHk9Ii40NTMiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwN2RmZDAiIHN0b3Atb3BhY2l0eT0iMCIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJEIiB4MT0iNTAlIiB4Mj0iNDguMzIzODE2JSIgeTE9IjcyLjQ5MTkwNSUiIHkyPSI5NC4xNjE3OTclIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMwMDg5ZTUiIHN0b3Atb3BhY2l0eT0iMCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzAwNzBlZCIgc3RvcC1vcGFjaXR5PSIuODEiLz48L2xpbmVhckdyYWRpZW50PjxnIHRyYW5zZm9ybT0ibWF0cml4KC43MDcxMDcgLS43MDcxMDcgLjcwNzEwNyAuNzA3MTA3IDYxNC45OTk5OTggMjY5LjI2MDc5OCkiPjxwYXRoIGQ9Ik0yMjkuOTk0IDQ1OS45ODhDMTAyLjk3MiA0NTkuOTg4IDAgMzU3LjAxNiAwIDIyOS45OTRTMTAyLjk3MiAwIDIyOS45OTQgMHMyMjkuOTk0IDEwMi45NzIgMjI5Ljk5NCAyMjkuOTk0LTEwMi45NzIgMjI5Ljk5NC0yMjkuOTk0IDIyOS45OTR6bTAtMTMwLjJjNTUuMTE1IDAgOTkuNzk0LTQ0LjY3OSA5OS43OTQtOTkuNzk0UzI4NS4xMDkgMTMwLjIgMjI5Ljk5NCAxMzAuMiAxMzAuMiAxNzQuODc5IDEzMC4yIDIyOS45OTRzNDQuNjc5IDk5Ljc5NCA5OS43OTQgOTkuNzk0eiIgZmlsbD0idXJsKCNBKSIvPjx1c2UgeGxpbms6aHJlZj0iI0YiIGZpbGw9InVybCgjQikiLz48dXNlIHhsaW5rOmhyZWY9IiNGIiBmaWxsPSJ1cmwoI0MpIi8+PHVzZSB4bGluazpocmVmPSIjRiIgZmlsbD0idXJsKCNEKSIvPjwvZz48ZGVmcyA+PHBhdGggaWQ9IkYiIGQ9Ik00NTkuNzUyIDIyNi43ODRjLTEuMjYyIDM0Ljg0My0yOS45MDYgNjIuNzAyLTY1LjA1NyA2Mi43MDItMzQuMDY1IDAtNjIuMDE5LTI2LjE2NS02NC44NjItNTkuNDk0bC0uMDQ2LjAwMS0uMDAyLS41ODlhNjYuMDEgNjYuMDEgMCAwIDEtLjE5MS01LjAxOWwuMDAzLS41OTVjLTMuMjAzLTUyLjIyNi00Ni41NzMtOTMuNTkxLTk5LjYwNC05My41OTEtNTUuMTE1IDAtMTEyLjM2MiA0My44NDQtMTI5Ljg4MyAxMDcuODYzLTI2LjI2MiA5NS45NTcgNTAuOTYyIDE5OC45MTQgMTI5Ljg0MiAyMjEuODg0bC4xNDEuMDQxaC0uMTAxQzEwMi45NzIgNDU5Ljk4OCAwIDM1Ny4wMTYgMCAyMjkuOTk0UzEwMi45NzIgMCAyMjkuOTk0IDBjMTI1Ljk0OSAwIDIyOC4yNTIgMTAxLjIzOSAyMjkuOTcyIDIyNi43NzlsLS4yMTQuMDA1eiIvPjwvZGVmcz48L3N2Zz4=)](https://github.com/acidanthera/OpenCorePkg)[![macOS-Stable](https://img.shields.io/badge/version-12.6.3-brightgreen?logo=apple)](https://www.apple.com/macos/ventura)[![macOS-Stable](https://img.shields.io/badge/version-13.2-brightgreen?logo=apple)](https://www.apple.com/macos/ventura)
+[![OpenCore](https://img.shields.io/badge/version-0.9.2-blue?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBoZWlnaHQ9IjU0OSIgdmlld0JveD0iNjcwIDAgNTQ5IDU0OSIgd2lkdGg9IjU0OSIgeG1sbnM6dj0iaHR0cHM6Ly92ZWN0YS5pby9uYW5vIj48bGluZWFyR3JhZGllbnQgaWQ9IkEiIHgxPSI3OS41MDQ0ODQlIiB4Mj0iMjguMTE0MjQ0JSIgeTE9IjU3Ljc2NjU2JSIgeTI9IjgwLjE3OTY1NCUiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzI3ODZkNyIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzA5NmViNCIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJCIiB4MT0iMjEuMDc5NjkzJSIgeDI9Ijg2Ljc2MjEzJSIgeTE9IjEwLjEzNzM5JSIgeTI9IjYzLjI0MzU0OCUiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzAyYWRkYyIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzA4ZTRjYyIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJDIiB4MT0iNDQuNTg1Mzk3JSIgeDI9Ijk0Ljg3Mzc2JSIgeTE9IjEwNi43NjcwODUlIiB5Mj0iNTUuNjM0OCUiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzAwNzBlYyIgc3RvcC1vcGFjaXR5PSIuODcxIi8+PHN0b3Agb2Zmc2V0PSIuNjE0IiBzdG9wLWNvbG9yPSIjMDI5NmUzIiBzdG9wLW9wYWNpdHk9Ii40NTMiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwN2RmZDAiIHN0b3Atb3BhY2l0eT0iMCIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJEIiB4MT0iNTAlIiB4Mj0iNDguMzIzODE2JSIgeTE9IjcyLjQ5MTkwNSUiIHkyPSI5NC4xNjE3OTclIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMwMDg5ZTUiIHN0b3Atb3BhY2l0eT0iMCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzAwNzBlZCIgc3RvcC1vcGFjaXR5PSIuODEiLz48L2xpbmVhckdyYWRpZW50PjxnIHRyYW5zZm9ybT0ibWF0cml4KC43MDcxMDcgLS43MDcxMDcgLjcwNzEwNyAuNzA3MTA3IDYxNC45OTk5OTggMjY5LjI2MDc5OCkiPjxwYXRoIGQ9Ik0yMjkuOTk0IDQ1OS45ODhDMTAyLjk3MiA0NTkuOTg4IDAgMzU3LjAxNiAwIDIyOS45OTRTMTAyLjk3MiAwIDIyOS45OTQgMHMyMjkuOTk0IDEwMi45NzIgMjI5Ljk5NCAyMjkuOTk0LTEwMi45NzIgMjI5Ljk5NC0yMjkuOTk0IDIyOS45OTR6bTAtMTMwLjJjNTUuMTE1IDAgOTkuNzk0LTQ0LjY3OSA5OS43OTQtOTkuNzk0UzI4NS4xMDkgMTMwLjIgMjI5Ljk5NCAxMzAuMiAxMzAuMiAxNzQuODc5IDEzMC4yIDIyOS45OTRzNDQuNjc5IDk5Ljc5NCA5OS43OTQgOTkuNzk0eiIgZmlsbD0idXJsKCNBKSIvPjx1c2UgeGxpbms6aHJlZj0iI0YiIGZpbGw9InVybCgjQikiLz48dXNlIHhsaW5rOmhyZWY9IiNGIiBmaWxsPSJ1cmwoI0MpIi8+PHVzZSB4bGluazpocmVmPSIjRiIgZmlsbD0idXJsKCNEKSIvPjwvZz48ZGVmcyA+PHBhdGggaWQ9IkYiIGQ9Ik00NTkuNzUyIDIyNi43ODRjLTEuMjYyIDM0Ljg0My0yOS45MDYgNjIuNzAyLTY1LjA1NyA2Mi43MDItMzQuMDY1IDAtNjIuMDE5LTI2LjE2NS02NC44NjItNTkuNDk0bC0uMDQ2LjAwMS0uMDAyLS41ODlhNjYuMDEgNjYuMDEgMCAwIDEtLjE5MS01LjAxOWwuMDAzLS41OTVjLTMuMjAzLTUyLjIyNi00Ni41NzMtOTMuNTkxLTk5LjYwNC05My41OTEtNTUuMTE1IDAtMTEyLjM2MiA0My44NDQtMTI5Ljg4MyAxMDcuODYzLTI2LjI2MiA5NS45NTcgNTAuOTYyIDE5OC45MTQgMTI5Ljg0MiAyMjEuODg0bC4xNDEuMDQxaC0uMTAxQzEwMi45NzIgNDU5Ljk4OCAwIDM1Ny4wMTYgMCAyMjkuOTk0UzEwMi45NzIgMCAyMjkuOTk0IDBjMTI1Ljk0OSAwIDIyOC4yNTIgMTAxLjIzOSAyMjkuOTcyIDIyNi43NzlsLS4yMTQuMDA1eiIvPjwvZGVmcz48L3N2Zz4=)](https://github.com/acidanthera/OpenCorePkg)  [![macOS-Stable](https://img.shields.io/badge/version-12.6.5-brightgreen?logo=apple)](https://www.apple.com/macos/ventura)  [![macOS-Stable](https://img.shields.io/badge/version-13.3.1-brightgreen?logo=apple)](https://www.apple.com/macos/ventura)
 =======
 
-
 **DISCLAIMER**
-As you embark on your Hackintosh journey you are encouraged to **READ** the entire README and [Dortania](https://dortania.github.io/getting-started/) guides before you start. It will save many a message instructing you to RTFM. I am not an expert, I haven't forced you to do anything, put on your big boy pants and take responsibility for any mess you get yourself into.
+As you embark on your Hackintosh journey you are encouraged to **READ** the entire README and [Dortania](https://dortania.github.io/getting-started/) guides before you start. It will save many a message instructing you to RTM. I am not an expert, I haven't forced you to do anything, put on your big boy pants and take responsibility for any mess you get yourself into.
 
 All that said I'm happy to help when/where I can. When you encounter bug or want to improve this repo, consider opening an issue or pull request. You can also find a wealth of knowledge on [Reddit](https://www.reddit.com/r/hackintosh/), [TonyMacX86](https://www.tonymacx86.com) or [Google](https://www.google.com).
 
 ## Introduction
 
-#### ⚠️ Highlighted OC-0.8.9 EFI changes ⚠️
+#### ⚠️ Highlighted OC-0.9.2 EFI changes ⚠️
 
 Note the following changes:
 
-1. Switch to [YogaSMC](https://github.com/zhen-zen/YogaSMC) for media keys (you will need to install the application and the preference pane)
-2. Included boot chime and gui picker in the EFI ¯\\\_(ツ)_/¯
-3. New power management CPUFriendDataProvider from [madeline-xoxo](https://github.com/madeline-xoxo) see details below.
-4. EFI limited to Monterey and Ventura. Big Sur will require different WiFi and Bluetooth kexts.
-5. USBMap.kext updated to work for both `MacBookPro15,1 and MacBookPro15,4`.
+1. Changed SMBIOS from MacBookPro15,1 to MacBookPro15,4
+2. Switch to [YogaSMC](https://github.com/zhen-zen/YogaSMC) for media keys (you will need to install the application and the preference pane)
+3. Removed boot chime and gui picker in the EFI
+4. New power management CPUFriendDataProvider from [madeline-xoxo](https://github.com/madeline-xoxo) see details below.
+5. Big Sur kexts not included.
 
 <details> 
 <summary><strong>This is not a guide!</strong></summary>
@@ -97,8 +96,6 @@ It should work and your X1C7 should boot and work fine. **You will at minimum ne
 <summary><strong> Other Repositories </strong></summary>
 
 
-
-
 - x1c8-hackintosh repositories:
   - [HJebbour/ThinkPad-X1C8-Hackintosh](https://github.com/HJebbour/ThinkPad-X1C8-Hackintosh)
   - [reactor900/X1C8-Opencore-EFI](https://github.com/reactor900/X1C8-Opencore-EFI)
@@ -133,13 +130,13 @@ I used to own two Lenovo ThinkPad X1 Gen 7 laptops, an i5 and an i7. Both worked
 | Type      | 20QD, 20QE                        |                                                              |
 | CPU       | Intel Core i5-8265U               |                                                              |
 | GPU       | Intel UHD 620                     |                                                              |
-| SSD       | Toshiba 512GB                     | Replaced cursed PM 981 which still doesn't work reliably     |
+| SSD       | Toshiba 512GB                     | Replaced PM 981 which doesn't work reliably                  |
 | Screen    | 14" WQHD - 2560x1440              |                                                              |
 | Memory    | 16GB / 2133MHz LPDDR3             |                                                              |
 | Battery   | Integrated Li-Polymer 51Wh        | Single battery                                               |
 | Camera    | 720p Camera                       |                                                              |
 | Wifi & BT | Intel Wireless-AC 9560            | Used AirportItlwm for native Wi-Fi control                   |
-| Input     | PS2 Keyboard & Synaptics TrackPad | Switched to[YogaSMC](https://github.com/zhen-zen/YogaSMC) for media keys |
+| Input     | PS2 Keyboard & Synaptics TrackPad | [YogaSMC](https://github.com/zhen-zen/YogaSMC) for media keys |
 
 
 
@@ -149,12 +146,10 @@ I used to own two Lenovo ThinkPad X1 Gen 7 laptops, an i5 and an i7. Both worked
 <summary><strong>Main software</strong></summary>
 
 
-
-
 | Component      | Version |
 | -------------- | ------- |
-| macOS Monterey | 12.6.3 |
-| OpenCore       | v0.8.9  |
+| macOS Monterey | 12.6.5 |
+| OpenCore       | v0.9.2  |
 
 
 
@@ -185,24 +180,24 @@ I used to own two Lenovo ThinkPad X1 Gen 7 laptops, an i5 and an i7. Both worked
 | --------------------- | ------- |
 | AirportItlwm           | 2.1.0   |
 | AirportItlwmV (Ventura) | 2.2.0 - alpha |
-| AppleALC               | 1.7.6 |
-| BlueToolFixup          | 2.6.4 |
-| BrightnessKeys | 1.0.2 |
+| AppleALC               | 1.8.2 |
+| BlueToolFixup          | 2.6.6 |
+| BrightnessKeys | 1.0.3 |
 | CPUFriend              | 1.2.6 |
 | CPUFriendDataProvider  | 1.01   |
 | IntelBluetoothFirmware | 2.2.0   |
 | IntelBTPatcher | 2.2.0 |
 | IntelMausi             | 1.0.7   |
-| Lilu                   | 1.6.3 |
+| Lilu                   | 1.6.5 |
 | NVMeFix                | 1.1.0   |
-| SMCBatteryManager      | 1.3.0  |
-| SMCProcessor           | 1.3.0 |
-| SMCSuperIO             | 1.3.0 |
+| SMCBatteryManager      | 1.3.1 |
+| SMCProcessor           | 1.3.1 |
+| SMCSuperIO             | 1.3.1 |
 | USBMap                 | 1.0.1   |
-| VirtualSMC             | 1.3.0 |
-| VoodooI2C              | 2.7.1 |
-| VoodooI2CHID           | 2.7.1 |
-| VoodooPS2Controller    | 2.3.2   |
+| VirtualSMC             | 1.3.1 |
+| VoodooI2C              | 2.8.0 |
+| VoodooI2CHID           | 2.8.0 |
+| VoodooPS2Controller    | 2.3.5  |
 | WhateverGreen          | 1.6.4 |
 | YogaSMC | 1.5.3 |
 
@@ -216,7 +211,7 @@ I used to own two Lenovo ThinkPad X1 Gen 7 laptops, an i5 and an i7. Both worked
 |     Driver      | Version           |
 | ------------- | ----------------- |
 |   HfsPlus.efi   | OcBinaryData      |
-| OpenRuntime.efi | OpenCorePkg 0.8.9 |
+| OpenRuntime.efi | OpenCorePkg 0.9.2 |
 
 
 
@@ -231,11 +226,10 @@ I used to own two Lenovo ThinkPad X1 Gen 7 laptops, an i5 and an i7. Both worked
 
 
 
-## Before installation
+## Installation Notes
 
 <details><summary><strong>UEFI settings</strong></summary>
 <br>
-
 
 
 **Config**
@@ -282,12 +276,13 @@ I used to own two Lenovo ThinkPad X1 Gen 7 laptops, an i5 and an i7. Both worked
 
 </details>  
 
-<details><summary><strong>Own prev-lang-kbd</strong></summary>
+<details><summary><strong>Keyboard Setup - prev-lang-kbd</strong></summary>
 <br>
 
 
 
-Either add as a string or as a data ( HEX data [(ProperTree)](https://github.com/corpnewt/ProperTree) )
+
+To set the default language either add it as a string or as a data ( HEX data [(ProperTree)](https://github.com/corpnewt/ProperTree) )
 
 Format is lang-COUNTRY:keyboard
 
@@ -310,17 +305,15 @@ Pick your keyboard layout here:
 <summary><strong>Monterey or Ventura</strong></summary>
 
 
+The EFI folder is setup for both Monterey and Ventura. I used `MinKernel` and `MaxKernel` values in the config.plist to load the proper kexts based on which OS you are installing.
 
-The EFI folder is setup for both Monterey and Ventura. I used `MinKernel` and `MaxKernel` values in the config.plist to load the proper kexts based on which OS you are installing. It is no longer setup for Big Sur. It will likely boot but the kexts for WiFi and Bluetooth would need to be replaced for it to work properly.
+> **No longer setup for Big Sur.** It will likely boot but the kexts for WiFi and Bluetooth will need to be replaced for it to work properly.
 
 
 
 </details>  
 
-## Post-Install
-
 <details><summary><strong>TrackPad - Disable force touch</strong></summary>
-
 
 
 If the **Battery** management **doesn't show up** in the System Preferences after the SSDT-Batt.aml file is added to your ACPI folder and config.plist file. You will not be able to change any trackpad settings. You may experience the annoying behaviour of clicking on the touchpad and it doing a **Force Touch** where the preview of the file is shown. I found this very annoying. You can disable force touch by modifying the file in `~/Library/Preferences/com.apple.AppleMultitouchTrackpad.plist`
@@ -337,13 +330,12 @@ I used these methods prior to receiving a SSDT-Batt.aml that worked from a frien
 <details><summary><strong>Generate your own SMBIOS</strong></summary>
 
 
-
 [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
 
 Use GenSMBIOS to create your own serial #... based off of your preferred model.
 
-- MacBookPro15,1 -`What I used`
-- MacBookPro15,4 -`Reported as used by others`
+- MacBookPro15,1 -`What I previously used`
+- MacBookPro15,4 -`Presently using`
 
 **Note:** If you use a different SMBIOS model than either of the two above. The provided USB mapping will not work. You will need to edit the **USBMap.kext file**.  You can right click on the file and select **Show Package Contents**.  From there you can open the Info.plist file in ProperTree and change MacBookPro15,1 to whatever Model ID you've chosen. This will provide a working USBMap.kext.
 
@@ -449,8 +441,8 @@ If you're happy with the setup above you can use the guide to replace alcid=71 p
 - [ ] Thunderbolt - `No device to test.`
 - [ ] Boot chime -`it is enable in the EFI but I don't use it personally`
 - [ ] FireVault 2  -`should work just haven't bothered with it`
-- [ ] Sidecar wired
-- [ ] Sidecar wireless
+- [ ] Sidecar wired - `untested`
+- [ ] Sidecar wireless - `untested`
 - [ ] Windows/Linux from OC boot menu - `It's best practice to not boot from OC when planning to perform firmware upgrade`
 
 
