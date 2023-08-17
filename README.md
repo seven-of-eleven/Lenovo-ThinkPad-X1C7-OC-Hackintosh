@@ -21,7 +21,7 @@ Note the following changes:
 1. Changed SMBIOS from MacBookPro15,1 to MacBookPro15,4
 2. Switch to [YogaSMC](https://github.com/zhen-zen/YogaSMC) for media keys (you will need to install the application and the preference pane)
 3. Removed boot chime and gui picker in the EFI
-4. New power management CPUFriendDataProvider from [madeline-xoxo](https://github.com/madeline-xoxo) see details below.
+4. New power management CPUFriendDataProvider from [not-nullptr](https://github.com/not-nullptr) see details below.
 5. Big Sur kexts not included.
 
 <details> 
