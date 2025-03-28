@@ -1,6 +1,8 @@
 # X1C7-OpenCore-Hackintosh
 
-**Status: Stable | Used daily**
+## Archiving this REPO as I no longer have this laptop. It's been fun, happy hacking.
+
+**Status: Stable | No longer used**
 
 <img align="right" src="./Other/README_Resources/x1c7.png" alt="X1C7 macOS" width="430">
 
